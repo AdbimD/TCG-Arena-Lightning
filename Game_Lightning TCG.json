@@ -1,0 +1,88 @@
+{
+  "name": "Lightning TCG",
+  "menuBackgroundImage": "",
+  "defaultRessources": {
+    "backgrounds": [],
+    "decksUrl": "https://github.com/AdbimD/Ligthning-TCG/blob/main/Lightning%20TCG/Assets/Art/Cards/Back.png"
+  },
+  "customHelp": "",
+  "cardRotation": "90",
+  "cards": {
+    "dataUrl": "",
+    "cardBack": "https://github.com/AdbimD/Ligthning-TCG/blob/main/Lightning%20TCG/Assets/Art/Cards/Back.png"
+  },
+  "deckBuilding": {
+    "mainFilters": [
+      "unite",
+      "action",
+      "leader"
+    ],
+    "formats": []
+  },
+  "gameplay": {
+    "Classic": {
+      "mulligan": {
+        "info": "",
+        "startingHandSize": "5",
+        "drawNewHand": false,
+        "putSelectionAtBottom": false,
+        "drawNewSelectedCards": true
+      },
+      "newTurn": {
+        "drawOnStart": false,
+        "sharedTurn": false,
+        "firstPlayerTokenName": "",
+        "drawPerTurn": 1
+      },
+      "defaultNotes": "",
+      "tokens": [],
+      "countersStartingValues": [
+        "1"
+      ],
+      "hideFacedDownCards": false,
+      "sections": {
+        "customSections": [
+          "Energy"
+        ],
+        "layout": {
+          "direction": "column",
+          "isSymetricalForOpponents": true,
+          "content": [
+            {
+              "section": "New_Section",
+              "style": false
+            },
+            {
+              "section": "New_Section",
+              "style": false
+            }
+          ]
+        },
+        "categoriesAlreadyOnBoard": [
+          "Deck",
+          "Energy"
+        ],
+        "autoPlayFromHand": {},
+        "autoPlayFromStack": {},
+        "sectionsDict": {
+          "Energy": {
+            "title": "Energy",
+            "isHidden": "yes",
+            "height": "SMALL",
+            "alignment": "START",
+            "opponentAlignment": false,
+            "noAutoPayTo": "true",
+            "isHorizontalAllowed": false,
+            "displayedTitle": "Energy",
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false,
+            "noQuickActions": false
+          }
+        }
+      }
+    }
+  }
+}
