@@ -354,18 +354,18 @@
     "affinite": "Glace"
   },
   "A004B": {
-    "id": "A004B",
+    "id": "A004A",
     "isToken": false,
     "face": {
       "front": {
         "name": "Vague de chaleur",
         "type": "Action",
         "cost": 1,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A004B.png?raw=true",
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A004A.png?raw=true",
         "isHorizontal": false,
         "force": 1,
         "counter": 2,
-        "lettre": "B",
+        "lettre": "A",
         "effet": "Jusqu'à la fin du combat, votre combattant gagne +2 Force pour chaque carte que vous défaussez pour son Counter."
       }
     },
@@ -396,18 +396,18 @@
     "affinite": "Feu"
   },
   "A005B": {
-    "id": "A005B",
+    "id": "A005A",
     "isToken": false,
     "face": {
       "front": {
         "name": "Furreur du dragon de feu",
         "type": "Action",
         "cost": 3,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A005B.png?raw=true",
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A005A.png?raw=true",
         "isHorizontal": false,
         "force": 2,
         "counter": 3,
-        "lettre": "B",
+        "lettre": "A",
         "effet": "Doublez la Force de base de votre combattant jusqu'à la fin du combat."
       }
     },
@@ -438,18 +438,18 @@
     "affinite": "Feu"
   },
   "A006B": {
-    "id": "A006B",
+    "id": "A006A",
     "isToken": false,
     "face": {
       "front": {
         "name": "Brasier dévorant",
         "type": "Action",
         "cost": 2,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A006B.png?raw=true",
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A006A.png?raw=true",
         "isHorizontal": false,
         "force": 1,
         "counter": 3,
-        "lettre": "B",
+        "lettre": "A",
         "effet": "Défaussez les 2 cartes du dessus du deck de l'adversaire. Pour chaque carte avec une affinité différente défaussée de cette manière, votre combattant gagne +1 Force jusqu'à la fin du combat."
       }
     },
