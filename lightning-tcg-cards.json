@@ -353,7 +353,7 @@
     "cost": 2,
     "affinite": "Glace"
   },
-  "A004B": {
+  "A004A": {
     "id": "A004A",
     "isToken": false,
     "face": {
@@ -395,7 +395,7 @@
     "cost": 1,
     "affinite": "Feu"
   },
-  "A005B": {
+  "A005A": {
     "id": "A005A",
     "isToken": false,
     "face": {
@@ -437,7 +437,7 @@
     "cost": 3,
     "affinite": "Feu"
   },
-  "A006B": {
+  "A006A": {
     "id": "A006A",
     "isToken": false,
     "face": {
