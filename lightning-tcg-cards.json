@@ -1117,7 +1117,7 @@
         "name": "Guilde Elementaire",
         "type": "Stage",
         "cost": 0,
-        "image": "",
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/S001.png?raw=true",
         "isHorizontal": false,
         "effet": "Défaussez une carte de votre main. Si vous le faites, cherchez une carte d'une autre affinité dans votre deck, révélez-la et ajoutez-la à votre main. Utilisable une fois par manche."
       }
@@ -1134,7 +1134,7 @@
         "name": "Guilde vision",
         "type": "Stage",
         "cost": 0,
-        "image": "",
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/S002.png?raw=true",
         "isHorizontal": false,
         "effet": "Regardez la main de l'adversaire et choisissez-en une carte. Il la place face cachée dans sa zone de jeu. Utilisable une fois par manche."
       }
