@@ -1151,7 +1151,7 @@
         "name": "Énergie",
         "type": "Énergie",
         "cost": 0,
-        "image": "",
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/E001.png?raw=true",
         "isHorizontal": false,
         "effet": "Lorsqu'elle est attachée à votre combattant : +1 Force."
       }
@@ -1168,7 +1168,7 @@
         "name": "Énergie",
         "type": "Énergie",
         "cost": 0,
-        "image": "",
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/E002.png?raw=true",
         "isHorizontal": false,
         "effet": "Lorsqu'elle est attachée à votre combattant : +1 Force."
       }
@@ -1185,7 +1185,7 @@
         "name": "Énergie",
         "type": "Énergie",
         "cost": 0,
-        "image": "",
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/E003.png?raw=true",
         "isHorizontal": false,
         "effet": "Lorsqu'elle est attachée à votre combattant : +1 Force."
       }
@@ -1202,7 +1202,7 @@
         "name": "Énergie",
         "type": "Énergie",
         "cost": 0,
-        "image": "",
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/E004.png?raw=true",
         "isHorizontal": false,
         "effet": "Lorsqu'elle est attachée à votre combattant : +1 Force."
       }
@@ -1219,7 +1219,7 @@
         "name": "Énergie",
         "type": "Énergie",
         "cost": 0,
-        "image": "",
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/E005.png?raw=true",
         "isHorizontal": false,
         "effet": "Lorsqu'elle est attachée à votre combattant : +1 Force."
       }
@@ -1236,7 +1236,7 @@
         "name": "Énergie",
         "type": "Énergie",
         "cost": 0,
-        "image": "",
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/E006.png?raw=true",
         "isHorizontal": false,
         "effet": "Lorsqu'elle est attachée à votre combattant : +1 Force."
       }
