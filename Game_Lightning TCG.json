@@ -2,84 +2,331 @@
   "name": "Lightning TCG",
   "menuBackgroundImage": "",
   "defaultRessources": {
-    "backgrounds": [],
-    "decksUrl": "https://github.com/AdbimD/Ligthning-TCG/blob/main/Lightning%20TCG/Assets/Art/Cards/Back.png"
+    "backgrounds": [
+      "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Backgroung%20V2.png"
+    ],
+    "decksUrl": ""
   },
-  "customHelp": "",
-  "cardRotation": "90",
+  "customHelp": "Go",
+  "cardRotation": "45",
   "cards": {
-    "dataUrl": "",
-    "cardBack": "https://github.com/AdbimD/Ligthning-TCG/blob/main/Lightning%20TCG/Assets/Art/Cards/Back.png"
+    "dataUrl": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Game_Lightning%20TCG.json",
+    "cardBack": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Backgroung%20V2.png"
   },
   "deckBuilding": {
     "mainFilters": [
-      "unite",
-      "action",
-      "leader"
+      "Card Type",
+      "Cost",
+      "Affinité"
     ],
-    "formats": []
+    "formats": [
+      {
+        "title": "Classic",
+        "gameplay": "Classic",
+        "customCategories": []
+      }
+    ]
   },
   "gameplay": {
     "Classic": {
       "mulligan": {
-        "info": "",
-        "startingHandSize": "5",
+        "info": "Mulligan",
+        "startingHandSize": 5,
         "drawNewHand": false,
         "putSelectionAtBottom": false,
         "drawNewSelectedCards": true
       },
       "newTurn": {
         "drawOnStart": false,
-        "sharedTurn": false,
-        "firstPlayerTokenName": "",
-        "drawPerTurn": 1
+        "sharedTurn": true,
+        "firstPlayerTokenName": "1er",
+        "drawPerTurn": 0
       },
       "defaultNotes": "",
       "tokens": [],
       "countersStartingValues": [
-        "1"
+        0
       ],
-      "hideFacedDownCards": false,
+      "hideFacedDownCards": true,
       "sections": {
         "customSections": [
-          "Energy"
+          "Combattant",
+          "Combattant actif",
+          "Stage",
+          "Énergie",
+          "Énergies attachées",
+          "Face cachée"
         ],
         "layout": {
           "direction": "column",
-          "isSymetricalForOpponents": true,
+          "isSymetricalForOpponents": false,
           "content": [
             {
-              "section": "New_Section",
-              "style": false
+              "direction": "row",
+              "style": false,
+              "content": [
+                {
+                  "section": "Stage",
+                  "style": false
+                },
+                {
+                  "section": "Combattant actif",
+                  "style": false
+                },
+                {
+                  "section": "Énergies attachées",
+                  "style": false
+                }
+              ],
+              "isSymetricalForOpponents": false
             },
             {
-              "section": "New_Section",
-              "style": false
+              "direction": "row",
+              "style": false,
+              "content": [
+                {
+                  "section": "Combattant",
+                  "style": false
+                },
+                {
+                  "section": "Face cachée",
+                  "style": false
+                },
+                {
+                  "section": "Énergie",
+                  "style": false
+                }
+              ],
+              "isSymetricalForOpponents": false
             }
           ]
         },
         "categoriesAlreadyOnBoard": [
-          "Deck",
-          "Energy"
+          "Combattant",
+          "Stage",
+          "Énergie"
         ],
         "autoPlayFromHand": {},
-        "autoPlayFromStack": {},
+        "autoPlayFromStack": {
+          "Énergie": "Énergies attachées"
+        },
         "sectionsDict": {
-          "Energy": {
-            "title": "Energy",
+          "Hand": {
+            "isDefaultSection": true,
+            "title": "Hand",
+            "isHidden": "opponent-only",
+            "height": "DEFAULT",
+            "alignment": "CENTER",
+            "autoPayFrom": true,
+            "isHorizontalAllowed": false,
+            "isGroupForbidden": true,
+            "reverseZOrder": true,
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "displayedTitle": "",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "Discard": {
+            "isDefaultSection": true,
+            "title": "Discard",
+            "isHidden": "no",
+            "height": "DEFAULT",
+            "alignment": "NONE",
+            "isHorizontalAllowed": false,
+            "isGroupForbidden": true,
+            "noAutoPayTo": true,
+            "opponentAlignment": false,
+            "displayedTitle": "Défausse",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "Deck": {
+            "isDefaultSection": true,
+            "title": "Deck",
             "isHidden": "yes",
-            "height": "SMALL",
+            "height": "DEFAULT",
+            "alignment": "NONE",
+            "isHorizontalAllowed": false,
+            "isGroupForbidden": true,
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "displayedTitle": "Deck Actions",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "Stack": {
+            "isDefaultSection": true,
+            "title": "Stack",
+            "isHidden": "no",
+            "height": "HUGE",
+            "alignment": "NONE",
+            "isHorizontalAllowed": false,
+            "isGroupForbidden": true,
+            "displayedTitle": "Chaîne",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "Exile": {
+            "isDefaultSection": true,
+            "title": "Exile",
+            "isHidden": "yes",
+            "height": "DEFAULT",
+            "alignment": "NONE",
+            "isHorizontalAllowed": false,
+            "isGroupForbidden": true,
+            "noAutoPayTo": true,
+            "displayedTitle": "Removed",
+            "opponentAlignment": false,
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "ExileHidden": {
+            "isDefaultSection": true,
+            "title": "ExileHidden",
+            "isHidden": "yes",
+            "height": "DEFAULT",
+            "alignment": "NONE",
+            "isHorizontalAllowed": false,
+            "isGroupForbidden": true,
+            "noAutoPayTo": true,
+            "displayedTitle": "Removed hidden",
+            "opponentAlignment": false,
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "Sideboard": {
+            "isDefaultSection": true,
+            "title": "Sideboard",
+            "isHidden": "no",
+            "height": "DEFAULT",
+            "alignment": "NONE",
+            "isHorizontalAllowed": false,
+            "isGroupForbidden": true,
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "displayedTitle": "",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "Combattant": {
+            "title": "Combattant",
+            "isHidden": "opponent-only",
+            "height": "MEDIUM",
             "alignment": "START",
             "opponentAlignment": false,
             "noAutoPayTo": "true",
-            "isHorizontalAllowed": false,
-            "displayedTitle": "Energy",
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Deck Combattants",
             "enterTapped": false,
             "enterSpun": false,
-            "isGroupForbidden": false,
+            "isGroupForbidden": true,
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false,
             "noQuickActions": false
+          },
+          "Combattant actif": {
+            "title": "Combattant actif",
+            "isHidden": "no",
+            "height": "MEDIUM",
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "isGroupForbidden": true,
+            "displayedTitle": "",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "Stage": {
+            "title": "Stage",
+            "isHidden": "no",
+            "height": "DEFAULT",
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "isGroupForbidden": true,
+            "displayedTitle": "",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "Énergie": {
+            "title": "Énergie",
+            "isHidden": "no",
+            "height": "DEFAULT",
+            "alignment": "START",
+            "opponentAlignment": false,
+            "noAutoPayTo": "true",
+            "isHorizontalAllowed": true,
+            "displayedTitle": "Deck Énergie",
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false,
+            "noQuickActions": false
+          },
+          "Énergies attachées": {
+            "title": "Énergies attachées",
+            "isHidden": "no",
+            "height": "DEFAULT",
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "isGroupForbidden": false,
+            "displayedTitle": "",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "Face cachée": {
+            "title": "Face cachée",
+            "isHidden": "opponent-only",
+            "height": "DEFAULT",
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "isGroupForbidden": false,
+            "displayedTitle": "Cartes face cachée",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
           }
         }
       }
