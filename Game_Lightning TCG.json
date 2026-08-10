@@ -1,17 +1,17 @@
 {
   "name": "Lightning TCG",
-  "menuBackgroundImage": "",
+  "menuBackgroundImage": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Backgroung%20V2.png?raw=true",
   "defaultRessources": {
     "backgrounds": [
-      "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Backgroung%20V2.png"
+      "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Backgroung%20V2.png?raw=true"
     ],
-    "decksUrl": ""
+    "decksUrl": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Backgroung%20V2.png?raw=true"
   },
   "customHelp": "Go",
   "cardRotation": "45",
   "cards": {
-    "dataUrl": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Game_Lightning%20TCG.json",
-    "cardBack": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Backgroung%20V2.png"
+    "dataUrl": "https://raw.githubusercontent.com/AdbimD/TCG-Arena-Lightning/refs/heads/main/lightning-tcg-cards.json",
+    "cardBack": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Backgroung%20V2.png?raw=true"
   },
   "deckBuilding": {
     "mainFilters": [
