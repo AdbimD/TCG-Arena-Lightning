@@ -1244,5 +1244,290 @@
     "name": "Énergie",
     "type": "Énergie",
     "cost": 0
+  },
+  "T001": {
+    "id": "T001",
+    "isToken": true,
+    "face": {
+      "front": {
+        "name": "Aquarius",
+        "type": "Invocation",
+        "cost": 0,
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/T001.png?raw=true",
+        "isHorizontal": false,
+        "force": 2,
+        "effet": "À l'invocation, renvoyez une carte face cachée adverse dans sa main"
+      }
+    },
+    "name": "Aquarius",
+    "type": "Invocation",
+    "cost": 0,
+    "affinite": "Eau"
+  },
+  "T002": {
+    "id": "T002",
+    "isToken": true,
+    "face": {
+      "front": {
+        "name": "Leo",
+        "type": "Invocation",
+        "cost": 0,
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/T002.png?raw=true",
+        "isHorizontal": false,
+        "force": 2,
+        "effet": "Sacrifice/KO : Détruisez une carte adverse sur le terrain"
+      }
+    },
+    "name": "Leo",
+    "type": "Invocation",
+    "cost": 0,
+    "affinite": "Feu"
+  },
+  "T003": {
+    "id": "T003",
+    "isToken": true,
+    "face": {
+      "front": {
+        "name": "Taurus",
+        "type": "Invocation",
+        "cost": 0,
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/T003.png?raw=true",
+        "isHorizontal": false,
+        "force": 3,
+        "effet": "Cette carte ne peut pas être détruite par des effets adverse"
+      }
+    },
+    "name": "Taurus",
+    "type": "Invocation",
+    "cost": 0,
+    "affinite": "Terre"
+  },
+  "T004": {
+    "id": "T004",
+    "isToken": true,
+    "face": {
+      "front": {
+        "name": "Cancer",
+        "type": "Invocation",
+        "cost": 0,
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/T004.png?raw=true",
+        "isHorizontal": false,
+        "force": 2,
+        "effet": "À l'invocation, ciblez une carte. Réduisez la valeur de base de la carte ciblé à 0."
+      }
+    },
+    "name": "Cancer",
+    "type": "Invocation",
+    "cost": 0,
+    "affinite": null
+  },
+  "T005": {
+    "id": "T005",
+    "isToken": true,
+    "face": {
+      "front": {
+        "name": "Sagittarius",
+        "type": "Invocation",
+        "cost": 0,
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/T005.png?raw=true",
+        "isHorizontal": false,
+        "force": 1,
+        "effet": "À l'invocation, détruisez une carte face cachée adverse."
+      }
+    },
+    "name": "Sagittarius",
+    "type": "Invocation",
+    "cost": 0,
+    "affinite": null
+  },
+  "T006": {
+    "id": "T006",
+    "isToken": true,
+    "face": {
+      "front": {
+        "name": "Scorpio",
+        "type": "Invocation",
+        "cost": 0,
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/T006.png?raw=true",
+        "isHorizontal": false,
+        "force": 1,
+        "effet": "À l'invocation, placez un marqueur \"venin\" sur un combattant adverse. Le marqueur venin donne -X, avec X étant le nombre de carte de la même affinité sur le terrain."
+      }
+    },
+    "name": "Scorpio",
+    "type": "Invocation",
+    "cost": 0,
+    "affinite": null
+  },
+  "T007": {
+    "id": "T007",
+    "isToken": true,
+    "face": {
+      "front": {
+        "name": "Capricorn",
+        "type": "Invocation",
+        "cost": 0,
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/T007.png?raw=true",
+        "isHorizontal": false,
+        "force": 1,
+        "effet": "Effet permanent : lorsque vous invoquer un esprit, piochez 1 puis défaussez 1."
+      }
+    },
+    "name": "Capricorn",
+    "type": "Invocation",
+    "cost": 0,
+    "affinite": null
+  },
+  "T008": {
+    "id": "T008",
+    "isToken": true,
+    "face": {
+      "front": {
+        "name": "Horlogium",
+        "type": "Invocation",
+        "cost": 0,
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/T008.png?raw=true",
+        "isHorizontal": false,
+        "force": 0,
+        "effet": "Sacrifice : annulez une Action qui cible votre combattant ou vos invocations."
+      }
+    },
+    "name": "Horlogium",
+    "type": "Invocation",
+    "cost": 0,
+    "affinite": null
+  },
+  "T009": {
+    "id": "T009",
+    "isToken": true,
+    "face": {
+      "front": {
+        "name": "Aries",
+        "type": "Invocation",
+        "cost": 0,
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/T009.png?raw=true",
+        "isHorizontal": false,
+        "force": 1,
+        "effet": "À l'invocation, ciblez une carte adverse, réduisez de -2 la Force."
+      }
+    },
+    "name": "Aries",
+    "type": "Invocation",
+    "cost": 0,
+    "affinite": null
+  },
+  "T010": {
+    "id": "T010",
+    "isToken": true,
+    "face": {
+      "front": {
+        "name": "Libra",
+        "type": "Invocation",
+        "cost": 0,
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/T010.png?raw=true",
+        "isHorizontal": false,
+        "force": 1,
+        "effet": "À l'invocation, choisissez une carte adverse et une carte allié, échangez leurs valeurs de Force de base."
+      }
+    },
+    "name": "Libra",
+    "type": "Invocation",
+    "cost": 0,
+    "affinite": null
+  },
+  "T011": {
+    "id": "T011",
+    "isToken": true,
+    "face": {
+      "front": {
+        "name": "Pisces",
+        "type": "Invocation",
+        "cost": 0,
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/T011.png?raw=true",
+        "isHorizontal": false,
+        "force": 1,
+        "effet": "Effet permanent : Pisces peut être traité comme deux créatures distinctes pour les effets qui comptent vos invocations"
+      }
+    },
+    "name": "Pisces",
+    "type": "Invocation",
+    "cost": 0,
+    "affinite": null
+  },
+  "T012": {
+    "id": "T012",
+    "isToken": true,
+    "face": {
+      "front": {
+        "name": "Lyra",
+        "type": "Invocation",
+        "cost": 0,
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/T012.png?raw=true",
+        "isHorizontal": false,
+        "force": 1,
+        "effet": "À l'invocation, regardez la main de votre adversaire, choisissez une carte, elle coute +1 jusqu'à la fin du combat"
+      }
+    },
+    "name": "Lyra",
+    "type": "Invocation",
+    "cost": 0,
+    "affinite": null
+  },
+  "T013": {
+    "id": "T013",
+    "isToken": true,
+    "face": {
+      "front": {
+        "name": "Virgo",
+        "type": "Invocation",
+        "cost": 0,
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/T013.png?raw=true",
+        "isHorizontal": false,
+        "force": 2,
+        "effet": "À l'invocation, défaussez une carte de votre main, allez chercher une carte d'affinité constellation dans votre deck et ajoutez là à votre main."
+      }
+    },
+    "name": "Virgo",
+    "type": "Invocation",
+    "cost": 0,
+    "affinite": null
+  },
+  "T014": {
+    "id": "T014",
+    "isToken": true,
+    "face": {
+      "front": {
+        "name": "Gemini",
+        "type": "Invocation",
+        "cost": 0,
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/T014.png?raw=true",
+        "isHorizontal": false,
+        "force": 0,
+        "effet": "À l'invocation, cibler une carte joué par votre adversaire, la puissance de base de cette carte devient la puissance de base de la carte ciblé"
+      }
+    },
+    "name": "Gemini",
+    "type": "Invocation",
+    "cost": 0,
+    "affinite": null
+  },
+  "T015": {
+    "id": "T015",
+    "isToken": true,
+    "face": {
+      "front": {
+        "name": "Celestian spirit King",
+        "type": "Invocation",
+        "cost": 0,
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/T015.png?raw=true",
+        "isHorizontal": false,
+        "force": 5,
+        "effet": "Indestructible. Aucun joueur ne peut activé de carte."
+      }
+    },
+    "name": "Celestian spirit King",
+    "type": "Invocation",
+    "cost": 0,
+    "affinite": null
   }
 }

@@ -43,7 +43,9 @@
         "drawPerTurn": 0
       },
       "defaultNotes": "",
-      "tokens": [],
+      "tokens": [
+        "Venin"
+      ],
       "countersStartingValues": [
         0
       ],
@@ -54,7 +56,8 @@
           "Combattant actif",
           "Stage",
           "Énergie",
-          "Énergies attachées",
+          "Cartes jouées",
+          "Invocations",
           "Face cachée"
         ],
         "layout": {
@@ -67,15 +70,34 @@
               "content": [
                 {
                   "section": "Stage",
-                  "style": false
+                  "style": {
+                    "flex": 0.6
+                  }
                 },
                 {
                   "section": "Combattant actif",
-                  "style": false
+                  "style": {
+                    "flex": 1
+                  }
                 },
                 {
-                  "section": "Énergies attachées",
-                  "style": false
+                  "section": "Cartes jouées",
+                  "style": {
+                    "flex": 1.4
+                  }
+                }
+              ],
+              "isSymetricalForOpponents": false
+            },
+            {
+              "direction": "row",
+              "style": false,
+              "content": [
+                {
+                  "section": "Invocations",
+                  "style": {
+                    "flex": 1
+                  }
                 }
               ],
               "isSymetricalForOpponents": false
@@ -106,9 +128,11 @@
           "Stage",
           "Énergie"
         ],
-        "autoPlayFromHand": {},
+        "autoPlayFromHand": {
+          "Invocation": "Invocations"
+        },
         "autoPlayFromStack": {
-          "Énergie": "Énergies attachées"
+          "Énergie": "Combattant actif"
         },
         "sectionsDict": {
           "Hand": {
@@ -255,8 +279,8 @@
             "alignment": "CENTER",
             "opponentAlignment": false,
             "noAutoPayTo": false,
-            "isHorizontalAllowed": false,
-            "isGroupForbidden": true,
+            "isHorizontalAllowed": true,
+            "isGroupForbidden": false,
             "displayedTitle": "",
             "noQuickActions": false,
             "enterTapped": false,
@@ -296,8 +320,24 @@
             "showHiddenCardInHistory": false,
             "noQuickActions": false
           },
-          "Énergies attachées": {
-            "title": "Énergies attachées",
+          "Face cachée": {
+            "title": "Face cachée",
+            "isHidden": "opponent-only",
+            "height": "DEFAULT",
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
+            "isGroupForbidden": false,
+            "displayedTitle": "Cartes face cachée",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "Cartes jouées": {
+            "title": "Cartes jouées",
             "isHidden": "no",
             "height": "DEFAULT",
             "alignment": "CENTER",
@@ -312,16 +352,16 @@
             "keepTappedNewTurn": false,
             "showHiddenCardInHistory": false
           },
-          "Face cachée": {
-            "title": "Face cachée",
-            "isHidden": "opponent-only",
-            "height": "DEFAULT",
+          "Invocations": {
+            "title": "Invocations",
+            "isHidden": "no",
+            "height": "MEDIUM",
             "alignment": "CENTER",
             "opponentAlignment": false,
             "noAutoPayTo": false,
             "isHorizontalAllowed": true,
             "isGroupForbidden": false,
-            "displayedTitle": "Cartes face cachée",
+            "displayedTitle": "",
             "noQuickActions": false,
             "enterTapped": false,
             "enterSpun": false,
