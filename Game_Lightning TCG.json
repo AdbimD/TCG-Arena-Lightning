@@ -57,7 +57,6 @@
           "Stage",
           "Énergie",
           "Cartes jouées",
-          "Invocations",
           "Face cachée"
         ],
         "layout": {
@@ -71,7 +70,7 @@
                 {
                   "section": "Stage",
                   "style": {
-                    "flex": 0.6
+                    "flex": 0.3
                   }
                 },
                 {
@@ -83,20 +82,7 @@
                 {
                   "section": "Cartes jouées",
                   "style": {
-                    "flex": 1.4
-                  }
-                }
-              ],
-              "isSymetricalForOpponents": false
-            },
-            {
-              "direction": "row",
-              "style": false,
-              "content": [
-                {
-                  "section": "Invocations",
-                  "style": {
-                    "flex": 1
+                    "flex": 1.7
                   }
                 }
               ],
@@ -128,9 +114,7 @@
           "Stage",
           "Énergie"
         ],
-        "autoPlayFromHand": {
-          "Invocation": "Invocations"
-        },
+        "autoPlayFromHand": {},
         "autoPlayFromStack": {
           "Énergie": "Combattant actif"
         },
@@ -275,7 +259,7 @@
           "Combattant actif": {
             "title": "Combattant actif",
             "isHidden": "no",
-            "height": "MEDIUM",
+            "height": "DEFAULT",
             "alignment": "CENTER",
             "opponentAlignment": false,
             "noAutoPayTo": false,
@@ -340,22 +324,6 @@
             "title": "Cartes jouées",
             "isHidden": "no",
             "height": "DEFAULT",
-            "alignment": "CENTER",
-            "opponentAlignment": false,
-            "noAutoPayTo": false,
-            "isHorizontalAllowed": true,
-            "isGroupForbidden": false,
-            "displayedTitle": "",
-            "noQuickActions": false,
-            "enterTapped": false,
-            "enterSpun": false,
-            "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
-          },
-          "Invocations": {
-            "title": "Invocations",
-            "isHidden": "no",
-            "height": "MEDIUM",
             "alignment": "CENTER",
             "opponentAlignment": false,
             "noAutoPayTo": false,
