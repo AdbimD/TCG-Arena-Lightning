@@ -258,6 +258,117 @@
     "affinite": "Chevalier",
     "univers": "Fairy Tail"
   },
+  "C008": {
+    "id": "C008",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Gon",
+        "type": "Combattant",
+        "cost": 0,
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/C008.png?raw=true",
+        "isHorizontal": false,
+        "force": 5,
+        "compositionEvolution": [
+          "強",
+          "強",
+          "変"
+        ],
+        "estEvolue": false,
+        "effet": "Condition d'évolution : Vous avez perdu la manche precedente. Activation Unique : Piochez 1 carte, puis défaussez 1 carte. La prochaine carte Renforcement que vous jouez ce tour coûte 1 de moins."
+      },
+      "back": {
+        "name": "Gon",
+        "type": "Combattant",
+        "cost": 0,
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/C008E.png?raw=true",
+        "isHorizontal": false,
+        "force": 5,
+        "compositionEvolution": [],
+        "estEvolue": true,
+        "effet": "Lorsque ce combattant évolue : Gon gagne +4 Force jusqu'à la fin du combat. Effet Permanent : Les effets adverses ne peuvent pas réduire la Force de Gon."
+      }
+    },
+    "name": "Gon",
+    "type": "Combattant",
+    "cost": 0,
+    "affinite": "Renforcement",
+    "univers": "Hunter"
+  },
+  "C009": {
+    "id": "C009",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Kurapika",
+        "type": "Combattant",
+        "cost": 0,
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/C009.png?raw=true",
+        "isHorizontal": false,
+        "force": 5,
+        "compositionEvolution": [
+          "強",
+          "変",
+          "特"
+        ],
+        "estEvolue": false,
+        "effet": "Activation Unique : Piochez 1 carte, puis défaussez 1 carte. Choisissez une carte sur le terrain adverse : elle ne peut pas être activée ce tour, et elle perds toutes ses affinités pour ce combat."
+      },
+      "back": {
+        "name": "Kurapika",
+        "type": "Combattant",
+        "cost": 0,
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/C009E.png?raw=true",
+        "isHorizontal": false,
+        "force": 5,
+        "compositionEvolution": [],
+        "estEvolue": true,
+        "effet": "Effet Permanent : Kurapika peut jouer des cartes de n'importe quelle affinité sans payer de surcoût."
+      }
+    },
+    "name": "Kurapika",
+    "type": "Combattant",
+    "cost": 0,
+    "affinite": "Specialiste",
+    "univers": "Hunter"
+  },
+  "C010": {
+    "id": "C010",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Kirua",
+        "type": "Combattant",
+        "cost": 0,
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/C010.png?raw=true",
+        "isHorizontal": false,
+        "force": 5,
+        "compositionEvolution": [
+          "変",
+          "変",
+          "強"
+        ],
+        "estEvolue": false,
+        "effet": "Activation Unique : Piochez 1 carte, puis défaussez 1 carte. Placez un marqueur \"Charge\" sur Killua."
+      },
+      "back": {
+        "name": "Kirua",
+        "type": "Combattant",
+        "cost": 0,
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/C010E.png?raw=true",
+        "isHorizontal": false,
+        "force": 5,
+        "compositionEvolution": [],
+        "estEvolue": true,
+        "effet": "Lorsque ce combattant évolue : Jouez immédiatement une carte \"Godspeed\" depuis votre main ou votre deck sans payer son coût. Effet Permanent : Kirua gagne +1 Force pour chaque marqueur \"Charge\"."
+      }
+    },
+    "name": "Kirua",
+    "type": "Combattant",
+    "cost": 0,
+    "affinite": "Transformation",
+    "univers": "Hunter"
+  },
   "A001": {
     "id": "A001",
     "isToken": false,
@@ -1203,6 +1314,300 @@
     "cost": 1,
     "affinite": "Neutre"
   },
+  "A046": {
+    "id": "A046",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Chaine de jugement",
+        "type": "Action",
+        "cost": 3,
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A046.png?raw=true",
+        "isHorizontal": false,
+        "force": 1,
+        "counter": 1,
+        "lettre": "特",
+        "effet": "Placez un marqueur \"Jugement\" sur le combattant adverse. Tant que le marqueur est en jeu : si ce combattant évolue, sa Force de base devient 0 jusqu'à la fin du combat."
+      }
+    },
+    "name": "Chaine de jugement",
+    "type": "Action",
+    "cost": 3,
+    "affinite": "Specialiste"
+  },
+  "A047": {
+    "id": "A047",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Serment sur le coeur",
+        "type": "Action",
+        "cost": 2,
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A047.png?raw=true",
+        "isHorizontal": false,
+        "force": 1,
+        "counter": 1,
+        "lettre": "変",
+        "effet": "Choisissez une carte sur le terrain adverse. Placez un marqueur \"Serment\" dessus. Son propriétaire doit se défaussez de 2 cartes pour l'activé."
+      }
+    },
+    "name": "Serment sur le coeur",
+    "type": "Action",
+    "cost": 2,
+    "affinite": "Specialiste"
+  },
+  "A048": {
+    "id": "A048",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Chaine de contrainte",
+        "type": "Action",
+        "cost": 1,
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A048.png?raw=true",
+        "isHorizontal": false,
+        "force": 1,
+        "counter": 1,
+        "lettre": "特",
+        "effet": "Choisissez une carte sur le terrain adverse. Elle ne peut pas être activée ce tour."
+      }
+    },
+    "name": "Chaine de contrainte",
+    "type": "Action",
+    "cost": 1,
+    "affinite": "Specialiste"
+  },
+  "A049": {
+    "id": "A049",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Soins",
+        "type": "Action",
+        "cost": 1,
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A049.png?raw=true",
+        "isHorizontal": false,
+        "force": 0,
+        "counter": 1,
+        "lettre": "強",
+        "effet": "Ciblez 1 cartes, enlevez lui tout les marqueurs -"
+      }
+    },
+    "name": "Soins",
+    "type": "Action",
+    "cost": 1,
+    "affinite": "Specialiste"
+  },
+  "A050": {
+    "id": "A050",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Canne à pêche",
+        "type": "Action",
+        "cost": 1,
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A050.png?raw=true",
+        "isHorizontal": false,
+        "force": 1,
+        "counter": 1,
+        "lettre": "強",
+        "effet": "Choisissez un bonus de Force sur le combattant adverse. Transférez ce bonus à Gon."
+      }
+    },
+    "name": "Canne à pêche",
+    "type": "Action",
+    "cost": 1,
+    "affinite": "Renforcement"
+  },
+  "A051": {
+    "id": "A051",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Rock Paper scisors",
+        "type": "Action",
+        "cost": 1,
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A051.png?raw=true",
+        "isHorizontal": false,
+        "force": 1,
+        "counter": 1,
+        "lettre": "強/変/特",
+        "effet": "Choisissez un effet : -Pierre : La prochaine carte Renforcement que vous jouez ce combat gagne +4 Force. -Feuille : La prochaine carte Transformation que vous jouez ce combat ne coûte pas de surcoût d'affinité et infligez -2 Force au combattant adverse. -Ciseaux : La prochaine carte Spécialiste que vous jouez ce combat ne coûte pas de surcoût d'affinité et elle retirez un boost de Force d'une carte ciblé adverse."
+      }
+    },
+    "name": "Rock Paper scisors",
+    "type": "Action",
+    "cost": 1,
+    "affinite": "Renforcement"
+  },
+  "A052": {
+    "id": "A052",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Rock",
+        "type": "Action",
+        "cost": 3,
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A052.png?raw=true",
+        "isHorizontal": false,
+        "force": 2,
+        "counter": 1,
+        "lettre": "強",
+        "effet": "Gon gagne +5 Force jusqu'à la fin du combat. Si Jajanken a été joué avant ce Rock ce combat : Gon gagne +8 Force à la place."
+      }
+    },
+    "name": "Rock",
+    "type": "Action",
+    "cost": 3,
+    "affinite": "Renforcement"
+  },
+  "A053": {
+    "id": "A053",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Griffe",
+        "type": "Action",
+        "cost": 1,
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A053.png?raw=true",
+        "isHorizontal": false,
+        "force": 1,
+        "counter": 1,
+        "lettre": "変",
+        "effet": "Placez un jeton \"Griffe\" sur le combattant adverse."
+      }
+    },
+    "name": "Griffe",
+    "type": "Action",
+    "cost": 1,
+    "affinite": "Transformation"
+  },
+  "A054": {
+    "id": "A054",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Charge",
+        "type": "Action",
+        "cost": 1,
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A054.png?raw=true",
+        "isHorizontal": false,
+        "force": 1,
+        "counter": 1,
+        "lettre": "変",
+        "effet": "Placez 2 marqueurs \"Charge\" sur Killua. Piochez 1 carte."
+      }
+    },
+    "name": "Charge",
+    "type": "Action",
+    "cost": 1,
+    "affinite": "Transformation"
+  },
+  "A055": {
+    "id": "A055",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Godspeed",
+        "type": "Réaction",
+        "cost": 3,
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A055.png?raw=true",
+        "isHorizontal": false,
+        "force": 2,
+        "counter": 1,
+        "lettre": "変",
+        "effet": "Votre combattant gagne +X. X étant le nombre de marqueurs \"Charge\" sur lui. Si cette carte est joué en réaction à une carte adversaire, vous pouvez défaussez une carte, si vous le faite, annulez l'activation."
+      }
+    },
+    "name": "Godspeed",
+    "type": "Réaction",
+    "cost": 3,
+    "affinite": "Transformation"
+  },
+  "A056": {
+    "id": "A056",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Corde à saute",
+        "type": "Action",
+        "cost": 0,
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A056.png?raw=true",
+        "isHorizontal": false,
+        "force": 1,
+        "counter": 1,
+        "lettre": "強",
+        "effet": "Retirez 1 marqueur \"Charge\" de Killua. Piochez 1 carte."
+      }
+    },
+    "name": "Corde à saute",
+    "type": "Action",
+    "cost": 0,
+    "affinite": "Transformation"
+  },
+  "A057": {
+    "id": "A057",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "License Hunter",
+        "type": "Action",
+        "cost": 1,
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A057.png?raw=true",
+        "isHorizontal": false,
+        "force": 0,
+        "counter": 2,
+        "lettre": "強",
+        "effet": "Piochez 2 cartes. Si vous contrôlez un combattant Hunter, piochez 3 cartes à la place."
+      }
+    },
+    "name": "License Hunter",
+    "type": "Action",
+    "cost": 1,
+    "affinite": "Neutre"
+  },
+  "A058": {
+    "id": "A058",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Face contre inconnue",
+        "type": "Action",
+        "cost": 2,
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A058.png?raw=true",
+        "isHorizontal": false,
+        "force": 1,
+        "counter": 2,
+        "lettre": "変",
+        "effet": "Si votre combattant a moins de Force que le combattant adverse, votre combattant gagne +4 Force jusqu'à la fin du combat."
+      }
+    },
+    "name": "Face contre inconnue",
+    "type": "Action",
+    "cost": 2,
+    "affinite": "Neutre"
+  },
+  "A059": {
+    "id": "A059",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Apres la bataille",
+        "type": "Réaction",
+        "cost": 0,
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A059.png?raw=true",
+        "isHorizontal": false,
+        "force": 1,
+        "counter": 2,
+        "lettre": "特",
+        "effet": "Si vous perdez ce combat, votre prochain combattant gagne +3 Force et piochez 1 carte au début du prochain combat."
+      }
+    },
+    "name": "Apres la bataille",
+    "type": "Réaction",
+    "cost": 0,
+    "affinite": "Neutre"
+  },
   "T001": {
     "id": "T001",
     "isToken": true,
@@ -1525,6 +1930,25 @@
     "type": "Invocation",
     "cost": 0,
     "affinite": "Constellation"
+  },
+  "T018": {
+    "id": "T018",
+    "isToken": true,
+    "face": {
+      "front": {
+        "name": "Griffe",
+        "type": "Marqueur",
+        "cost": 0,
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/T018.png?raw=true",
+        "isHorizontal": false,
+        "force": 0,
+        "effet": "Effet Permanent : Le combattant avec cette Griffe perd toutes ses affinités. Lorsque ce combattant joue une carte : défaussez ce jeton."
+      }
+    },
+    "name": "Griffe",
+    "type": "Marqueur",
+    "cost": 0,
+    "affinite": "Transformation"
   },
   "S001": {
     "id": "S001",
