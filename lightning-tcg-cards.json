@@ -34,7 +34,7 @@
     "type": "Combattant",
     "cost": 0,
     "affinite": "Glace",
-    "univers": "FairyTail"
+    "appartenance": "FairyTail"
   },
   "C002": {
     "id": "C002",
@@ -71,7 +71,7 @@
     "type": "Combattant",
     "cost": 0,
     "affinite": "Feu",
-    "univers": "FairyTail"
+    "appartenance": "FairyTail"
   },
   "C003": {
     "id": "C003",
@@ -108,7 +108,7 @@
     "type": "Combattant",
     "cost": 0,
     "affinite": "Constellation",
-    "univers": "FairyTail"
+    "appartenance": "FairyTail"
   },
   "C004": {
     "id": "C004",
@@ -145,7 +145,7 @@
     "type": "Combattant",
     "cost": 0,
     "affinite": "Foudre",
-    "univers": "FairyTail"
+    "appartenance": "FairyTail"
   },
   "C005": {
     "id": "C005",
@@ -182,7 +182,7 @@
     "type": "Combattant",
     "cost": 0,
     "affinite": "Etoile",
-    "univers": "FairyTail"
+    "appartenance": "FairyTail"
   },
   "C006": {
     "id": "C006",
@@ -219,7 +219,7 @@
     "type": "Combattant",
     "cost": 0,
     "affinite": "Demon",
-    "univers": "FairyTail"
+    "appartenance": "FairyTail"
   },
   "C007": {
     "id": "C007",
@@ -256,7 +256,7 @@
     "type": "Combattant",
     "cost": 0,
     "affinite": "Chevalier",
-    "univers": "Fairy Tail"
+    "appartenance": "FairyTail"
   },
   "C008": {
     "id": "C008",
@@ -293,7 +293,7 @@
     "type": "Combattant",
     "cost": 0,
     "affinite": "Renforcement",
-    "univers": "Hunter"
+    "appartenance": "Hunter"
   },
   "C009": {
     "id": "C009",
@@ -330,7 +330,7 @@
     "type": "Combattant",
     "cost": 0,
     "affinite": "Specialiste",
-    "univers": "Hunter"
+    "appartenance": "Hunter"
   },
   "C010": {
     "id": "C010",
@@ -349,7 +349,7 @@
           "強"
         ],
         "estEvolue": false,
-        "effet": "Activation Unique : Piochez 1 carte, puis défaussez 1 carte. Placez un marqueur \"Charge\" sur Killua."
+        "effet": "Activation Unique : Piochez 1 carte, puis défaussez 1 carte. Placez un marqueur \"Charge\" sur Killua. Effet permanent : Kirua peut évolué en réaction"
       },
       "back": {
         "name": "Kirua",
@@ -367,7 +367,7 @@
     "type": "Combattant",
     "cost": 0,
     "affinite": "Transformation",
-    "univers": "Hunter"
+    "appartenance": "Hunter"
   },
   "A001": {
     "id": "A001",
@@ -388,7 +388,8 @@
     "name": "fleche de givre",
     "type": "Action",
     "cost": 1,
-    "affinite": "Glace"
+    "affinite": "Glace",
+    "appartenance": "FairyTail"
   },
   "A002": {
     "id": "A002",
@@ -409,7 +410,8 @@
     "name": "cryogenisation",
     "type": "Action",
     "cost": 3,
-    "affinite": "Glace"
+    "affinite": "Glace",
+    "appartenance": "FairyTail"
   },
   "A003": {
     "id": "A003",
@@ -430,7 +432,8 @@
     "name": "hibernation",
     "type": "Action",
     "cost": 2,
-    "affinite": "Glace"
+    "affinite": "Glace",
+    "appartenance": "FairyTail"
   },
   "A004": {
     "id": "A004",
@@ -451,7 +454,8 @@
     "name": "Vague de chaleur",
     "type": "Action",
     "cost": 1,
-    "affinite": "Feu"
+    "affinite": "Feu",
+    "appartenance": "FairyTail"
   },
   "A005": {
     "id": "A005",
@@ -472,7 +476,8 @@
     "name": "Furreur du dragon de feu",
     "type": "Action",
     "cost": 3,
-    "affinite": "Feu"
+    "affinite": "Feu",
+    "appartenance": "FairyTail"
   },
   "A006": {
     "id": "A006",
@@ -493,7 +498,8 @@
     "name": "Brasier devorant",
     "type": "Action",
     "cost": 2,
-    "affinite": "Feu"
+    "affinite": "Feu",
+    "appartenance": "FairyTail"
   },
   "A007": {
     "id": "A007",
@@ -514,7 +520,8 @@
     "name": "Appel Aquarius",
     "type": "Action",
     "cost": 2,
-    "affinite": "Constellation"
+    "affinite": "Constellation",
+    "appartenance": "FairyTail"
   },
   "A008": {
     "id": "A008",
@@ -535,7 +542,8 @@
     "name": "Appel Leo",
     "type": "Action",
     "cost": 2,
-    "affinite": "Constellation"
+    "affinite": "Constellation",
+    "appartenance": "FairyTail"
   },
   "A009": {
     "id": "A009",
@@ -556,7 +564,8 @@
     "name": "Appel Taurus",
     "type": "Action",
     "cost": 1,
-    "affinite": "Constellation"
+    "affinite": "Constellation",
+    "appartenance": "FairyTail"
   },
   "A010": {
     "id": "A010",
@@ -577,7 +586,8 @@
     "name": "Appel Cancer",
     "type": "Action",
     "cost": 1,
-    "affinite": "Constellation"
+    "affinite": "Constellation",
+    "appartenance": "FairyTail"
   },
   "A011": {
     "id": "A011",
@@ -598,7 +608,8 @@
     "name": "Appel Sagittarius",
     "type": "Action",
     "cost": 2,
-    "affinite": "Constellation"
+    "affinite": "Constellation",
+    "appartenance": "FairyTail"
   },
   "A012": {
     "id": "A012",
@@ -619,7 +630,8 @@
     "name": "Appel Scorpio",
     "type": "Action",
     "cost": 2,
-    "affinite": "Constellation"
+    "affinite": "Constellation",
+    "appartenance": "FairyTail"
   },
   "A013": {
     "id": "A013",
@@ -640,7 +652,8 @@
     "name": "Appel Capricorn",
     "type": "Action",
     "cost": 1,
-    "affinite": "Constellation"
+    "affinite": "Constellation",
+    "appartenance": "FairyTail"
   },
   "A014": {
     "id": "A014",
@@ -661,7 +674,8 @@
     "name": "Appel Horlogium",
     "type": "Action",
     "cost": 1,
-    "affinite": "Constellation"
+    "affinite": "Constellation",
+    "appartenance": "FairyTail"
   },
   "A015": {
     "id": "A015",
@@ -682,7 +696,8 @@
     "name": "Appel Aries",
     "type": "Action",
     "cost": 1,
-    "affinite": "Constellation"
+    "affinite": "Constellation",
+    "appartenance": "FairyTail"
   },
   "A016": {
     "id": "A016",
@@ -703,7 +718,8 @@
     "name": "Appel Libra",
     "type": "Action",
     "cost": 2,
-    "affinite": "Constellation"
+    "affinite": "Constellation",
+    "appartenance": "FairyTail"
   },
   "A017": {
     "id": "A017",
@@ -724,7 +740,8 @@
     "name": "Appel Pisces",
     "type": "Action",
     "cost": 2,
-    "affinite": "Constellation"
+    "affinite": "Constellation",
+    "appartenance": "FairyTail"
   },
   "A018": {
     "id": "A018",
@@ -745,7 +762,8 @@
     "name": "Appel Lyra",
     "type": "Action",
     "cost": 2,
-    "affinite": "Constellation"
+    "affinite": "Constellation",
+    "appartenance": "FairyTail"
   },
   "A019": {
     "id": "A019",
@@ -766,7 +784,8 @@
     "name": "Appel Virgo",
     "type": "Action",
     "cost": 1,
-    "affinite": "Constellation"
+    "affinite": "Constellation",
+    "appartenance": "FairyTail"
   },
   "A020": {
     "id": "A020",
@@ -787,7 +806,8 @@
     "name": "Appel Celestian Spirit King",
     "type": "Action",
     "cost": 3,
-    "affinite": "Constellation"
+    "affinite": "Constellation",
+    "appartenance": "FairyTail"
   },
   "A021": {
     "id": "A021",
@@ -808,7 +828,8 @@
     "name": "Ordre interruption",
     "type": "Réaction",
     "cost": 0,
-    "affinite": "Constellation"
+    "affinite": "Constellation",
+    "appartenance": "FairyTail"
   },
   "A022": {
     "id": "A022",
@@ -823,13 +844,14 @@
         "force": 1,
         "counter": 1,
         "lettre": "S",
-        "effet": "Piochez 1 carte. Vous pouvez immédiatement jouer une carte de plus ce tour. "
+        "effet": "Piochez 1 carte. Vous pouvez immédiatement jouer une carte de plus ce tour."
       }
     },
     "name": "Decharge",
     "type": "Action",
     "cost": 1,
-    "affinite": "Foudre"
+    "affinite": "Foudre",
+    "appartenance": "FairyTail"
   },
   "A023": {
     "id": "A023",
@@ -838,19 +860,20 @@
       "front": {
         "name": "Lightning switch",
         "type": "Action",
-        "cost": 2,
+        "cost": 3,
         "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A023.png?raw=true",
         "isHorizontal": false,
         "force": 1,
         "counter": 1,
         "lettre": "S",
-        "effet": "Selectionner ce combattant ainsi qu'un combattant de votre deck qui n'as pas déjà combattue. Si l'un des deux est \"foudre\", échanger les deux combattant, et le nouveau combattant gagne +2 Force"
+        "effet": "Choisissez une carte sur le terrain adverse. Détruisez-la. Son propriétaire peut défausser 1 carte pour la sauver. S'il le fait, cette carte rebondit sur une autre carte adverse et la détruit à la place."
       }
     },
     "name": "Lightning switch",
     "type": "Action",
-    "cost": 2,
-    "affinite": "Foudre"
+    "cost": 3,
+    "affinite": "Foudre",
+    "appartenance": "FairyTail"
   },
   "A024": {
     "id": "A024",
@@ -871,7 +894,8 @@
     "name": "Chaine Eclairs",
     "type": "Action",
     "cost": 1,
-    "affinite": "Foudre"
+    "affinite": "Foudre",
+    "appartenance": "FairyTail"
   },
   "A025": {
     "id": "A025",
@@ -885,14 +909,15 @@
         "isHorizontal": false,
         "force": 1,
         "counter": 1,
-        "lettre": "B",
+        "lettre": "A",
         "effet": "Regardez les 3 cartes du dessus de votre deck. Remettez-les dans l'ordre de votre choix sur le dessus de votre deck. Piochez une carte."
       }
     },
     "name": "Alignement stellaire",
     "type": "Action",
     "cost": 1,
-    "affinite": "Etoile"
+    "affinite": "Etoile",
+    "appartenance": "FairyTail"
   },
   "A026": {
     "id": "A026",
@@ -913,7 +938,8 @@
     "name": "Presage astral",
     "type": "Réaction",
     "cost": 1,
-    "affinite": "Etoile"
+    "affinite": "Etoile",
+    "appartenance": "FairyTail"
   },
   "A027": {
     "id": "A027",
@@ -934,7 +960,8 @@
     "name": "Super Nova",
     "type": "Action",
     "cost": 3,
-    "affinite": "Etoile"
+    "affinite": "Etoile",
+    "appartenance": "FairyTail"
   },
   "A028": {
     "id": "A028",
@@ -955,7 +982,8 @@
     "name": "Force sanguine",
     "type": "Action",
     "cost": 0,
-    "affinite": "Demon"
+    "affinite": "Demon",
+    "appartenance": "FairyTail"
   },
   "A029": {
     "id": "A029",
@@ -976,7 +1004,8 @@
     "name": "Corruption",
     "type": "Réaction",
     "cost": 2,
-    "affinite": "Demon"
+    "affinite": "Demon",
+    "appartenance": "FairyTail"
   },
   "A030": {
     "id": "A030",
@@ -997,7 +1026,8 @@
     "name": "Aura demoniaque",
     "type": "Action",
     "cost": 1,
-    "affinite": "Demon"
+    "affinite": "Demon",
+    "appartenance": "FairyTail"
   },
   "A031": {
     "id": "A031",
@@ -1018,7 +1048,8 @@
     "name": "Forge arme",
     "type": "Action",
     "cost": 1,
-    "affinite": "Chevalier"
+    "affinite": "Chevalier",
+    "appartenance": "FairyTail"
   },
   "A032": {
     "id": "A032",
@@ -1039,7 +1070,8 @@
     "name": "Appel armurerie",
     "type": "Action",
     "cost": 1,
-    "affinite": "Chevalier"
+    "affinite": "Chevalier",
+    "appartenance": "FairyTail"
   },
   "A033": {
     "id": "A033",
@@ -1060,7 +1092,8 @@
     "name": "Arsenal de guilde",
     "type": "Action",
     "cost": 2,
-    "affinite": "Chevalier"
+    "affinite": "Chevalier",
+    "appartenance": "FairyTail"
   },
   "A034": {
     "id": "A034",
@@ -1081,7 +1114,8 @@
     "name": "Forge supreme",
     "type": "Action",
     "cost": 3,
-    "affinite": "Chevalier"
+    "affinite": "Chevalier",
+    "appartenance": "FairyTail"
   },
   "A035": {
     "id": "A035",
@@ -1096,13 +1130,14 @@
         "force": 0,
         "counter": 1,
         "lettre": "S",
-        "effet": "Effet Permanent : Erza gagne l'affinité Étoile en plus de l'affinité Chevalier. À l'équipement regardez les X cartes du dessus de votre deck. X étant le nombre d'épée magique en jeu. Ajoutez-en une à votre main, remettez les autres dans l'ordre de votre choix."
+        "effet": "Effet Permanent : Erza gagne l'affinité Étoile en plus de l'affinité Chevalier. À l'équipement regardez les X cartes du dessus de votre deck. X étant le nombre d'épée magique en jeu. Jouez une de ces cartes sans payer son cout."
       }
     },
     "name": "Armure du dieu des destinee",
     "type": "Equipement",
     "cost": 3,
-    "affinite": "Chevalier"
+    "affinite": "Chevalier",
+    "appartenance": "FairyTail"
   },
   "A036": {
     "id": "A036",
@@ -1123,7 +1158,8 @@
     "name": "Armure imperatrice de Feu",
     "type": "Equipement",
     "cost": 2,
-    "affinite": "Chevalier"
+    "affinite": "Chevalier",
+    "appartenance": "FairyTail"
   },
   "A037": {
     "id": "A037",
@@ -1138,13 +1174,14 @@
         "force": 0,
         "counter": 1,
         "lettre": "A",
-        "effet": "À l'équipement, erza cible X carte, X étant le nombre d'épée magique en jeu. Donnez -1 à chaque cartes ciblé. "
+        "effet": "À l'équipement, erza cible X carte, X étant le nombre d'épée magique en jeu. Donnez -1 à chaque cartes ciblé."
       }
     },
     "name": "Armure de la roue celeste",
     "type": "Equipement",
     "cost": 2,
-    "affinite": "Chevalier"
+    "affinite": "Chevalier",
+    "appartenance": "FairyTail"
   },
   "A038": {
     "id": "A038",
@@ -1165,7 +1202,8 @@
     "name": "Armure du purgatoire",
     "type": "Equipement",
     "cost": 3,
-    "affinite": "Chevalier"
+    "affinite": "Chevalier",
+    "appartenance": "FairyTail"
   },
   "A039": {
     "id": "A039",
@@ -1186,7 +1224,8 @@
     "name": "Armure reine de la foudre",
     "type": "Equipement",
     "cost": 2,
-    "affinite": "Chevalier"
+    "affinite": "Chevalier",
+    "appartenance": "FairyTail"
   },
   "A040": {
     "id": "A040",
@@ -1207,7 +1246,8 @@
     "name": "Armure robe de yuen",
     "type": "Equipement",
     "cost": 1,
-    "affinite": "Chevalier"
+    "affinite": "Chevalier",
+    "appartenance": "FairyTail"
   },
   "A041": {
     "id": "A041",
@@ -1216,7 +1256,7 @@
       "front": {
         "name": "Armure aux ailes scarabee",
         "type": "Equipement",
-        "cost": 3,
+        "cost": 1,
         "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A041.png?raw=true",
         "isHorizontal": false,
         "force": 0,
@@ -1227,8 +1267,9 @@
     },
     "name": "Armure aux ailes scarabee",
     "type": "Equipement",
-    "cost": 3,
-    "affinite": "Chevalier"
+    "cost": 1,
+    "affinite": "Chevalier",
+    "appartenance": "FairyTail"
   },
   "A042": {
     "id": "A042",
@@ -1249,7 +1290,8 @@
     "name": "Armure celeste",
     "type": "Equipement",
     "cost": 2,
-    "affinite": "Chevalier"
+    "affinite": "Chevalier",
+    "appartenance": "FairyTail"
   },
   "A043": {
     "id": "A043",
@@ -1270,7 +1312,8 @@
     "name": "Interruption",
     "type": "Réaction",
     "cost": 1,
-    "affinite": "Neutre"
+    "affinite": "Neutre",
+    "appartenance": "FairyTail"
   },
   "A044": {
     "id": "A044",
@@ -1291,7 +1334,8 @@
     "name": "Meditation",
     "type": "Action",
     "cost": 0,
-    "affinite": "Neutre"
+    "affinite": "Neutre",
+    "appartenance": "FairyTail"
   },
   "A045": {
     "id": "A045",
@@ -1312,7 +1356,8 @@
     "name": "Transfert magique",
     "type": "Action",
     "cost": 1,
-    "affinite": "Neutre"
+    "affinite": "Neutre",
+    "appartenance": "FairyTail"
   },
   "A046": {
     "id": "A046",
@@ -1333,7 +1378,8 @@
     "name": "Chaine de jugement",
     "type": "Action",
     "cost": 3,
-    "affinite": "Specialiste"
+    "affinite": "Specialiste",
+    "appartenance": "Hunter"
   },
   "A047": {
     "id": "A047",
@@ -1341,20 +1387,21 @@
     "face": {
       "front": {
         "name": "Serment sur le coeur",
-        "type": "Action",
-        "cost": 2,
+        "type": "Réaction",
+        "cost": 1,
         "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A047.png?raw=true",
         "isHorizontal": false,
         "force": 1,
         "counter": 1,
         "lettre": "変",
-        "effet": "Choisissez une carte sur le terrain adverse. Placez un marqueur \"Serment\" dessus. Son propriétaire doit se défaussez de 2 cartes pour l'activé."
+        "effet": "Choisissez une carte sur le terrain adverse. Placez un marqueur \"Serment\" dessus."
       }
     },
     "name": "Serment sur le coeur",
-    "type": "Action",
-    "cost": 2,
-    "affinite": "Specialiste"
+    "type": "Réaction",
+    "cost": 1,
+    "affinite": "Specialiste",
+    "appartenance": "Hunter"
   },
   "A048": {
     "id": "A048",
@@ -1369,13 +1416,14 @@
         "force": 1,
         "counter": 1,
         "lettre": "特",
-        "effet": "Choisissez une carte sur le terrain adverse. Elle ne peut pas être activée ce tour."
+        "effet": "La prochaine carte de l'adversaire coute +1"
       }
     },
     "name": "Chaine de contrainte",
     "type": "Action",
     "cost": 1,
-    "affinite": "Specialiste"
+    "affinite": "Specialiste",
+    "appartenance": "Hunter"
   },
   "A049": {
     "id": "A049",
@@ -1390,13 +1438,14 @@
         "force": 0,
         "counter": 1,
         "lettre": "強",
-        "effet": "Ciblez 1 cartes, enlevez lui tout les marqueurs -"
+        "effet": "Ciblez 1 cartes, enlevez lui tout les marqueurs negatif"
       }
     },
     "name": "Soins",
     "type": "Action",
     "cost": 1,
-    "affinite": "Specialiste"
+    "affinite": "Specialiste",
+    "appartenance": "Hunter"
   },
   "A050": {
     "id": "A050",
@@ -1411,34 +1460,36 @@
         "force": 1,
         "counter": 1,
         "lettre": "強",
-        "effet": "Choisissez un bonus de Force sur le combattant adverse. Transférez ce bonus à Gon."
+        "effet": "Choisissez un bonus de Force sur le combattant adverse. Transférez ce bonus à votre combattant."
       }
     },
     "name": "Canne à pêche",
     "type": "Action",
     "cost": 1,
-    "affinite": "Renforcement"
+    "affinite": "Renforcement",
+    "appartenance": "Hunter"
   },
   "A051": {
     "id": "A051",
     "isToken": false,
     "face": {
       "front": {
-        "name": "Rock Paper scisors",
+        "name": "Rock,Paper,Scissor",
         "type": "Action",
         "cost": 1,
         "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A051.png?raw=true",
         "isHorizontal": false,
         "force": 1,
         "counter": 1,
-        "lettre": "強/変/特",
-        "effet": "Choisissez un effet : -Pierre : La prochaine carte Renforcement que vous jouez ce combat gagne +4 Force. -Feuille : La prochaine carte Transformation que vous jouez ce combat ne coûte pas de surcoût d'affinité et infligez -2 Force au combattant adverse. -Ciseaux : La prochaine carte Spécialiste que vous jouez ce combat ne coûte pas de surcoût d'affinité et elle retirez un boost de Force d'une carte ciblé adverse."
+        "lettre": "強,変,特",
+        "effet": "Choisissez un effet : -Pierre : La prochaine carte Renforcement que vous jouez ce combat gagne +2 Force. -Feuille : La prochaine carte Transformation que vous jouez ce combat ne coûte pas de surcoût d'affinité et infligez -2 Force au combattant adverse. -Ciseaux : La prochaine carte Spécialiste que vous jouez ce combat ne coûte pas de surcoût d'affinité et elle retirez un boost de Force d'une carte ciblé adverse."
       }
     },
-    "name": "Rock Paper scisors",
+    "name": "Rock,Paper,Scissor",
     "type": "Action",
     "cost": 1,
-    "affinite": "Renforcement"
+    "affinite": "Renforcement",
+    "appartenance": "Hunter"
   },
   "A052": {
     "id": "A052",
@@ -1453,13 +1504,14 @@
         "force": 2,
         "counter": 1,
         "lettre": "強",
-        "effet": "Gon gagne +5 Force jusqu'à la fin du combat. Si Jajanken a été joué avant ce Rock ce combat : Gon gagne +8 Force à la place."
+        "effet": "Gon gagne +4 Force jusqu'à la fin du combat. Si Jajanken a été joué avant ce Rock ce combat : Gon gagne +6 Force à la place."
       }
     },
     "name": "Rock",
     "type": "Action",
     "cost": 3,
-    "affinite": "Renforcement"
+    "affinite": "Renforcement",
+    "appartenance": "Hunter"
   },
   "A053": {
     "id": "A053",
@@ -1480,7 +1532,8 @@
     "name": "Griffe",
     "type": "Action",
     "cost": 1,
-    "affinite": "Transformation"
+    "affinite": "Transformation",
+    "appartenance": "Hunter"
   },
   "A054": {
     "id": "A054",
@@ -1501,7 +1554,8 @@
     "name": "Charge",
     "type": "Action",
     "cost": 1,
-    "affinite": "Transformation"
+    "affinite": "Transformation",
+    "appartenance": "Hunter"
   },
   "A055": {
     "id": "A055",
@@ -1509,7 +1563,7 @@
     "face": {
       "front": {
         "name": "Godspeed",
-        "type": "Réaction",
+        "type": "Reaction",
         "cost": 3,
         "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A055.png?raw=true",
         "isHorizontal": false,
@@ -1520,9 +1574,10 @@
       }
     },
     "name": "Godspeed",
-    "type": "Réaction",
+    "type": "Reaction",
     "cost": 3,
-    "affinite": "Transformation"
+    "affinite": "Transformation",
+    "appartenance": "Hunter"
   },
   "A056": {
     "id": "A056",
@@ -1543,7 +1598,8 @@
     "name": "Corde à saute",
     "type": "Action",
     "cost": 0,
-    "affinite": "Transformation"
+    "affinite": "Transformation",
+    "appartenance": "Hunter"
   },
   "A057": {
     "id": "A057",
@@ -1564,7 +1620,8 @@
     "name": "License Hunter",
     "type": "Action",
     "cost": 1,
-    "affinite": "Neutre"
+    "affinite": "Neutre",
+    "appartenance": "Hunter"
   },
   "A058": {
     "id": "A058",
@@ -1585,7 +1642,8 @@
     "name": "Face contre inconnue",
     "type": "Action",
     "cost": 2,
-    "affinite": "Neutre"
+    "affinite": "Neutre",
+    "appartenance": "Hunter"
   },
   "A059": {
     "id": "A059",
@@ -1593,20 +1651,43 @@
     "face": {
       "front": {
         "name": "Apres la bataille",
-        "type": "Réaction",
+        "type": "Reaction",
         "cost": 0,
         "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A059.png?raw=true",
         "isHorizontal": false,
-        "force": 1,
+        "force": 0,
         "counter": 2,
         "lettre": "特",
         "effet": "Si vous perdez ce combat, votre prochain combattant gagne +3 Force et piochez 1 carte au début du prochain combat."
       }
     },
     "name": "Apres la bataille",
-    "type": "Réaction",
+    "type": "Reaction",
     "cost": 0,
-    "affinite": "Neutre"
+    "affinite": "Neutre",
+    "appartenance": "Hunter"
+  },
+  "A060": {
+    "id": "A060",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Lightning switch",
+        "type": "Action",
+        "cost": 2,
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A060.png?raw=true",
+        "isHorizontal": false,
+        "force": 1,
+        "counter": 1,
+        "lettre": "S",
+        "effet": "Copiez l'effet de la dernière carte Foudre que vous avez jouée ce tour, sans payer son coût."
+      }
+    },
+    "name": "Lightning switch",
+    "type": "Action",
+    "cost": 2,
+    "affinite": "Foudre",
+    "appartenance": "FairyTail"
   },
   "T001": {
     "id": "T001",
@@ -1625,7 +1706,8 @@
     "name": "Aquarius",
     "type": "Invocation",
     "cost": 0,
-    "affinite": "Eau"
+    "affinite": "Eau",
+    "appartenance": "FairyTail"
   },
   "T002": {
     "id": "T002",
@@ -1644,7 +1726,8 @@
     "name": "Leo",
     "type": "Invocation",
     "cost": 0,
-    "affinite": "Feu"
+    "affinite": "Feu",
+    "appartenance": "FairyTail"
   },
   "T003": {
     "id": "T003",
@@ -1663,7 +1746,8 @@
     "name": "Taurus",
     "type": "Invocation",
     "cost": 0,
-    "affinite": "Terre"
+    "affinite": "Terre",
+    "appartenance": "FairyTail"
   },
   "T004": {
     "id": "T004",
@@ -1682,7 +1766,8 @@
     "name": "Cancer",
     "type": "Invocation",
     "cost": 0,
-    "affinite": "Chevalier"
+    "affinite": "Chevalier",
+    "appartenance": "FairyTail"
   },
   "T005": {
     "id": "T005",
@@ -1701,7 +1786,8 @@
     "name": "Sagittarius",
     "type": "Invocation",
     "cost": 0,
-    "affinite": "Chevalier"
+    "affinite": "Chevalier",
+    "appartenance": "FairyTail"
   },
   "T006": {
     "id": "T006",
@@ -1720,7 +1806,8 @@
     "name": "Scorpio",
     "type": "Invocation",
     "cost": 0,
-    "affinite": "Feu"
+    "affinite": "Feu",
+    "appartenance": "FairyTail"
   },
   "T007": {
     "id": "T007",
@@ -1739,7 +1826,8 @@
     "name": "Capricorn",
     "type": "Invocation",
     "cost": 0,
-    "affinite": "Neutre"
+    "affinite": "Neutre",
+    "appartenance": "FairyTail"
   },
   "T008": {
     "id": "T008",
@@ -1758,7 +1846,8 @@
     "name": "Horlogium",
     "type": "Invocation",
     "cost": 0,
-    "affinite": "Neutre"
+    "affinite": "Neutre",
+    "appartenance": "FairyTail"
   },
   "T009": {
     "id": "T009",
@@ -1777,7 +1866,8 @@
     "name": "Aries",
     "type": "Invocation",
     "cost": 0,
-    "affinite": "Neutre"
+    "affinite": "Neutre",
+    "appartenance": "FairyTail"
   },
   "T010": {
     "id": "T010",
@@ -1796,7 +1886,8 @@
     "name": "Libra",
     "type": "Invocation",
     "cost": 0,
-    "affinite": "Neutre"
+    "affinite": "Neutre",
+    "appartenance": "FairyTail"
   },
   "T011": {
     "id": "T011",
@@ -1815,7 +1906,8 @@
     "name": "Pisces",
     "type": "Invocation",
     "cost": 0,
-    "affinite": "Eau"
+    "affinite": "Eau",
+    "appartenance": "FairyTail"
   },
   "T012": {
     "id": "T012",
@@ -1834,7 +1926,8 @@
     "name": "Lyra",
     "type": "Invocation",
     "cost": 0,
-    "affinite": "Neutre"
+    "affinite": "Neutre",
+    "appartenance": "FairyTail"
   },
   "T013": {
     "id": "T013",
@@ -1853,7 +1946,8 @@
     "name": "Virgo",
     "type": "Invocation",
     "cost": 0,
-    "affinite": "Neutre"
+    "affinite": "Neutre",
+    "appartenance": "FairyTail"
   },
   "T014": {
     "id": "T014",
@@ -1872,7 +1966,8 @@
     "name": "Gemini",
     "type": "Invocation",
     "cost": 0,
-    "affinite": "Neutre"
+    "affinite": "Neutre",
+    "appartenance": "FairyTail"
   },
   "T015": {
     "id": "T015",
@@ -1891,7 +1986,8 @@
     "name": "Celestian spirit King",
     "type": "Invocation",
     "cost": 0,
-    "affinite": "Neutre"
+    "affinite": "Neutre",
+    "appartenance": "FairyTail"
   },
   "T016": {
     "id": "T016",
@@ -1910,7 +2006,8 @@
     "name": "Epee celeste",
     "type": "Invocation",
     "cost": 0,
-    "affinite": "Chevalier"
+    "affinite": "Chevalier",
+    "appartenance": "FairyTail"
   },
   "T017": {
     "id": "T017",
@@ -1929,7 +2026,8 @@
     "name": "Esprit mineur",
     "type": "Invocation",
     "cost": 0,
-    "affinite": "Constellation"
+    "affinite": "Constellation",
+    "appartenance": "FairyTail"
   },
   "T018": {
     "id": "T018",
@@ -1948,7 +2046,28 @@
     "name": "Griffe",
     "type": "Marqueur",
     "cost": 0,
-    "affinite": "Transformation"
+    "affinite": "Transformation",
+    "appartenance": "Hunter"
+  },
+  "T019": {
+    "id": "T019",
+    "isToken": true,
+    "face": {
+      "front": {
+        "name": "Serment",
+        "type": "Marqueur",
+        "cost": 0,
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/T019.png?raw=true",
+        "isHorizontal": false,
+        "force": 0,
+        "effet": "Effet Permanent : Annulez les effets de la cartes attaché, elle ne peut pas être activé. Son propriétaire peut défaussez une carte pour défaussez ce marqueur"
+      }
+    },
+    "name": "Serment",
+    "type": "Marqueur",
+    "cost": 0,
+    "affinite": "Specialiste",
+    "appartenance": "Hunter"
   },
   "S001": {
     "id": "S001",
