@@ -2204,5 +2204,484 @@
     "name": "Énergie",
     "type": "Énergie",
     "cost": 0
+  },
+  "C011": {
+    "id": "C011",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Iori",
+        "type": "Combattant",
+        "cost": 0,
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/C011.png?raw=true",
+        "isHorizontal": false,
+        "force": 5,
+        "compositionEvolution": [
+          "P",
+          "F",
+          "F"
+        ],
+        "estEvolue": false,
+        "effet": "Activation Unique : Piochez 1 carte, puis défaussez 1 carte. Créer un token 'Drunk' si vous n'en avez pas déjà. Mettez 1 marqueur sur token 'Drunk'."
+      },
+      "back": {
+        "name": "Iori",
+        "type": "Combattant",
+        "cost": 0,
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/C011E.png?raw=true",
+        "isHorizontal": false,
+        "force": 5,
+        "compositionEvolution": [],
+        "estEvolue": true,
+        "effet": "Lorsque ce combattant évolue : Transformez votre token 'Drunk' en token 'Mastered drunk'"
+      }
+    },
+    "name": "Iori",
+    "type": "Combattant",
+    "cost": 0,
+    "affinite": "Fete",
+    "appartenance": "GrandBlue"
+  },
+  "C012": {
+    "id": "C012",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Chisa",
+        "type": "Combattant",
+        "cost": 0,
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/C012.png?raw=true",
+        "isHorizontal": false,
+        "force": 5,
+        "compositionEvolution": [
+          "P",
+          "M",
+          "M"
+        ],
+        "estEvolue": false,
+        "effet": "Activation Unique : Piochez 1 carte, puis défaussez 1 carte. Votre prochaine carte jouée ce tour aura l'affinité Manipulation."
+      },
+      "back": {
+        "name": "Chisa",
+        "type": "Combattant",
+        "cost": 0,
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/C012E.png?raw=true",
+        "isHorizontal": false,
+        "force": 5,
+        "compositionEvolution": [],
+        "estEvolue": true,
+        "effet": "Lorsque ce combattant évolue : Donnez votre token 'Drunk' à votre adversaire."
+      }
+    },
+    "name": "Chisa",
+    "type": "Combattant",
+    "cost": 0,
+    "affinite": "Plonge",
+    "appartenance": "GrandBlue"
+  },
+  "C013": {
+    "id": "C013",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Azusa",
+        "type": "Combattant",
+        "cost": 0,
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/C013.png?raw=true",
+        "isHorizontal": false,
+        "force": 5,
+        "compositionEvolution": [
+          "P",
+          "P",
+          "P"
+        ],
+        "estEvolue": false,
+        "effet": "Activation Unique : Piochez 1 carte, puis défaussez 1 carte. Créez un token \"Plongée\". Mettez 1 marqueur \"Dive\" dessus."
+      },
+      "back": {
+        "name": "Azusa",
+        "type": "Combattant",
+        "cost": 0,
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/C013E.png?raw=true",
+        "isHorizontal": false,
+        "force": 5,
+        "compositionEvolution": [],
+        "estEvolue": true,
+        "effet": "Effet Permanent : Mettre une carte dans votre zone face cachée coûte 0."
+      }
+    },
+    "name": "Azusa",
+    "type": "Combattant",
+    "cost": 0,
+    "affinite": "Manipulation",
+    "appartenance": "GrandBlue"
+  },
+  "A061": {
+    "id": "A061",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Verre thé oolong",
+        "type": "Action",
+        "cost": 1,
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A061.png?raw=true",
+        "isHorizontal": false,
+        "force": 1,
+        "counter": 1,
+        "lettre": "F",
+        "effet": "Créer un token 'Drunk' si vous n'en avez pas déjà. Mettez 1 marqueur sur token 'Drunk'."
+      }
+    },
+    "name": "Verre thé oolong",
+    "type": "Action",
+    "cost": 1,
+    "affinite": "Fete",
+    "appartenance": "GrandBlue"
+  },
+  "A062": {
+    "id": "A062",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Verre spiritus",
+        "type": "Action",
+        "cost": 2,
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A062.png?raw=true",
+        "isHorizontal": false,
+        "force": 1,
+        "counter": 1,
+        "lettre": "F",
+        "effet": "Créer un token 'Drunk' si vous n'en avez pas déjà.  Mettez 2 marqueur sur token 'Drunk'."
+      }
+    },
+    "name": "Verre spiritus",
+    "type": "Action",
+    "cost": 2,
+    "affinite": "Fete",
+    "appartenance": "GrandBlue"
+  },
+  "A063": {
+    "id": "A063",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Lendemain de soirée",
+        "type": "Action",
+        "cost": 1,
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A063.png?raw=true",
+        "isHorizontal": false,
+        "force": 1,
+        "counter": 1,
+        "lettre": "F",
+        "effet": "Ciblez un joueur. Si à la fin du combat ce joueur possède 4 marqueurs \"Alcool\" ou plus : au début de la prochaine manche, il mélange sa main et ses cartes face cachée, pioche le même nombre, et pour chaque carte face cachée renvoyée, met une carte du dessus de son deck dans sa zone face cachée."
+      }
+    },
+    "name": "Lendemain de soirée",
+    "type": "Action",
+    "cost": 1,
+    "affinite": "Fete",
+    "appartenance": "GrandBlue"
+  },
+  "A064": {
+    "id": "A064",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Tournée génrale",
+        "type": "Action",
+        "cost": 2,
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A064.png?raw=true",
+        "isHorizontal": false,
+        "force": 1,
+        "counter": 1,
+        "lettre": "F",
+        "effet": "Créer un token 'Drunk' si vous n'en avez pas déjà. Votre adversaire fait de même. Mettez 1 marqueur \"Alcool\" sur tous les tokens \"Drunk\" en jeu."
+      }
+    },
+    "name": "Tournée génrale",
+    "type": "Action",
+    "cost": 2,
+    "affinite": "Fete",
+    "appartenance": "GrandBlue"
+  },
+  "A065": {
+    "id": "A065",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Charme",
+        "type": "Réaction",
+        "cost": 1,
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A065.png?raw=true",
+        "isHorizontal": false,
+        "force": 2,
+        "counter": 1,
+        "lettre": "M",
+        "effet": "Jouable lorsqu'une carte Action est jouée. Si votre adversaire à un token 'Drunk' avec 2 marqueurs dessus, annulez l'effet de la carte joué."
+      }
+    },
+    "name": "Charme",
+    "type": "Réaction",
+    "cost": 1,
+    "affinite": "Manipulation",
+    "appartenance": "GrandBlue"
+  },
+  "A066": {
+    "id": "A066",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Requete non refusable",
+        "type": "Action",
+        "cost": 2,
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A066.png?raw=true",
+        "isHorizontal": false,
+        "force": 1,
+        "counter": 1,
+        "lettre": "M",
+        "effet": "Si votre adversaire à un token 'Drunk' avec 4 marqueurs dessus. Regardez la main de l'adversaire. Choisissez 1 carte. Il la mélange dans son deck."
+      }
+    },
+    "name": "Requete non refusable",
+    "type": "Action",
+    "cost": 2,
+    "affinite": "Manipulation",
+    "appartenance": "GrandBlue"
+  },
+  "A067": {
+    "id": "A067",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Emprise Alcoolique",
+        "type": "Action",
+        "cost": 3,
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A067.png?raw=true",
+        "isHorizontal": false,
+        "force": 1,
+        "counter": 1,
+        "lettre": "M",
+        "effet": "Si l'adversaire a un token \"Drunk\", votre combattant gagne +2 Force pour chaque marqueur \"Alcool\" sur ce token (max +6)."
+      }
+    },
+    "name": "Emprise Alcoolique",
+    "type": "Action",
+    "cost": 3,
+    "affinite": "Manipulation",
+    "appartenance": "GrandBlue"
+  },
+  "A068": {
+    "id": "A068",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Materiel de plonge",
+        "type": "Action",
+        "cost": 1,
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A068.png?raw=true",
+        "isHorizontal": false,
+        "force": 0,
+        "counter": 1,
+        "lettre": "P",
+        "effet": "Cherchez une carte Plongeur dans votre deck, révélez-la et ajoutez-la à votre main."
+      }
+    },
+    "name": "Materiel de plonge",
+    "type": "Action",
+    "cost": 1,
+    "affinite": "Plonge",
+    "appartenance": "GrandBlue"
+  },
+  "A069": {
+    "id": "A069",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Sortie plongé",
+        "type": "Action",
+        "cost": 1,
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A069.png?raw=true",
+        "isHorizontal": false,
+        "force": 0,
+        "counter": 1,
+        "lettre": "P",
+        "effet": "Mettez la carte du dessus de votre deck dans votre zone face caché"
+      }
+    },
+    "name": "Sortie plongé",
+    "type": "Action",
+    "cost": 1,
+    "affinite": "Plonge",
+    "appartenance": "GrandBlue"
+  },
+  "A070": {
+    "id": "A070",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Préparation à la plongé",
+        "type": "Action",
+        "cost": 1,
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A070.png?raw=true",
+        "isHorizontal": false,
+        "force": 0,
+        "counter": 1,
+        "lettre": "P",
+        "effet": "Mettez 1 carte de votre main dans votre zone face cachée. Piochez 1 carte."
+      }
+    },
+    "name": "Préparation à la plongé",
+    "type": "Action",
+    "cost": 1,
+    "affinite": "Plonge",
+    "appartenance": "GrandBlue"
+  },
+  "A071": {
+    "id": "A071",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Plongée Profonde",
+        "type": "Action",
+        "cost": 1,
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A071.png?raw=true",
+        "isHorizontal": false,
+        "force": 0,
+        "counter": 1,
+        "lettre": "P",
+        "effet": "Activez une carte face cachée de votre zone sans payer son coût."
+      }
+    },
+    "name": "Plongée Profonde",
+    "type": "Action",
+    "cost": 1,
+    "affinite": "Plonge",
+    "appartenance": "GrandBlue"
+  },
+  "A072": {
+    "id": "A072",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Passion plongé",
+        "type": "Action",
+        "cost": 3,
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A072.png?raw=true",
+        "isHorizontal": false,
+        "force": 1,
+        "counter": 1,
+        "lettre": "P",
+        "effet": "Votre combattant gagne +1 Force pour chaque compteur 'Dive' possédez"
+      }
+    },
+    "name": "Passion plongé",
+    "type": "Action",
+    "cost": 3,
+    "affinite": "Plonge",
+    "appartenance": "GrandBlue"
+  },
+  "A073": {
+    "id": "A073",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "License de plongé",
+        "type": "Action",
+        "cost": 1,
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A073.png?raw=true",
+        "isHorizontal": false,
+        "force": 0,
+        "counter": 2,
+        "lettre": "F",
+        "effet": "Piochez 1 carte. Si vous n'avez aucun jeton \"Alcool\" sur votre terrain, piochez 2 cartes à la place."
+      }
+    },
+    "name": "License de plongé",
+    "type": "Action",
+    "cost": 1,
+    "affinite": "Neutre",
+    "appartenance": "GrandBlue"
+  },
+  "A074": {
+    "id": "A074",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Echange de bon procédé",
+        "type": "Action",
+        "cost": 2,
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A074.png?raw=true",
+        "isHorizontal": false,
+        "force": 1,
+        "counter": 2,
+        "lettre": "P",
+        "effet": "Retirez 1 marqueur sur un token 'Drunk'. Si vous le faites, créer un token 'Dive' si vous n'en avez pas déjà. Mettez 1 marqueur sur token 'Dive'."
+      }
+    },
+    "name": "Echange de bon procédé",
+    "type": "Action",
+    "cost": 2,
+    "affinite": "Neutre",
+    "appartenance": "GrandBlue"
+  },
+  "T020": {
+    "id": "T020",
+    "isToken": true,
+    "face": {
+      "front": {
+        "name": "Drunk",
+        "type": "Experience",
+        "cost": 0,
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/T020.png?raw=true",
+        "isHorizontal": false,
+        "force": 0,
+        "effet": "2 marqueurs : Transformez l'affinité de la prochaine carte jouée en une affinité aléatoire.\n4 marqueurs : Vos cartes coûtent 1 de plus à jouer. Vous ne payez pas le surcoût d'affinité.\n6 marqueurs : Lorsque vous jouez une carte, votre adversaire choisit une carte sur votre terrain. Transformez votre carte jouée en la carte ciblée."
+      }
+    },
+    "name": "Drunk",
+    "type": "Experience",
+    "cost": 0,
+    "affinite": "Fete",
+    "appartenance": "GrandBlue"
+  },
+  "T021": {
+    "id": "T021",
+    "isToken": true,
+    "face": {
+      "front": {
+        "name": "Matsered drunk",
+        "type": "Experience",
+        "cost": 0,
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/T021.png?raw=true",
+        "isHorizontal": false,
+        "force": 0,
+        "effet": "2 marqueurs : Transformez l'affinité de la prochaine carte jouée en une affinité choisie.\n4 marqueurs : Vous ne payez pas le surcoût d'affinité.\n6 marqueurs : Lorsque vous jouez une carte, choisissez une carte sur votre terrain. Transformez votre carte jouée en la carte ciblée."
+      }
+    },
+    "name": "Matsered drunk",
+    "type": "Experience",
+    "cost": 0,
+    "affinite": "Fete",
+    "appartenance": "GrandBlue"
+  },
+  "T022": {
+    "id": "T022",
+    "isToken": true,
+    "face": {
+      "front": {
+        "name": "Plongé",
+        "type": "Experience",
+        "cost": 0,
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/T022.png?raw=true",
+        "isHorizontal": false,
+        "force": 0,
+        "effet": "Effet Permanent : Pour chaque carte Plongée activée ou carte activée depuis la zone face cachée, augmentez ce token de 1 marqueur. Votre combattant gagne l'affinité Plongée en plus de son affinité de base.\n1 marqueur : Vous pouvez regarder la carte du dessus de votre deck à tout moment.\n3 marqueurs : Votre adversaire ne peut pas cibler vos cartes dans votre zone face cachée.\n5 marqueurs : Votre combattant gagne +X Force, où X est le nombre de marqueurs \"Dive\" sur ce token."
+      }
+    },
+    "name": "Plongé",
+    "type": "Experience",
+    "cost": 0,
+    "affinite": "Plonge",
+    "appartenance": "GrandBlue"
   }
 }
