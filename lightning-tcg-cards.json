@@ -515,6 +515,15 @@
         "counter": 1,
         "lettre": "A",
         "effet": "Invoquez Aquarius"
+      },
+      "back": {
+        "name": "Aquarius",
+        "type": "Invocation",
+        "cost": 0,
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/T001.png?raw=true",
+        "isHorizontal": false,
+        "force": 2,
+        "effet": "À l'invocation, renvoyez une carte face cachée adverse dans sa main"
       }
     },
     "name": "Appel Aquarius",
@@ -537,6 +546,15 @@
         "counter": 1,
         "lettre": "A",
         "effet": "Invoquez Leo"
+      },
+      "back": {
+        "name": "Leo",
+        "type": "Invocation",
+        "cost": 0,
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/T002.png?raw=true",
+        "isHorizontal": false,
+        "force": 2,
+        "effet": "Sacrifice/KO : Détruisez une carte adverse sur le terrain"
       }
     },
     "name": "Appel Leo",
@@ -559,6 +577,15 @@
         "counter": 1,
         "lettre": "B",
         "effet": "Invoquez Taurus"
+      },
+      "back": {
+        "name": "Taurus",
+        "type": "Invocation",
+        "cost": 0,
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/T003.png?raw=true",
+        "isHorizontal": false,
+        "force": 3,
+        "effet": "Cette carte ne peut pas être détruite par des effets adverse"
       }
     },
     "name": "Appel Taurus",
@@ -581,6 +608,15 @@
         "counter": 1,
         "lettre": "B",
         "effet": "Invoquez Cancer"
+      },
+      "back": {
+        "name": "Cancer",
+        "type": "Invocation",
+        "cost": 0,
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/T004.png?raw=true",
+        "isHorizontal": false,
+        "force": 2,
+        "effet": "À l'invocation, ciblez une carte. Réduisez la valeur de base de la carte ciblé à 0."
       }
     },
     "name": "Appel Cancer",
@@ -603,6 +639,15 @@
         "counter": 1,
         "lettre": "A",
         "effet": "Invoquez Sagittarius"
+      },
+      "back": {
+        "name": "Sagittarius",
+        "type": "Invocation",
+        "cost": 0,
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/T005.png?raw=true",
+        "isHorizontal": false,
+        "force": 1,
+        "effet": "À l'invocation, détruisez une carte face cachée adverse."
       }
     },
     "name": "Appel Sagittarius",
@@ -625,6 +670,15 @@
         "counter": 1,
         "lettre": "A",
         "effet": "Invoquez Scorpio"
+      },
+      "back": {
+        "name": "Scorpio",
+        "type": "Invocation",
+        "cost": 0,
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/T006.png?raw=true",
+        "isHorizontal": false,
+        "force": 1,
+        "effet": "À l'invocation, placez un marqueur \"venin\" sur un combattant adverse. Le marqueur venant donne -X, avec X étant le nombre de carte de la même affinité sur le terrain."
       }
     },
     "name": "Appel Scorpio",
@@ -647,6 +701,15 @@
         "counter": 1,
         "lettre": "B",
         "effet": "Invoquez Capricorn"
+      },
+      "back": {
+        "name": "Capricorn",
+        "type": "Invocation",
+        "cost": 0,
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/T007.png?raw=true",
+        "isHorizontal": false,
+        "force": 1,
+        "effet": "Effet permanent : lorsque vous invoquer un esprit, piochez 1 puis défaussez 1."
       }
     },
     "name": "Appel Capricorn",
@@ -669,6 +732,15 @@
         "counter": 1,
         "lettre": "B",
         "effet": "Invoquez Horlogium"
+      },
+      "back": {
+        "name": "Horlogium",
+        "type": "Invocation",
+        "cost": 0,
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/T008.png?raw=true",
+        "isHorizontal": false,
+        "force": 0,
+        "effet": "Sacrifice : annulez une Action qui cible votre combattant ou vos invocations."
       }
     },
     "name": "Appel Horlogium",
@@ -691,6 +763,15 @@
         "counter": 1,
         "lettre": "B",
         "effet": "Invoquez Aries"
+      },
+      "back": {
+        "name": "Aries",
+        "type": "Invocation",
+        "cost": 0,
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/T009.png?raw=true",
+        "isHorizontal": false,
+        "force": 1,
+        "effet": "À l'invocation, ciblez une carte adverse, réduisez de -2 la Force."
       }
     },
     "name": "Appel Aries",
@@ -713,6 +794,15 @@
         "counter": 1,
         "lettre": "A",
         "effet": "Invoquez Libra"
+      },
+      "back": {
+        "name": "Libra",
+        "type": "Invocation",
+        "cost": 0,
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/T010.png?raw=true",
+        "isHorizontal": false,
+        "force": 1,
+        "effet": "À l'invocation, choisissez une carte adverse et une carte allié, échangez leurs valeurs de Force de base."
       }
     },
     "name": "Appel Libra",
@@ -735,6 +825,15 @@
         "counter": 1,
         "lettre": "A",
         "effet": "Invoquez Pisces"
+      },
+      "back": {
+        "name": "Pisces",
+        "type": "Invocation",
+        "cost": 0,
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/T011.png?raw=true",
+        "isHorizontal": false,
+        "force": 1,
+        "effet": "Effet permanent : Pisces peut être traité comme deux créatures distinctes pour les effets qui comptent vos invocations"
       }
     },
     "name": "Appel Pisces",
@@ -757,6 +856,15 @@
         "counter": 1,
         "lettre": "A",
         "effet": "Invoquez Lyra"
+      },
+      "back": {
+        "name": "Lyra",
+        "type": "Invocation",
+        "cost": 0,
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/T012.png?raw=true",
+        "isHorizontal": false,
+        "force": 1,
+        "effet": "À l'invocation, regardez la main de votre adversaire, choisissez une carte, elle coute +1 jusqu'à la fin du combat"
       }
     },
     "name": "Appel Lyra",
@@ -779,6 +887,15 @@
         "counter": 1,
         "lettre": "B",
         "effet": "Invoquez Virgo"
+      },
+      "back": {
+        "name": "Virgo",
+        "type": "Invocation",
+        "cost": 0,
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/T013.png?raw=true",
+        "isHorizontal": false,
+        "force": 2,
+        "effet": "À l'invocation, défaussez une carte de votre main, allez chercher une carte d'affinité constellation dans votre deck et ajoutez là à votre main."
       }
     },
     "name": "Appel Virgo",
@@ -1672,7 +1789,7 @@
     "isToken": false,
     "face": {
       "front": {
-        "name": "Lightning switch",
+        "name": "echo de Foudre",
         "type": "Action",
         "cost": 2,
         "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A060.png?raw=true",
@@ -1683,7 +1800,7 @@
         "effet": "Copiez l'effet de la dernière carte Foudre que vous avez jouée ce tour, sans payer son coût."
       }
     },
-    "name": "Lightning switch",
+    "name": "\u00c9cho de Foudre",
     "type": "Action",
     "cost": 2,
     "affinite": "Foudre",
