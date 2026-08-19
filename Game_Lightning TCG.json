@@ -41,7 +41,7 @@
           },
           {
             "drawFromTop": "Energie",
-            "count": 6,
+            "count": 7,
             "destination": "Energie"
           },
           {
@@ -76,6 +76,12 @@
           ]
         },
         "sectionsDict": {
+          "Hand": { "isHidden": "opponent-only", "height": "MEDIUM", "alignment": "CENTER" },
+          "Deck": { "isHidden": "yes", "height": "MEDIUM", "alignment": "NONE" },
+          "Discard": { "isHidden": "no", "height": "MEDIUM", "alignment": "NONE" },
+          "Stack": { "isHidden": "no", "height": "HUGE", "alignment": "NONE" },
+          "Exile": { "isHidden": "yes", "height": "MEDIUM", "alignment": "NONE" },
+          "ExileHidden": { "isHidden": "yes", "height": "MEDIUM", "alignment": "NONE" },
           "Token": { "isHidden": "no", "height": "MEDIUM", "alignment": "CENTER" },
           "Combattant Actif": { "isHidden": "no", "height": "MEDIUM", "alignment": "CENTER" },
           "Carte Joue": { "isHidden": "no", "height": "MEDIUM", "alignment": "CENTER" },
