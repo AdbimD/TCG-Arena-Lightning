@@ -23,7 +23,11 @@
       {
         "title": "Classic",
         "gameplay": "Classic",
-        "customCategories": []
+        "customCategories": [
+          "Combattant",
+          "Énergie",
+          "Stage"
+        ]
       }
     ]
   },
@@ -114,9 +118,19 @@
           "Stage",
           "Énergie"
         ],
-        "autoPlayFromHand": {},
+        "autoPlayFromHand": {
+          "Action": "Stack",
+          "Réaction": "Stack",
+          "Reaction": "Stack",
+          "Equipement": "Stack",
+          "Énergie": "Stack"
+        },
         "autoPlayFromStack": {
-          "Énergie": "Combattant actif"
+          "Énergie": "Combattant actif",
+          "Action": "Cartes jouées",
+          "Réaction": "Cartes jouées",
+          "Reaction": "Cartes jouées",
+          "Equipement": "Cartes jouées"
         },
         "sectionsDict": {
           "Hand": {
