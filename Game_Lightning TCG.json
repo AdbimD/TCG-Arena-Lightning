@@ -84,6 +84,12 @@
                   }
                 },
                 {
+                  "section": "Stack",
+                  "style": {
+                    "flex": 1
+                  }
+                },
+                {
                   "section": "Cartes jouées",
                   "style": {
                     "flex": 1.7
