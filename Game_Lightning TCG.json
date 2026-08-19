@@ -113,11 +113,6 @@
             }
           ]
         },
-        "categoriesAlreadyOnBoard": [
-          "Combattant",
-          "Stage",
-          "Énergie"
-        ],
         "autoPlayFromHand": {
           "Action": "Cartes jouées",
           "Réaction": "Cartes jouées",
@@ -256,7 +251,7 @@
             "height": "MEDIUM",
             "alignment": "START",
             "opponentAlignment": false,
-            "noAutoPayTo": "true",
+            "noAutoPayTo": true,
             "isHorizontalAllowed": true,
             "displayedTitle": "Deck Combattants",
             "enterTapped": false,
@@ -272,7 +267,7 @@
             "height": "DEFAULT",
             "alignment": "CENTER",
             "opponentAlignment": false,
-            "noAutoPayTo": false,
+            "noAutoPayTo": true,
             "isHorizontalAllowed": true,
             "isGroupForbidden": false,
             "displayedTitle": "",
@@ -288,7 +283,7 @@
             "height": "DEFAULT",
             "alignment": "CENTER",
             "opponentAlignment": false,
-            "noAutoPayTo": false,
+            "noAutoPayTo": true,
             "isHorizontalAllowed": false,
             "isGroupForbidden": true,
             "displayedTitle": "",
@@ -304,7 +299,7 @@
             "height": "DEFAULT",
             "alignment": "START",
             "opponentAlignment": false,
-            "noAutoPayTo": "true",
+            "noAutoPayTo": true,
             "isHorizontalAllowed": true,
             "displayedTitle": "Deck Énergie",
             "enterTapped": false,
@@ -320,7 +315,7 @@
             "height": "DEFAULT",
             "alignment": "CENTER",
             "opponentAlignment": false,
-            "noAutoPayTo": false,
+            "noAutoPayTo": true,
             "isHorizontalAllowed": true,
             "isGroupForbidden": false,
             "displayedTitle": "Cartes face cachée",
@@ -336,7 +331,7 @@
             "height": "DEFAULT",
             "alignment": "CENTER",
             "opponentAlignment": false,
-            "noAutoPayTo": false,
+            "noAutoPayTo": true,
             "isHorizontalAllowed": true,
             "isGroupForbidden": false,
             "displayedTitle": "",
@@ -347,6 +342,25 @@
             "showHiddenCardInHistory": false
           }
         }
+      },
+      "beforeGameStart": {
+        "initialBoardSetup": [
+          {
+            "drawFromTop": "Combattant",
+            "count": 3,
+            "destination": "Combattant"
+          },
+          {
+            "drawFromTop": "Énergie",
+            "count": 6,
+            "destination": "Énergie"
+          },
+          {
+            "drawFromTop": "Stage",
+            "count": 1,
+            "destination": "Stage"
+          }
+        ]
       }
     }
   }
