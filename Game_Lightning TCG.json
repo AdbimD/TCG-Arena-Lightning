@@ -84,12 +84,6 @@
                   }
                 },
                 {
-                  "section": "Stack",
-                  "style": {
-                    "flex": 1
-                  }
-                },
-                {
                   "section": "Cartes jouées",
                   "style": {
                     "flex": 1.7
@@ -125,18 +119,14 @@
           "Énergie"
         ],
         "autoPlayFromHand": {
-          "Action": "Stack",
-          "Réaction": "Stack",
-          "Reaction": "Stack",
-          "Equipement": "Stack",
-          "Énergie": "Stack"
-        },
-        "autoPlayFromStack": {
-          "Énergie": "Combattant actif",
           "Action": "Cartes jouées",
           "Réaction": "Cartes jouées",
           "Reaction": "Cartes jouées",
-          "Equipement": "Cartes jouées"
+          "Equipement": "Cartes jouées",
+          "Énergie": "Combattant actif"
+        },
+        "autoPlayFromStack": {
+          "Énergie": "Combattant actif"
         },
         "sectionsDict": {
           "Hand": {
