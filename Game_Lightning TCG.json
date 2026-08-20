@@ -59,17 +59,17 @@
             {
               "direction": "row",
               "content": [
-                { "section": "Token" , "style": { "flex": "1" }},
+                { "section": "Token" , "style": { "flex": "1.35" }},
                 { "section": "CombattantActif" , "style": { "flex": "0.3" }},
-                { "section": "CarteJoue" , "style": { "flex": "1.7" }}
+                { "section": "CarteJoue" , "style": { "flex": "1.35" }}
               ]
             },
             {
               "direction": "row",
               "content": [
-                { "section": "CombattantZone", "style": { "flex": "0.6" } },
-                { "section": "Charge", "style": { "flex": "0.7" } },
-                { "section": "Énergie", "style": { "flex": "0.7" } }
+                { "section": "CombattantZone", "style": { "flex": "1" } },
+                { "section": "Charge", "style": { "flex": "1" } },
+                { "section": "Énergie", "style": { "flex": "1" } }
               ]
             }
           ]
