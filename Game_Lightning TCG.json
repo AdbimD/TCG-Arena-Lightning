@@ -78,7 +78,7 @@
           {
             "drawFromTop": "Combattant",
             "count": 3,
-            "destination": "Combattant"
+            "destination": "CombattantZone"
           },
           {
             "drawFromTop": "Énergie",
@@ -124,12 +124,6 @@
             {
               "direction": "row",
               "content": [
-                {
-                  "section": "Combattant",
-                  "style": {
-                    "flex": "1"
-                  }
-                },
                 {
                   "section": "CombattantZone",
                   "style": {
