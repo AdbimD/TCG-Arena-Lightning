@@ -74,12 +74,11 @@
           "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/T018.png?raw=true"
         }
       ],
-
       "categoriesAlreadyOnBoard": [
-          "Combattant",
-          "Stage",
-          "Énergie"
-        ],
+                    "Combattant",
+                    "Stage",
+                    "Énergie"
+                ],
       "countersStartingValues": [],
       "sections": {
         "layout": {
@@ -113,7 +112,7 @@
               "direction": "row",
               "content": [
                 {
-                  "section": "CombattantZone",
+                  "section": "Combattant",
                   "style": {
                     "flex": "1"
                   }
@@ -180,7 +179,7 @@
             "height": "MEDIUM",
             "alignment": "CENTER"
           },
-          "CombattantZone": {
+          "Combattant": {
             "isHidden": "opponent-only",
             "height": "MEDIUM",
             "alignment": "CENTER"
@@ -192,11 +191,6 @@
           },
           "Énergie": {
             "isHidden": "no",
-            "height": "MEDIUM",
-            "alignment": "CENTER"
-          },
-          "Combattant": {
-            "isHidden": "opponent-only",
             "height": "MEDIUM",
             "alignment": "CENTER"
           }
