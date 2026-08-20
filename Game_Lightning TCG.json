@@ -74,16 +74,19 @@
           "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/T018.png?raw=true"
         }
       ],
-      "categoriesAlreadyOnBoard": [
-                    "Combattant",
-                    "Stage",
-                    "Énergie"
-                ],
       "countersStartingValues": [],
       "sections": {
+        "customSections": [
+                    "CombattantActif",
+                    "CarteJoue",
+                    "Token",
+                    "Combattant",
+                    "Charge",
+                    "Énergie"
+                ],
         "layout": {
           "direction": "column",
-          "isSymmetricalForOpponents": false,
+          "isSymmetricalForOpponents": true,
           "content": [
             {
               "direction": "row",
@@ -133,6 +136,12 @@
             }
           ]
         },
+        
+      "categoriesAlreadyOnBoard": [
+                    "Combattant",
+                    "Stage",
+                    "Énergie"
+                ],
         "sectionsDict": {
           "Hand": {
             "isHidden": "opponent-only",
