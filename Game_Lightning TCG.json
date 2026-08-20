@@ -1,41 +1,89 @@
 {
   "name": "Lightning TCG",
   "deckBuilding": {
-    "mainFilters": ["Combattant", "Énergie", "Stage", "Action", "Reaction", "affinite"],
+    "mainFilters": [
+      "Combattant",
+      "Énergie",
+      "Stage",
+      "Action",
+      "Reaction",
+      "affinite"
+    ],
     "formats": [
-      { "title": "Standard format", "gameplay": "Standard" }
+      {
+        "title": "Standard format",
+        "gameplay": "Standard",
+        "customCategories": [
+          "Combattant",
+          "Énergie",
+          "Stage"
+        ],
+        "deckRuleset": "Limited"
+      }
     ]
   },
   "deckRulesets": {
     "Limited": {
-      "general": { "min": 46, "max": 46, "maxPerCard": 3 },
+      "general": {
+        "min": 46,
+        "max": 46,
+        "maxPerCard": 3
+      },
       "categories": [
-        { "category": "Combattant", "min": 3, "max": 3 },
-        { "category": "Énergie", "min": 7, "max": 7 },
-        { "category": "Stage", "min": 1, "max": 1 }
+        {
+          "category": "Combattant",
+          "min": 3,
+          "max": 3
+        },
+        {
+          "category": "Énergie",
+          "min": 7,
+          "max": 7
+        },
+        {
+          "category": "Stage",
+          "min": 1,
+          "max": 1
+        }
       ]
     }
   },
   "gameplay": {
     "Standard": {
-      "mulligan": { 
-        "startingHandSize": 7 ,
-        "mulliganCount": { "max": 1 },
+      "mulligan": {
+        "startingHandSize": 7,
+        "mulliganCount": {
+          "max": 1
+        },
         "mulliganCycle": {
-          "steps": ["toBottom", "draw"]
+          "steps": [
+            "toBottom",
+            "draw"
+          ]
         }
       },
-      "newTurn": { 
+      "newTurn": {
         "drawOnStart": false,
-        "sharedTurn" : true
+        "sharedTurn": true
       },
       "draggableTokens": [
-        { "id": "Griffe", "name": "Griffe", "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/T018.png?raw=true" }
+        {
+          "id": "Griffe",
+          "name": "Griffe",
+          "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/T018.png?raw=true"
+        }
       ],
       "beforeGameStart": {
-        "boardCategoriesInSideboard": ["Combattant"],
+        "boardCategoriesInSideboard": [
+          "Combattant"
+        ],
         "boardCardSelection": [
-          { "category": "Combattant", "min": 1, "max": 1, "unselectedDestination": "CombattantZone" }
+          {
+            "category": "Combattant",
+            "min": 1,
+            "max": 1,
+            "unselectedDestination": "CombattantZone"
+          }
         ],
         "initialBoardSetup": [
           {
@@ -54,39 +102,117 @@
       "sections": {
         "layout": {
           "direction": "column",
-          "isSymmetricalForOpponents" : false,
+          "isSymmetricalForOpponents": false,
           "content": [
             {
               "direction": "row",
               "content": [
-                { "section": "Token" , "style": { "flex": "1.35" }},
-                { "section": "CombattantActif" , "style": { "flex": "0.3" }},
-                { "section": "CarteJoue" , "style": { "flex": "1.35" }}
+                {
+                  "section": "Token",
+                  "style": {
+                    "flex": "1.35"
+                  }
+                },
+                {
+                  "section": "CombattantActif",
+                  "style": {
+                    "flex": "0.3"
+                  }
+                },
+                {
+                  "section": "CarteJoue",
+                  "style": {
+                    "flex": "1.35"
+                  }
+                }
               ]
             },
             {
               "direction": "row",
               "content": [
-                { "section": "CombattantZone", "style": { "flex": "1" } },
-                { "section": "Charge", "style": { "flex": "1" } },
-                { "section": "Énergie", "style": { "flex": "1" } }
+                {
+                  "section": "CombattantZone",
+                  "style": {
+                    "flex": "1"
+                  }
+                },
+                {
+                  "section": "Charge",
+                  "style": {
+                    "flex": "1"
+                  }
+                },
+                {
+                  "section": "Énergie",
+                  "style": {
+                    "flex": "1"
+                  }
+                }
               ]
             }
           ]
         },
         "sectionsDict": {
-          "Hand": { "isHidden": "opponent-only", "height": "MEDIUM", "alignment": "CENTER" },
-          "Deck": { "isHidden": "yes", "height": "MEDIUM", "alignment": "NONE" },
-          "Discard": { "isHidden": "no", "height": "MEDIUM", "alignment": "NONE" },
-          "Stack": { "isHidden": "no", "height": "HUGE", "alignment": "NONE" },
-          "Exile": { "isHidden": "yes", "height": "MEDIUM", "alignment": "NONE" },
-          "ExileHidden": { "isHidden": "yes", "height": "MEDIUM", "alignment": "NONE" },
-          "Token": { "isHidden": "no", "height": "MEDIUM", "alignment": "CENTER" },
-          "CombattantActif": { "isHidden": "no", "height": "MEDIUM", "alignment": "CENTER" },
-          "CarteJoue": { "isHidden": "no", "height": "MEDIUM", "alignment": "CENTER" },
-          "CombattantZone": { "isHidden": "opponent-only", "height": "MEDIUM", "alignment": "CENTER" },
-          "Charge": { "isHidden": "opponent-only", "height": "MEDIUM", "alignment": "CENTER" },
-          "Énergie": { "isHidden": "no", "height": "MEDIUM", "alignment": "CENTER" }
+          "Hand": {
+            "isHidden": "opponent-only",
+            "height": "MEDIUM",
+            "alignment": "CENTER"
+          },
+          "Deck": {
+            "isHidden": "yes",
+            "height": "MEDIUM",
+            "alignment": "NONE"
+          },
+          "Discard": {
+            "isHidden": "no",
+            "height": "MEDIUM",
+            "alignment": "NONE"
+          },
+          "Stack": {
+            "isHidden": "no",
+            "height": "HUGE",
+            "alignment": "NONE"
+          },
+          "Exile": {
+            "isHidden": "yes",
+            "height": "MEDIUM",
+            "alignment": "NONE"
+          },
+          "ExileHidden": {
+            "isHidden": "yes",
+            "height": "MEDIUM",
+            "alignment": "NONE"
+          },
+          "Token": {
+            "isHidden": "no",
+            "height": "MEDIUM",
+            "alignment": "CENTER"
+          },
+          "CombattantActif": {
+            "isHidden": "no",
+            "height": "MEDIUM",
+            "alignment": "CENTER"
+          },
+          "CarteJoue": {
+            "isHidden": "no",
+            "height": "MEDIUM",
+            "alignment": "CENTER"
+          },
+          "CombattantZone": {
+            "isHidden": "opponent-only",
+            "height": "MEDIUM",
+            "alignment": "CENTER"
+          },
+          "Charge": {
+            "isHidden": "opponent-only",
+            "height": "MEDIUM",
+            "alignment": "CENTER"
+          },
+          "Énergie": {
+            "isHidden": "no",
+            "height": "MEDIUM",
+            "alignment": "CENTER"
+          }
         },
         "autoPlayFromHand": {
           "Action": "CarteJoue",
@@ -111,5 +237,5 @@
     "cardBack": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Backgroung%20V2.png?raw=true"
   },
   "cardRotation": "45",
-  "defaultRessources.backgrounds" : "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Backgroung%20V2.png?raw=true"
+  "defaultRessources.backgrounds": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Backgroung%20V2.png?raw=true"
 }
