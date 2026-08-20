@@ -39,9 +39,9 @@
         ],
         "initialBoardSetup": [
           {
-            "drawFromTop": "Energie",
+            "drawFromTop": "Énergie",
             "count": 7,
-            "destination": "Energie"
+            "destination": "Énergie"
           },
           {
             "drawFromTop": "Stage",
@@ -59,17 +59,17 @@
             {
               "direction": "row",
               "content": [
-                { "section": "Token" , "style": { "width": "40vh" }},
-                { "section": "Combattant Actif" , "style": { "width": "15vh" }},
-                { "section": "Carte Joue" , "style": { "width": "45vh" }}
+                { "section": "Token" , "style": { "flex": "1" }},
+                { "section": "CombattantActif" , "style": { "flex": "0.3" }},
+                { "section": "CarteJoue" , "style": { "flex": "1.7" }}
               ]
             },
             {
               "direction": "row",
               "content": [
-                { "section": "CombattantZone", "style": { "width": "30vh" } },
-                { "section": "Charge", "style": { "width": "40vh" } },
-                { "section": "Energie", "style": { "width": "30vh" } }
+                { "section": "CombattantZone", "style": { "flex": "0.6" } },
+                { "section": "Charge", "style": { "flex": "0.7" } },
+                { "section": "Énergie", "style": { "flex": "0.7" } }
               ]
             }
           ]
@@ -82,24 +82,24 @@
           "Exile": { "isHidden": "yes", "height": "MEDIUM", "alignment": "NONE" },
           "ExileHidden": { "isHidden": "yes", "height": "MEDIUM", "alignment": "NONE" },
           "Token": { "isHidden": "no", "height": "MEDIUM", "alignment": "CENTER" },
-          "Combattant Actif": { "isHidden": "no", "height": "MEDIUM", "alignment": "CENTER" },
-          "Carte Joue": { "isHidden": "no", "height": "MEDIUM", "alignment": "CENTER" },
+          "CombattantActif": { "isHidden": "no", "height": "MEDIUM", "alignment": "CENTER" },
+          "CarteJoue": { "isHidden": "no", "height": "MEDIUM", "alignment": "CENTER" },
           "CombattantZone": { "isHidden": "opponent-only", "height": "MEDIUM", "alignment": "CENTER" },
           "Charge": { "isHidden": "opponent-only", "height": "MEDIUM", "alignment": "CENTER" },
           "Energie": { "isHidden": "no", "height": "MEDIUM", "alignment": "CENTER" }
         }
       },
       "autoPlayFromHand": {
-        "Action": "Carte Joue",
-        "Reaction": "Carte Joue",
+        "Action": "CarteJoue",
+        "Reaction": "CarteJoue",
         "Invocation": "Token",
         "Experience": "Token",
         "Marqueur": "Token",
-        "Resource": "Energie"
+        "Resource": "Énergie"
       },
       "autoPlayFromStack": {
-        "Action": "Carte Joue",
-        "Reaction": "Carte Joue",
+        "Action": "CarteJoue",
+        "Reaction": "CarteJoue",
         "Invocation": "Token",
         "Experience": "Token",
         "Marqueur": "Token"
