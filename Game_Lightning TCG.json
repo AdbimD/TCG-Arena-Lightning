@@ -86,23 +86,23 @@
           "CarteJoue": { "isHidden": "no", "height": "MEDIUM", "alignment": "CENTER" },
           "CombattantZone": { "isHidden": "opponent-only", "height": "MEDIUM", "alignment": "CENTER" },
           "Charge": { "isHidden": "opponent-only", "height": "MEDIUM", "alignment": "CENTER" },
-          "Energie": { "isHidden": "no", "height": "MEDIUM", "alignment": "CENTER" }
+          "Énergie": { "isHidden": "no", "height": "MEDIUM", "alignment": "CENTER" }
+        },
+        "autoPlayFromHand": {
+          "Action": "CarteJoue",
+          "Reaction": "CarteJoue",
+          "Invocation": "Token",
+          "Experience": "Token",
+          "Marqueur": "Token",
+          "Resource": "Énergie"
+        },
+        "autoPlayFromStack": {
+          "Action": "CarteJoue",
+          "Reaction": "CarteJoue",
+          "Invocation": "Token",
+          "Experience": "Token",
+          "Marqueur": "Token"
         }
-      },
-      "autoPlayFromHand": {
-        "Action": "CarteJoue",
-        "Reaction": "CarteJoue",
-        "Invocation": "Token",
-        "Experience": "Token",
-        "Marqueur": "Token",
-        "Resource": "Énergie"
-      },
-      "autoPlayFromStack": {
-        "Action": "CarteJoue",
-        "Reaction": "CarteJoue",
-        "Invocation": "Token",
-        "Experience": "Token",
-        "Marqueur": "Token"
       }
     }
   },
