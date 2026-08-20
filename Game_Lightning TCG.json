@@ -74,25 +74,12 @@
           "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/T018.png?raw=true"
         }
       ],
-      "beforeGameStart": {
-        "initialBoardSetup": [
-          {
-            "drawFromTop": "Combattant",
-            "count": 3,
-            "destination": "CombattantZone"
-          },
-          {
-            "drawFromTop": "Énergie",
-            "count": 7,
-            "destination": "Énergie"
-          },
-          {
-            "drawFromTop": "Stage",
-            "count": 1,
-            "destination": "Stage"
-          }
-        ]
-      },
+
+      "categoriesAlreadyOnBoard": [
+          "Combattant",
+          "Stage",
+          "Énergie"
+        ],
       "countersStartingValues": [],
       "sections": {
         "layout": {
@@ -105,19 +92,19 @@
                 {
                   "section": "Token",
                   "style": {
-                    "flex": "1.35"
+                    "flex": "1.25"
                   }
                 },
                 {
                   "section": "CombattantActif",
                   "style": {
-                    "flex": "0.3"
+                    "flex": "0.5"
                   }
                 },
                 {
                   "section": "CarteJoue",
                   "style": {
-                    "flex": "1.35"
+                    "flex": "1.25"
                   }
                 }
               ]
