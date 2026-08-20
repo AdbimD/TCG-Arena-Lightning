@@ -38,7 +38,7 @@
             "category": "Énergie",
             "min": 7,
             "max": 7,
-          "maxPerCard": 7
+            "maxPerCard": 7
           },
           {
             "category": "Stage",
