@@ -109,7 +109,7 @@
                 {
                   "section": "CombattantActif",
                   "style": {
-                    "flex": "0.4"
+                    "width": "15vh"
                   }
                 },
                 {
@@ -121,19 +121,19 @@
                     {
                       "section": "CarteJoue1",
                       "style": {
-                        "flex": "1"
+                        "width": "15vh"
                       }
                     },
                     {
                       "section": "CarteJoue2",
                       "style": {
-                        "flex": "1"
+                        "width": "15vh"
                       }
                     },
                     {
                       "section": "CarteJoue3",
                       "style": {
-                        "flex": "1"
+                        "width": "15vh"
                       }
                     }
                   ]
@@ -158,19 +158,19 @@
                     {
                       "section": "ChargeGauche",
                       "style": {
-                        "flex": "1"
+                        "width": "15vh"
                       }
                     },
                     {
                       "section": "ChargeMilieu",
                       "style": {
-                        "flex": "1"
+                        "width": "15vh"
                       }
                     },
                     {
                       "section": "ChargeDroite",
                       "style": {
-                        "flex": "1"
+                        "width": "15vh"
                       }
                     }
                   ]
@@ -249,12 +249,12 @@
           "CarteJoue2": {
             "isHidden": "no",
             "height": "MEDIUM",
-            "alignment": "CENTER"
+            "alignment": "LEFT"
           },
           "CarteJoue3": {
             "isHidden": "no",
             "height": "MEDIUM",
-            "alignment": "CENTER"
+            "alignment": "LEFT"
           },
           "ChargeGauche": {
             "isHidden": "opponent-only",
