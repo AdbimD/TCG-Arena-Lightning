@@ -121,19 +121,19 @@
                     {
                       "section": "CarteJoue1",
                       "style": {
-                        "width": "20vh"
+                        "width": "17vh"
                       }
                     },
                     {
                       "section": "CarteJoue2",
                       "style": {
-                        "width": "20vh"
+                        "width": "17vh"
                       }
                     },
                     {
                       "section": "CarteJoue3",
                       "style": {
-                        "width": "20vh"
+                        "width": "17vh"
                       }
                     }
                   ]
