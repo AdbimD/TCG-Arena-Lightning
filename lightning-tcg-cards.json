@@ -312,7 +312,7 @@
           "特"
         ],
         "estEvolue": false,
-        "effet": "Activation Unique : Piochez 1 carte, puis défaussez 1 carte. Choisissez une carte sur le terrain adverse : elle ne peut pas être activée ce tour, et elle perds toutes ses affinités pour ce combat."
+        "effet": "Activation Unique : Piochez 1 carte, puis défaussez 1 carte. Ciblez une carte sur le terrain adverse : elle ne peut pas être activée jusqu'a votre prochaine tour, et elle perds toutes ses affinités pour ce combat."
       },
       "back": {
         "name": "Kurapika",
@@ -323,7 +323,7 @@
         "force": 5,
         "compositionEvolution": [],
         "estEvolue": true,
-        "effet": "Effet Permanent : Kurapika peut jouer des cartes de n'importe quelle affinité sans payer de surcoût."
+        "effet": "Effet Permanent : Kurapika peut jouer des cartes de n'importe quelle affinité sans payer de surcoût. Et les sorts coutent -1 à jouer."
       }
     },
     "name": "Kurapika",
@@ -360,7 +360,7 @@
         "force": 5,
         "compositionEvolution": [],
         "estEvolue": true,
-        "effet": "Lorsque ce combattant évolue : Jouez immédiatement une carte \"Godspeed\" depuis votre main ou votre deck sans payer son coût. Effet Permanent : Kirua gagne +1 Force pour chaque marqueur \"Charge\"."
+        "effet": "Lorsque ce combattant évolue : Jouez immédiatement une carte \"Godspeed\" depuis votre main ou votre deck sans payer son coût. Effet Permanent : Kirua gagne +1 Force pour chaque marqueur \"Charge\", puis défaussez tout les marqueur \"Charge\" sur Kirua."
       }
     },
     "name": "Kirua",
@@ -1688,7 +1688,7 @@
         "force": 1,
         "counter": 1,
         "lettre": "強",
-        "effet": "Choisissez un bonus de Force sur le combattant adverse. Transférez ce bonus à votre combattant."
+        "effet": "Choisissez un bonus de Force sur une carte sort. Transférez ce bonus à votre combattant."
       }
     },
     "name": "Canne à pêche",
@@ -1732,7 +1732,7 @@
         "force": 2,
         "counter": 1,
         "lettre": "強",
-        "effet": "Gon gagne +4 Force jusqu'à la fin du combat. Si Jajanken a été joué avant ce Rock ce combat : Gon gagne +6 Force à la place."
+        "effet": "Gon gagne +3 Force jusqu'à la fin du combat. Si Jajanken a été joué avant ce Rock ce combat : Gon gagne +5 Force à la place."
       }
     },
     "name": "Rock",
@@ -1842,7 +1842,7 @@
         "force": 0,
         "counter": 2,
         "lettre": "強",
-        "effet": "Piochez 2 cartes. Si vous contrôlez un combattant Hunter, piochez 3 cartes à la place."
+        "effet": "Piochez 1 cartes. Si vous contrôlez un combattant Hunter, piochez 2 cartes à la place."
       }
     },
     "name": "License Hunter",
@@ -1911,7 +1911,7 @@
         "effet": "Copiez l'effet de la dernière carte Foudre que vous avez jouée ce tour, sans payer son coût."
       }
     },
-    "name": "\u00c9cho de Foudre",
+    "name": "Écho de Foudre",
     "type": "Action",
     "cost": 2,
     "affinite": "Foudre",
