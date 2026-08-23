@@ -10,11 +10,7 @@
         "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/C001.png?raw=true",
         "isHorizontal": false,
         "force": 5,
-        "compositionEvolution": [
-          "A",
-          "A",
-          "B"
-        ],
+        "compositionEvolution": 10,
         "estEvolue": false,
         "effet": "Activation Unique : Piochez une carte, puis défaussez 1. Cibler une carte sur le terrain adverse, elle perd son affinité"
       },
@@ -47,11 +43,7 @@
         "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/C002.png?raw=true",
         "isHorizontal": false,
         "force": 5,
-        "compositionEvolution": [
-          "A",
-          "A",
-          "S"
-        ],
+        "compositionEvolution": 10,
         "estEvolue": false,
         "effet": "Activation Unique : Piochez une carte, puis défaussez une carte. Natsu gagne +X, X étant la valeur de counter de la carte défaussé"
       },
@@ -84,11 +76,7 @@
         "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/C003.png?raw=true",
         "isHorizontal": false,
         "force": 5,
-        "compositionEvolution": [
-          "A",
-          "B",
-          "B"
-        ],
+        "compositionEvolution": 10,
         "estEvolue": false,
         "effet": "Activation Unique : Piochez une carte, puis défaussezune carte. Invoquez gemini"
       },
@@ -121,11 +109,7 @@
         "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/C004.png?raw=true",
         "isHorizontal": false,
         "force": 5,
-        "compositionEvolution": [
-          "B",
-          "S",
-          "S"
-        ],
+        "compositionEvolution": 10,
         "estEvolue": false,
         "effet": "Activation Unique : Défaussez une carte de votre main. Jusqu'a la fin du combat, les cartes foudres coutent 1 de moins à jouer"
       },
@@ -158,11 +142,7 @@
         "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/C005.png?raw=true",
         "isHorizontal": false,
         "force": 5,
-        "compositionEvolution": [
-          "A",
-          "A",
-          "S"
-        ],
+        "compositionEvolution": 10,
         "estEvolue": false,
         "effet": "Activation Unique : Regardez les deux cartes du dessus de votre deck, mettez l'une d'entre elle dans votre main, et l'autre au dessus ou en dessous de votre deck"
       },
@@ -195,11 +175,7 @@
         "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/C006.png?raw=true",
         "isHorizontal": false,
         "force": 5,
-        "compositionEvolution": [
-          "A",
-          "B",
-          "S"
-        ],
+        "compositionEvolution": 10,
         "estEvolue": false,
         "effet": "Activation Unique : Défaussez 1 cartes de votre main, Donnez +X à mirajane, X étant le nombre de cartes dans votre défausse (ne peux pas exceder 3)"
       },
@@ -232,11 +208,7 @@
         "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/C007.png?raw=true",
         "isHorizontal": false,
         "force": 5,
-        "compositionEvolution": [
-          "A",
-          "B",
-          "S"
-        ],
+        "compositionEvolution": 10,
         "estEvolue": false,
         "effet": "Activation Unique : Piochez 1 carte, puis défaussez 1 carte. Créez un jeton \"Arme Générique\" (Créature 0/1, sans effet)"
       },
@@ -269,11 +241,7 @@
         "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/C008.png?raw=true",
         "isHorizontal": false,
         "force": 5,
-        "compositionEvolution": [
-          "強",
-          "強",
-          "変"
-        ],
+        "compositionEvolution": 10,
         "estEvolue": false,
         "effet": "Condition d'évolution : Vous avez perdu la manche precedente. Activation Unique : Piochez 1 carte, puis défaussez 1 carte. La prochaine carte Renforcement que vous jouez ce tour coûte 1 de moins."
       },
@@ -306,11 +274,7 @@
         "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/C009.png?raw=true",
         "isHorizontal": false,
         "force": 5,
-        "compositionEvolution": [
-          "強",
-          "変",
-          "特"
-        ],
+        "compositionEvolution": 10,
         "estEvolue": false,
         "effet": "Activation Unique : Piochez 1 carte, puis défaussez 1 carte. Ciblez une carte sur le terrain adverse : elle ne peut pas être activée jusqu'a votre prochaine tour, et elle perds toutes ses affinités pour ce combat."
       },
@@ -343,11 +307,7 @@
         "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/C010.png?raw=true",
         "isHorizontal": false,
         "force": 5,
-        "compositionEvolution": [
-          "変",
-          "変",
-          "強"
-        ],
+        "compositionEvolution": 10,
         "estEvolue": false,
         "effet": "Activation Unique : Piochez 1 carte, puis défaussez 1 carte. Placez un marqueur \"Charge\" sur Killua. Effet permanent : Kirua peut évolué en réaction"
       },
@@ -380,11 +340,7 @@
         "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/C011.png?raw=true",
         "isHorizontal": false,
         "force": 5,
-        "compositionEvolution": [
-          "P",
-          "F",
-          "F"
-        ],
+        "compositionEvolution": 10,
         "estEvolue": false,
         "effet": "Activation Unique : Piochez 1 carte, puis défaussez 1 carte. Créer un token 'Drunk' si vous n'en avez pas déjà. Mettez 1 marqueur sur token 'Drunk'."
       },
@@ -417,11 +373,7 @@
         "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/C012.png?raw=true",
         "isHorizontal": false,
         "force": 5,
-        "compositionEvolution": [
-          "P",
-          "M",
-          "M"
-        ],
+        "compositionEvolution": 10,
         "estEvolue": false,
         "effet": "Activation Unique : Piochez 1 carte, puis défaussez 1 carte. Votre prochaine carte jouée ce tour aura l'affinité Manipulation."
       },
@@ -454,11 +406,7 @@
         "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/C013.png?raw=true",
         "isHorizontal": false,
         "force": 5,
-        "compositionEvolution": [
-          "P",
-          "P",
-          "P"
-        ],
+        "compositionEvolution": 10,
         "estEvolue": false,
         "effet": "Activation Unique : Piochez 1 carte, puis défaussez 1 carte. Créez un token \"Plongée\". Mettez 1 marqueur \"Dive\" dessus."
       },
@@ -479,6 +427,39 @@
     "cost": 0,
     "affinite": "Manipulation",
     "appartenance": "GrandBlue"
+  },
+  "C014": {
+    "id": "C014",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Eeilen",
+        "type": "Combattant",
+        "cost": 0,
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/C014.png?raw=true",
+        "isHorizontal": false,
+        "force": 5,
+        "compositionEvolution": 10,
+        "estEvolue": false,
+        "effet": "Activation Unique (1 fois par tour) : Ciblez une carte face cachée dans une zone Charge (la vôtre ou celle de l'adversaire). Vous pouvez la regarder. Si elle est dans votre zone Charge, vous pouvez la déplacer d'une case vers la droite."
+      },
+      "back": {
+        "name": "Eeilen",
+        "type": "Combattant",
+        "cost": 0,
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/C014E.png?raw=true",
+        "isHorizontal": false,
+        "force": 5,
+        "compositionEvolution": [],
+        "estEvolue": true,
+        "effet": "Lorsque ce combattant évolue : Ciblez un carte. La prochaine carte que vous jouer gagne l'effet de la carte ciblé (en plus de son effet initial)."
+      }
+    },
+    "name": "Eeilen",
+    "type": "Combattant",
+    "cost": 0,
+    "affinite": "Echantement",
+    "appartenance": "FairyTail"
   },
   "A001": {
     "id": "A001",
@@ -1900,7 +1881,7 @@
     "isToken": false,
     "face": {
       "front": {
-        "name": "echo de Foudre",
+        "name": "Echo de foudre",
         "type": "Action",
         "cost": 2,
         "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A060.png?raw=true",
@@ -1911,7 +1892,7 @@
         "effet": "Copiez l'effet de la dernière carte Foudre que vous avez jouée ce tour, sans payer son coût."
       }
     },
-    "name": "Écho de Foudre",
+    "name": "Echo de foudre",
     "type": "Action",
     "cost": 2,
     "affinite": "Foudre",
@@ -2224,6 +2205,138 @@
     "cost": 2,
     "affinite": "Neutre",
     "appartenance": "GrandBlue"
+  },
+  "A075": {
+    "id": "A075",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Concept Enchantment",
+        "type": "Action",
+        "cost": 2,
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A075.png?raw=true",
+        "isHorizontal": false,
+        "force": 1,
+        "counter": 1,
+        "lettre": "A",
+        "effet": "Choisissez une colonne. Échangez les effets de texte des deux cartes visible dans la colonne choisi. Les effets échangés s'appliquent désormais sur la nouvelle carte."
+      }
+    },
+    "name": "Concept Enchantment",
+    "type": "Action",
+    "cost": 2,
+    "affinite": "Echantement",
+    "appartenance": "FairyTail"
+  },
+  "A076": {
+    "id": "A076",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Wound Enchantment",
+        "type": "Action",
+        "cost": 1,
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A076.png?raw=true",
+        "isHorizontal": false,
+        "force": 1,
+        "counter": 1,
+        "lettre": "B",
+        "effet": "Choisissez une colonne. Échangez tous les bonus et malus de Force qui leur sont appliqués aux deux cartes visibles de la colonne choisi."
+      }
+    },
+    "name": "Wound Enchantment",
+    "type": "Action",
+    "cost": 1,
+    "affinite": "Echantement",
+    "appartenance": "FairyTail"
+  },
+  "A077": {
+    "id": "A077",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Universe One",
+        "type": "Action",
+        "cost": 4,
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A077.png?raw=true",
+        "isHorizontal": false,
+        "force": 2,
+        "counter": 2,
+        "lettre": "S",
+        "effet": "Effet majeur : Réorganisez toutes les cartes de la zone de jeu principale (les 3 mini-zones de chaque joueur) comme vous le souhaitez. Vous pouvez déplacer chaque carte vers n'importe quelle mini-zone de votre choix (la vôtre ou celle de l'adversaire)."
+      }
+    },
+    "name": "Universe One",
+    "type": "Action",
+    "cost": 4,
+    "affinite": "Echantement",
+    "appartenance": "FairyTail"
+  },
+  "A078": {
+    "id": "A078",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Personality Enchantment",
+        "type": "Reaction",
+        "cost": 0,
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A078.png?raw=true",
+        "isHorizontal": false,
+        "force": 1,
+        "counter": 1,
+        "lettre": "B",
+        "effet": "Jouable lorsqu'une carte adverse cible une de vos cartes. Choisissez un carte d'une autre colonne, transferer la cible à la carte choisi."
+      }
+    },
+    "name": "Personality Enchantment",
+    "type": "Reaction",
+    "cost": 0,
+    "affinite": "Echantement",
+    "appartenance": "FairyTail"
+  },
+  "A079": {
+    "id": "A079",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Multi-Body Enchantment",
+        "type": "Action",
+        "cost": 1,
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A079.png?raw=true",
+        "isHorizontal": false,
+        "force": 1,
+        "counter": 1,
+        "lettre": "B",
+        "effet": "Votre prochain sort joué qui affecte une carte visible d'une colone, affectera toutes les cartes de la colone, y compris les cartes non visible"
+      }
+    },
+    "name": "Multi-Body Enchantment",
+    "type": "Action",
+    "cost": 1,
+    "affinite": "Echantement",
+    "appartenance": "FairyTail"
+  },
+  "A080": {
+    "id": "A080",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Deus Zero",
+        "type": "Reaction",
+        "cost": 1,
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A080.png?raw=true",
+        "isHorizontal": false,
+        "force": 1,
+        "counter": 1,
+        "lettre": "B",
+        "effet": "Ciblez une colone. Les cartes face visible de cette colonne vois leur effet annulé jusqu'à votre prochain sort joué."
+      }
+    },
+    "name": "Deus Zero",
+    "type": "Reaction",
+    "cost": 1,
+    "affinite": "Echantement",
+    "appartenance": "FairyTail"
   },
   "T001": {
     "id": "T001",
@@ -2605,40 +2718,6 @@
     "affinite": "Specialiste",
     "appartenance": "Hunter"
   },
-  "S001": {
-    "id": "S001",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Guilde Elementaire",
-        "type": "Stage",
-        "cost": 0,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/S001.png?raw=true",
-        "isHorizontal": false,
-        "effet": "Défaussez une carte de votre main. Si vous le faites, cherchez une carte d'une autre affinité dans votre deck, révélez-la et ajoutez-la à votre main. Utilisable une fois par manche."
-      }
-    },
-    "name": "Guilde Elementaire",
-    "type": "Stage",
-    "cost": 0
-  },
-  "S002": {
-    "id": "S002",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Guilde vision",
-        "type": "Stage",
-        "cost": 0,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/S002.png?raw=true",
-        "isHorizontal": false,
-        "effet": "Regardez la main de l'adversaire et choisissez-en une carte. Il la place face cachée dans sa zone de jeu. Utilisable une fois par manche."
-      }
-    },
-    "name": "Guilde vision",
-    "type": "Stage",
-    "cost": 0
-  },
   "T020": {
     "id": "T020",
     "isToken": true,
@@ -2698,6 +2777,40 @@
     "cost": 0,
     "affinite": "Plonge",
     "appartenance": "GrandBlue"
+  },
+  "S001": {
+    "id": "S001",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Guilde Elementaire",
+        "type": "Stage",
+        "cost": 0,
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/S001.png?raw=true",
+        "isHorizontal": false,
+        "effet": "Défaussez une carte de votre main. Si vous le faites, cherchez une carte d'une autre affinité dans votre deck, révélez-la et ajoutez-la à votre main. Utilisable une fois par manche."
+      }
+    },
+    "name": "Guilde Elementaire",
+    "type": "Stage",
+    "cost": 0
+  },
+  "S002": {
+    "id": "S002",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Guilde vision",
+        "type": "Stage",
+        "cost": 0,
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/S002.png?raw=true",
+        "isHorizontal": false,
+        "effet": "Regardez la main de l'adversaire et choisissez-en une carte. Il la place face cachée dans sa zone de jeu. Utilisable une fois par manche."
+      }
+    },
+    "name": "Guilde vision",
+    "type": "Stage",
+    "cost": 0
   },
   "E001": {
     "id": "E001",
