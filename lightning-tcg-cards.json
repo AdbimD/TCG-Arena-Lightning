@@ -458,7 +458,7 @@
     "name": "Eeilen",
     "type": "Combattant",
     "cost": 0,
-    "affinite": "Echantement",
+    "affinite": "Enchantement",
     "appartenance": "FairyTail"
   },
   "A001": {
@@ -1024,7 +1024,7 @@
     "face": {
       "front": {
         "name": "Ordre interruption",
-        "type": "Réaction",
+        "type": "Reaction",
         "cost": 0,
         "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A021.png?raw=true",
         "isHorizontal": false,
@@ -1035,7 +1035,7 @@
       }
     },
     "name": "Ordre interruption",
-    "type": "Réaction",
+    "type": "Reaction",
     "cost": 0,
     "affinite": "Constellation",
     "appartenance": "FairyTail"
@@ -1134,7 +1134,7 @@
     "face": {
       "front": {
         "name": "Presage astral",
-        "type": "Réaction",
+        "type": "Reaction",
         "cost": 1,
         "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A026.png?raw=true",
         "isHorizontal": false,
@@ -1145,7 +1145,7 @@
       }
     },
     "name": "Presage astral",
-    "type": "Réaction",
+    "type": "Reaction",
     "cost": 1,
     "affinite": "Etoile",
     "appartenance": "FairyTail"
@@ -1200,7 +1200,7 @@
     "face": {
       "front": {
         "name": "Corruption",
-        "type": "Réaction",
+        "type": "Reaction",
         "cost": 2,
         "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A029.png?raw=true",
         "isHorizontal": false,
@@ -1211,7 +1211,7 @@
       }
     },
     "name": "Corruption",
-    "type": "Réaction",
+    "type": "Reaction",
     "cost": 2,
     "affinite": "Demon",
     "appartenance": "FairyTail"
@@ -1508,7 +1508,7 @@
     "face": {
       "front": {
         "name": "Interruption",
-        "type": "Réaction",
+        "type": "Reaction",
         "cost": 1,
         "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A043.png?raw=true",
         "isHorizontal": false,
@@ -1519,7 +1519,7 @@
       }
     },
     "name": "Interruption",
-    "type": "Réaction",
+    "type": "Reaction",
     "cost": 1,
     "affinite": "Neutre",
     "appartenance": "FairyTail"
@@ -1596,7 +1596,7 @@
     "face": {
       "front": {
         "name": "Serment sur le coeur",
-        "type": "Réaction",
+        "type": "Reaction",
         "cost": 1,
         "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A047.png?raw=true",
         "isHorizontal": false,
@@ -1607,7 +1607,7 @@
       }
     },
     "name": "Serment sur le coeur",
-    "type": "Réaction",
+    "type": "Reaction",
     "cost": 1,
     "affinite": "Specialiste",
     "appartenance": "Hunter"
@@ -1992,7 +1992,7 @@
     "face": {
       "front": {
         "name": "Charme",
-        "type": "Réaction",
+        "type": "Reaction",
         "cost": 1,
         "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A065.png?raw=true",
         "isHorizontal": false,
@@ -2003,7 +2003,7 @@
       }
     },
     "name": "Charme",
-    "type": "Réaction",
+    "type": "Reaction",
     "cost": 1,
     "affinite": "Manipulation",
     "appartenance": "GrandBlue"
@@ -2225,7 +2225,7 @@
     "name": "Concept Enchantment",
     "type": "Action",
     "cost": 2,
-    "affinite": "Echantement",
+    "affinite": "Enchantement",
     "appartenance": "FairyTail"
   },
   "A076": {
@@ -2247,7 +2247,7 @@
     "name": "Wound Enchantment",
     "type": "Action",
     "cost": 1,
-    "affinite": "Echantement",
+    "affinite": "Enchantement",
     "appartenance": "FairyTail"
   },
   "A077": {
@@ -2269,7 +2269,7 @@
     "name": "Universe One",
     "type": "Action",
     "cost": 4,
-    "affinite": "Echantement",
+    "affinite": "Enchantement",
     "appartenance": "FairyTail"
   },
   "A078": {
@@ -2291,7 +2291,7 @@
     "name": "Personality Enchantment",
     "type": "Reaction",
     "cost": 0,
-    "affinite": "Echantement",
+    "affinite": "Enchantement",
     "appartenance": "FairyTail"
   },
   "A079": {
@@ -2313,7 +2313,7 @@
     "name": "Multi-Body Enchantment",
     "type": "Action",
     "cost": 1,
-    "affinite": "Echantement",
+    "affinite": "Enchantement",
     "appartenance": "FairyTail"
   },
   "A080": {
@@ -2335,7 +2335,29 @@
     "name": "Deus Zero",
     "type": "Reaction",
     "cost": 1,
-    "affinite": "Echantement",
+    "affinite": "Enchantement",
+    "appartenance": "FairyTail"
+  },
+  "A081": {
+    "id": "A081",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Armure du dragon slayer",
+        "type": "Equipement",
+        "cost": 3,
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A081.png?raw=true",
+        "isHorizontal": false,
+        "force": 0,
+        "counter": 1,
+        "lettre": "S",
+        "effet": "Effet Permanent : Erza gagne l'affinité Enchantement en plus de l'affinité Chevalier. Reaction : Effet de sacrifice : Vous pouvez défausser cette armure depuis votre zone de jeu pour copier l'effet d'une carte Enchantement dans votre défausse."
+      }
+    },
+    "name": "Armure du dragon slayer",
+    "type": "Equipement",
+    "cost": 2,
+    "affinite": "Chevalier",
     "appartenance": "FairyTail"
   },
   "T001": {
