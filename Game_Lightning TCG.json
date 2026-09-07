@@ -62,21 +62,6 @@
           "id": "Griffe",
           "name": "Griffe",
           "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/T018.png?raw=true"
-        },
-        {
-          "id": "Zone1",
-          "name": "Zone 1",
-          "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/Zone1.png?raw=true"
-        },
-        {
-          "id": "Zone2",
-          "name": "Zone 2",
-          "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/Zone2.png?raw=true"
-        },
-        {
-          "id": "Zone3",
-          "name": "Zone 3",
-          "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/Zone3.png?raw=true"
         }
       ],
       "countersStartingValues": [
@@ -85,6 +70,27 @@
           "name": "Energy",
           "startingValue": 3,
           "shared": true
+        },
+        {
+          "id": "Force1",
+          "name": "Force",
+          "startingValue": 0,
+          "shared": false,
+          "section": "Combattant1"
+        },
+        {
+          "id": "Force2",
+          "name": "Force",
+          "startingValue": 0,
+          "shared": false,
+          "section": "Combattant2"
+        },
+        {
+          "id": "Force3",
+          "name": "Force",
+          "startingValue": 0,
+          "shared": false,
+          "section": "Combattant3"
         }
       ],
       "sections": {
@@ -178,9 +184,13 @@
             }
           ]
         },
-        "categoriesAlreadyOnBoard": [
-          "Combattant"
-        ],
+        "categoriesAlreadyOnBoard": {
+          "Combattant": [
+            "Combattant1",
+            "Combattant2",
+            "Combattant3"
+          ]
+        },
         "sectionsDict": {
           "Hand": {
             "isHidden": "opponent-only",
