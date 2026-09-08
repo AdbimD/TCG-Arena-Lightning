@@ -73,9 +73,7 @@
           "CarteJoue1",
           "CarteJoue2",
           "CarteJoue3",
-          "Combattant1",
-          "Combattant2",
-          "Combattant3"
+          "Combattant"
         ],
         "layout": {
           "direction": "column",
@@ -129,30 +127,10 @@
                   }
                 },
                 {
-                  "direction": "row",
+                  "section": "Combattant",
                   "style": {
                     "flex": "3"
-                  },
-                  "content": [
-                    {
-                      "section": "Combattant1",
-                      "style": {
-                        "flex": "1"
-                      }
-                    },
-                    {
-                      "section": "Combattant2",
-                      "style": {
-                        "flex": "1"
-                      }
-                    },
-                    {
-                      "section": "Combattant3",
-                      "style": {
-                        "flex": "1"
-                      }
-                    }
-                  ]
+                  }
                 }
               ]
             }
@@ -193,37 +171,27 @@
             "alignment": "NONE"
           },
           "Token": {
-            "isHidden": "no",
-            "height": "MEDIUM",
-            "alignment": "CENTER"
-          },
-          "Combattant1": {
             "isHidden": "opponent-only",
             "height": "MEDIUM",
             "alignment": "CENTER"
           },
-          "Combattant2": {
-            "isHidden": "opponent-only",
-            "height": "MEDIUM",
-            "alignment": "CENTER"
-          },
-          "Combattant3": {
+          "Combattant": {
             "isHidden": "opponent-only",
             "height": "MEDIUM",
             "alignment": "CENTER"
           },
           "CarteJoue1": {
-            "isHidden": "no",
+            "isHidden": "opponent-only",
             "height": "MEDIUM",
             "alignment": "CENTER"
           },
           "CarteJoue2": {
-            "isHidden": "no",
+            "isHidden": "opponent-only",
             "height": "MEDIUM",
             "alignment": "CENTER"
           },
           "CarteJoue3": {
-            "isHidden": "no",
+            "isHidden": "opponent-only",
             "height": "MEDIUM",
             "alignment": "CENTER"
           }
