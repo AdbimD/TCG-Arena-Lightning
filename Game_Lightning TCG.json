@@ -66,14 +66,24 @@
           "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/T018.png?raw=true"
         }
       ],
-      "countersStartingValues": [],
+      "countersStartingValues": [
+        {
+          "id": "Temps",
+          "name": "Temps",
+          "startingValue": 1,
+          "shared": true
+        }
+      ],
       "sections": {
         "customSections": [
           "Token",
           "CarteJoue1",
           "CarteJoue2",
           "CarteJoue3",
-          "Combattant"
+          "Combattant",
+          "CombattantZone1",
+          "CombattantZone2",
+          "CombattantZone3"
         ],
         "layout": {
           "direction": "column",
@@ -120,17 +130,36 @@
               "direction": "row",
               "content": [
                 {
-                  "section": "Token",
+                  "section": "Combattant",
                   "style": {
-                    "flex": "1",
-                    "visibility": "hidden"
+                    "flex": "1"
                   }
                 },
                 {
-                  "section": "Combattant",
+                  "direction": "row",
                   "style": {
                     "flex": "3"
-                  }
+                  },
+                  "content": [
+                    {
+                      "section": "CombattantZone1",
+                      "style": {
+                        "flex": "1"
+                      }
+                    },
+                    {
+                      "section": "CombattantZone2",
+                      "style": {
+                        "flex": "1"
+                      }
+                    },
+                    {
+                      "section": "CombattantZone3",
+                      "style": {
+                        "flex": "1"
+                      }
+                    }
+                  ]
                 }
               ]
             }
@@ -176,6 +205,21 @@
             "alignment": "CENTER"
           },
           "Combattant": {
+            "isHidden": "opponent-only",
+            "height": "MEDIUM",
+            "alignment": "CENTER"
+          },
+          "CombattantZone1": {
+            "isHidden": "opponent-only",
+            "height": "MEDIUM",
+            "alignment": "CENTER"
+          },
+          "CombattantZone2": {
+            "isHidden": "opponent-only",
+            "height": "MEDIUM",
+            "alignment": "CENTER"
+          },
+          "CombattantZone3": {
             "isHidden": "opponent-only",
             "height": "MEDIUM",
             "alignment": "CENTER"
