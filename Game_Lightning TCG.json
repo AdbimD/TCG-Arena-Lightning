@@ -3,6 +3,8 @@
   "deckBuilding": {
     "mainFilters": [
       "Combattant",
+      "Énergie",
+      "Stage",
       "Action",
       "Reaction",
       "affinite"
@@ -64,35 +66,7 @@
           "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/T018.png?raw=true"
         }
       ],
-      "countersStartingValues": [
-        {
-          "id": "Energy",
-          "name": "Energy",
-          "startingValue": 3,
-          "shared": true
-        },
-        {
-          "id": "Force1",
-          "name": "Force",
-          "startingValue": 0,
-          "shared": false,
-          "section": "Combattant1"
-        },
-        {
-          "id": "Force2",
-          "name": "Force",
-          "startingValue": 0,
-          "shared": false,
-          "section": "Combattant2"
-        },
-        {
-          "id": "Force3",
-          "name": "Force",
-          "startingValue": 0,
-          "shared": false,
-          "section": "Combattant3"
-        }
-      ],
+      "countersStartingValues": [],
       "sections": {
         "customSections": [
           "Token",
@@ -184,13 +158,9 @@
             }
           ]
         },
-        "categoriesAlreadyOnBoard": {
-          "Combattant": [
-            "Combattant1",
-            "Combattant2",
-            "Combattant3"
-          ]
-        },
+        "categoriesAlreadyOnBoard": [
+          "Combattant"
+        ],
         "sectionsDict": {
           "Hand": {
             "isHidden": "opponent-only",
