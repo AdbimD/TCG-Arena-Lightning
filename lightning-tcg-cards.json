@@ -4,7 +4,7 @@
     "isToken": false,
     "face": {
       "front": {
-        "name": "Grey",
+        "name": "Mistgun",
         "type": "Combattant",
         "cost": 0,
         "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/C001.png?raw=true",
@@ -12,150 +12,18 @@
         "force": 5,
         "compositionEvolution": 10,
         "estEvolue": false,
-        "effet": "Activation Unique : Piochez une carte, puis défaussez 1. Cibler une carte sur le terrain adverse, elle perd son affinité"
+        "effet": "Pouvoir Unique : Regardez les deux cartes du dessus de votre deck, mettez l'une d'entre elle dans votre main, et l'autre au dessus ou en dessous de votre deck"
       },
       "back": {
-        "name": "Grey",
+        "name": "Mistgun",
         "type": "Combattant",
         "cost": 0,
         "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/C001E.png?raw=true",
         "isHorizontal": false,
-        "force": 5,
+        "force": 6,
         "compositionEvolution": [],
         "estEvolue": true,
-        "effet": "Effet Permanent : Tant que ce combattant est actif, les cartes face cachée de votre adversaire coûtent 1 de plus à retourner."
-      }
-    },
-    "name": "Grey",
-    "type": "Combattant",
-    "cost": 0,
-    "affinite": "Glace",
-    "appartenance": "FairyTail"
-  },
-  "C002": {
-    "id": "C002",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Natsu",
-        "type": "Combattant",
-        "cost": 0,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/C002.png?raw=true",
-        "isHorizontal": false,
-        "force": 5,
-        "compositionEvolution": 10,
-        "estEvolue": false,
-        "effet": "Activation Unique : Piochez une carte, puis défaussez une carte. Natsu gagne +X, X étant la valeur de counter de la carte défaussé"
-      },
-      "back": {
-        "name": "Natsu",
-        "type": "Combattant",
-        "cost": 0,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/C002E.png?raw=true",
-        "isHorizontal": false,
-        "force": 5,
-        "compositionEvolution": [],
-        "estEvolue": true,
-        "effet": "Lorsque ce combattant évolue : défaussez toute votre main, donner +X à Natsu. X équivaut à la somme de carte défaussez et la somme des valeurs de contre des cartes défausser"
-      }
-    },
-    "name": "Natsu",
-    "type": "Combattant",
-    "cost": 0,
-    "affinite": "Feu",
-    "appartenance": "FairyTail"
-  },
-  "C003": {
-    "id": "C003",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Lucy",
-        "type": "Combattant",
-        "cost": 0,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/C003.png?raw=true",
-        "isHorizontal": false,
-        "force": 5,
-        "compositionEvolution": 10,
-        "estEvolue": false,
-        "effet": "Activation Unique : Piochez une carte, puis défaussezune carte. Invoquez gemini"
-      },
-      "back": {
-        "name": "Lucy",
-        "type": "Combattant",
-        "cost": 0,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/C003E.png?raw=true",
-        "isHorizontal": false,
-        "force": 5,
-        "compositionEvolution": [],
-        "estEvolue": true,
-        "effet": "Effet Permanent : vos invocations ont +1 Force. Lorsque ce combattant évolue : cherchez une carte Constellation dans votre deck et ajoutez-la à votre main."
-      }
-    },
-    "name": "Lucy",
-    "type": "Combattant",
-    "cost": 0,
-    "affinite": "Constellation",
-    "appartenance": "FairyTail"
-  },
-  "C004": {
-    "id": "C004",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Laxus",
-        "type": "Combattant",
-        "cost": 0,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/C004.png?raw=true",
-        "isHorizontal": false,
-        "force": 5,
-        "compositionEvolution": 10,
-        "estEvolue": false,
-        "effet": "Activation Unique : Défaussez une carte de votre main. Jusqu'a la fin du combat, les cartes foudres coutent 1 de moins à jouer"
-      },
-      "back": {
-        "name": "Laxus",
-        "type": "Combattant",
-        "cost": 0,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/C004E.png?raw=true",
-        "isHorizontal": false,
-        "force": 5,
-        "compositionEvolution": [],
-        "estEvolue": true,
-        "effet": "Lorsque ce combattant évolue : vous pouvez immédiatement jouer ou poser face cachée une carte depuis votre main en réduisant son coût de 3."
-      }
-    },
-    "name": "Laxus",
-    "type": "Combattant",
-    "cost": 0,
-    "affinite": "Foudre",
-    "appartenance": "FairyTail"
-  },
-  "C005": {
-    "id": "C005",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Mistgun",
-        "type": "Combattant",
-        "cost": 0,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/C005.png?raw=true",
-        "isHorizontal": false,
-        "force": 5,
-        "compositionEvolution": 10,
-        "estEvolue": false,
-        "effet": "Activation Unique : Regardez les deux cartes du dessus de votre deck, mettez l'une d'entre elle dans votre main, et l'autre au dessus ou en dessous de votre deck"
-      },
-      "back": {
-        "name": "Mistgun",
-        "type": "Combattant",
-        "cost": 0,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/C005E.png?raw=true",
-        "isHorizontal": false,
-        "force": 5,
-        "compositionEvolution": [],
-        "estEvolue": true,
-        "effet": "Effet Permanent : Au début de la phase de résolution du combat, vous pouvez révéler la carte du dessus de votre deck et la jouer(sans payer son cout)."
+        "effet": "Fin : Révélez la carte du dessus de votre deck et jouer la (sans payer son cout)."
       }
     },
     "name": "Mistgun",
@@ -164,64 +32,31 @@
     "affinite": "Etoile",
     "appartenance": "FairyTail"
   },
-  "C006": {
-    "id": "C006",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Mirajane",
-        "type": "Combattant",
-        "cost": 0,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/C006.png?raw=true",
-        "isHorizontal": false,
-        "force": 5,
-        "compositionEvolution": 10,
-        "estEvolue": false,
-        "effet": "Activation Unique : Défaussez 1 cartes de votre main, Donnez +X à mirajane, X étant le nombre de cartes dans votre défausse (ne peux pas exceder 3)"
-      },
-      "back": {
-        "name": "Mirajane",
-        "type": "Combattant",
-        "cost": 0,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/C006E.png?raw=true",
-        "isHorizontal": false,
-        "force": 5,
-        "compositionEvolution": [],
-        "estEvolue": true,
-        "effet": "Effet Permanent : Votre adversaire ne peut pas gagner de Force via l'effet d'Affinité. Les cartes avec une affinité coûtent 1 de plus à jouer pour l'adversaire."
-      }
-    },
-    "name": "Mirajane",
-    "type": "Combattant",
-    "cost": 0,
-    "affinite": "Demon",
-    "appartenance": "FairyTail"
-  },
-  "C007": {
-    "id": "C007",
+  "C002": {
+    "id": "C002",
     "isToken": false,
     "face": {
       "front": {
         "name": "Erza",
         "type": "Combattant",
         "cost": 0,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/C007.png?raw=true",
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/C002.png?raw=true",
         "isHorizontal": false,
         "force": 5,
         "compositionEvolution": 10,
         "estEvolue": false,
-        "effet": "Activation Unique : Piochez 1 carte, puis défaussez 1 carte. Créez un jeton \"Arme Générique\" (Créature 0/1, sans effet)"
+        "effet": "Pouvoir Unique : Piochez 1 carte, puis défaussez 1 carte. Créez un token épée magique"
       },
       "back": {
         "name": "Erza",
         "type": "Combattant",
         "cost": 0,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/C007E.png?raw=true",
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/C002E.png?raw=true",
         "isHorizontal": false,
-        "force": 5,
+        "force": 6,
         "compositionEvolution": [],
         "estEvolue": true,
-        "effet": "Lorsque ce combattant évolue : Cherchez une carte Armure dans votre deck et équipez-la gratuitement. Effet Permanent : Vos armures coûtent 1 de moins à équiper."
+        "effet": "Evolution : Cherchez une carte Armure dans votre deck et équipez-la gratuitement. Permanent : Vos armures coûtent 1 de moins à jouer."
       }
     },
     "name": "Erza",
@@ -230,229 +65,31 @@
     "affinite": "Chevalier",
     "appartenance": "FairyTail"
   },
-  "C008": {
-    "id": "C008",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Gon",
-        "type": "Combattant",
-        "cost": 0,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/C008.png?raw=true",
-        "isHorizontal": false,
-        "force": 5,
-        "compositionEvolution": 10,
-        "estEvolue": false,
-        "effet": "Condition d'évolution : Vous avez perdu la manche precedente. Activation Unique : Piochez 1 carte, puis défaussez 1 carte. La prochaine carte Renforcement que vous jouez ce tour coûte 1 de moins."
-      },
-      "back": {
-        "name": "Gon",
-        "type": "Combattant",
-        "cost": 0,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/C008E.png?raw=true",
-        "isHorizontal": false,
-        "force": 5,
-        "compositionEvolution": [],
-        "estEvolue": true,
-        "effet": "Lorsque ce combattant évolue : Gon gagne +4 Force jusqu'à la fin du combat. Effet Permanent : Les effets adverses ne peuvent pas réduire la Force de Gon."
-      }
-    },
-    "name": "Gon",
-    "type": "Combattant",
-    "cost": 0,
-    "affinite": "Renforcement",
-    "appartenance": "Hunter"
-  },
-  "C009": {
-    "id": "C009",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Kurapika",
-        "type": "Combattant",
-        "cost": 0,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/C009.png?raw=true",
-        "isHorizontal": false,
-        "force": 5,
-        "compositionEvolution": 10,
-        "estEvolue": false,
-        "effet": "Activation Unique : Piochez 1 carte, puis défaussez 1 carte. Ciblez une carte sur le terrain adverse : elle ne peut pas être activée jusqu'a votre prochaine tour, et elle perds toutes ses affinités pour ce combat."
-      },
-      "back": {
-        "name": "Kurapika",
-        "type": "Combattant",
-        "cost": 0,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/C009E.png?raw=true",
-        "isHorizontal": false,
-        "force": 5,
-        "compositionEvolution": [],
-        "estEvolue": true,
-        "effet": "Effet Permanent : Kurapika peut jouer des cartes de n'importe quelle affinité sans payer de surcoût. Et les sorts coutent -1 à jouer."
-      }
-    },
-    "name": "Kurapika",
-    "type": "Combattant",
-    "cost": 0,
-    "affinite": "Specialiste",
-    "appartenance": "Hunter"
-  },
-  "C010": {
-    "id": "C010",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Kirua",
-        "type": "Combattant",
-        "cost": 0,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/C010.png?raw=true",
-        "isHorizontal": false,
-        "force": 5,
-        "compositionEvolution": 10,
-        "estEvolue": false,
-        "effet": "Activation Unique : Piochez 1 carte, puis défaussez 1 carte. Placez un marqueur \"Charge\" sur Killua. Effet permanent : Kirua peut évolué en réaction"
-      },
-      "back": {
-        "name": "Kirua",
-        "type": "Combattant",
-        "cost": 0,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/C010E.png?raw=true",
-        "isHorizontal": false,
-        "force": 5,
-        "compositionEvolution": [],
-        "estEvolue": true,
-        "effet": "Lorsque ce combattant évolue : Jouez immédiatement une carte \"Godspeed\" depuis votre main ou votre deck sans payer son coût. Effet Permanent : Kirua gagne +1 Force pour chaque marqueur \"Charge\", puis défaussez tout les marqueur \"Charge\" sur Kirua."
-      }
-    },
-    "name": "Kirua",
-    "type": "Combattant",
-    "cost": 0,
-    "affinite": "Transformation",
-    "appartenance": "Hunter"
-  },
-  "C011": {
-    "id": "C011",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Iori",
-        "type": "Combattant",
-        "cost": 0,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/C011.png?raw=true",
-        "isHorizontal": false,
-        "force": 5,
-        "compositionEvolution": 10,
-        "estEvolue": false,
-        "effet": "Activation Unique : Piochez 1 carte, puis défaussez 1 carte. Créer un token 'Drunk' si vous n'en avez pas déjà. Mettez 1 marqueur sur token 'Drunk'."
-      },
-      "back": {
-        "name": "Iori",
-        "type": "Combattant",
-        "cost": 0,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/C011E.png?raw=true",
-        "isHorizontal": false,
-        "force": 5,
-        "compositionEvolution": [],
-        "estEvolue": true,
-        "effet": "Lorsque ce combattant évolue : Transformez votre token 'Drunk' en token 'Mastered drunk'"
-      }
-    },
-    "name": "Iori",
-    "type": "Combattant",
-    "cost": 0,
-    "affinite": "Fete",
-    "appartenance": "GrandBlue"
-  },
-  "C012": {
-    "id": "C012",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Chisa",
-        "type": "Combattant",
-        "cost": 0,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/C012.png?raw=true",
-        "isHorizontal": false,
-        "force": 5,
-        "compositionEvolution": 10,
-        "estEvolue": false,
-        "effet": "Activation Unique : Piochez 1 carte, puis défaussez 1 carte. Votre prochaine carte jouée ce tour aura l'affinité Manipulation."
-      },
-      "back": {
-        "name": "Chisa",
-        "type": "Combattant",
-        "cost": 0,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/C012E.png?raw=true",
-        "isHorizontal": false,
-        "force": 5,
-        "compositionEvolution": [],
-        "estEvolue": true,
-        "effet": "Lorsque ce combattant évolue : Donnez votre token 'Drunk' à votre adversaire."
-      }
-    },
-    "name": "Chisa",
-    "type": "Combattant",
-    "cost": 0,
-    "affinite": "Plonge",
-    "appartenance": "GrandBlue"
-  },
-  "C013": {
-    "id": "C013",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Azusa",
-        "type": "Combattant",
-        "cost": 0,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/C013.png?raw=true",
-        "isHorizontal": false,
-        "force": 5,
-        "compositionEvolution": 10,
-        "estEvolue": false,
-        "effet": "Activation Unique : Piochez 1 carte, puis défaussez 1 carte. Créez un token \"Plongée\". Mettez 1 marqueur \"Dive\" dessus."
-      },
-      "back": {
-        "name": "Azusa",
-        "type": "Combattant",
-        "cost": 0,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/C013E.png?raw=true",
-        "isHorizontal": false,
-        "force": 5,
-        "compositionEvolution": [],
-        "estEvolue": true,
-        "effet": "Effet Permanent : Mettre une carte dans votre zone face cachée coûte 0."
-      }
-    },
-    "name": "Azusa",
-    "type": "Combattant",
-    "cost": 0,
-    "affinite": "Manipulation",
-    "appartenance": "GrandBlue"
-  },
-  "C014": {
-    "id": "C014",
+  "C003": {
+    "id": "C003",
     "isToken": false,
     "face": {
       "front": {
         "name": "Eeilen",
         "type": "Combattant",
         "cost": 0,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/C014.png?raw=true",
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/C003.png?raw=true",
         "isHorizontal": false,
         "force": 5,
         "compositionEvolution": 10,
         "estEvolue": false,
-        "effet": "Activation Unique (1 fois par tour) : Ciblez une carte face cachée dans une zone Charge (la vôtre ou celle de l'adversaire). Vous pouvez la regarder. Si elle est dans votre zone Charge, vous pouvez la déplacer d'une case vers la droite."
+        "effet": "Pouvoir Unique : Votre adversaire pose ses cartes dans les zones prévu avant que vous jouiez"
       },
       "back": {
         "name": "Eeilen",
         "type": "Combattant",
         "cost": 0,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/C014E.png?raw=true",
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/C003E.png?raw=true",
         "isHorizontal": false,
-        "force": 5,
+        "force": 6,
         "compositionEvolution": [],
         "estEvolue": true,
-        "effet": "Lorsque ce combattant évolue : Ciblez un carte. La prochaine carte que vous jouer gagne l'effet de la carte ciblé (en plus de son effet initial)."
+        "effet": "Evolution : Ciblez un carte. La prochaine carte que vous jouer gagne l'effet de la carte ciblé (en plus de son effet initial). Permanent : Vos cartes Enchantement coûtent 1 de moins."
       }
     },
     "name": "Eeilen",
@@ -461,665 +98,117 @@
     "affinite": "Enchantement",
     "appartenance": "FairyTail"
   },
+  "C004": {
+    "id": "C004",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Gon",
+        "type": "Combattant",
+        "cost": 0,
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/C004.png?raw=true",
+        "isHorizontal": false,
+        "force": 5,
+        "compositionEvolution": 10,
+        "estEvolue": false,
+        "effet": "Pouvoir Unique : Piochez 1 carte, puis défaussez 1 carte. La prochaine carte Renforcement que vous jouez ce tour coûte 1 de moins. Condition d'évolution : Un de vos combattant à moins de force que le combattant adverse dans la même zone de combat."
+      },
+      "back": {
+        "name": "Gon",
+        "type": "Combattant",
+        "cost": 0,
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/C004E.png?raw=true",
+        "isHorizontal": false,
+        "force": 6,
+        "compositionEvolution": [],
+        "estEvolue": true,
+        "effet": "Evolution : Gon gagne +4 Force jusqu'à la fin du combat. Permanent : Les effets adverses ne peuvent pas réduire la Force de Gon et de ses cartes dans sa zone de combat."
+      }
+    },
+    "name": "Gon",
+    "type": "Combattant",
+    "cost": 0,
+    "affinite": "Renforcement",
+    "appartenance": "Hunter"
+  },
+  "C005": {
+    "id": "C005",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Kurapika",
+        "type": "Combattant",
+        "cost": 0,
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/C005.png?raw=true",
+        "isHorizontal": false,
+        "force": 5,
+        "compositionEvolution": 10,
+        "estEvolue": false,
+        "effet": "Pouvoir Unique : Piochez 1 carte, puis défaussez 1 carte. Ciblez une carte sur le terrain adverse : elle ne sera pas révélé ce temps, et elle perds toutes ses affinités."
+      },
+      "back": {
+        "name": "Kurapika",
+        "type": "Combattant",
+        "cost": 0,
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/C005E.png?raw=true",
+        "isHorizontal": false,
+        "force": 6,
+        "compositionEvolution": [],
+        "estEvolue": true,
+        "effet": "Permanent : Kurapika peut jouer des cartes de n'importe quelle affinité sans payer de surcoût. Et les sorts coutent -1 à jouer dans sa zone de combat."
+      }
+    },
+    "name": "Kurapika",
+    "type": "Combattant",
+    "cost": 0,
+    "affinite": "Specialiste",
+    "appartenance": "Hunter"
+  },
+  "C006": {
+    "id": "C006",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Kirua",
+        "type": "Combattant",
+        "cost": 0,
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/C006.png?raw=true",
+        "isHorizontal": false,
+        "force": 5,
+        "compositionEvolution": 10,
+        "estEvolue": false,
+        "effet": "Pouvoir Unique : Piochez 1 carte, puis défaussez 1 carte. Placez un marqueur \"Charge\" sur Killua. Permanent : Kirua peut évolué en réaction (Si il le fait en réaction, vous ne pouvez pas évoluer de combattant à l'étape de fin)."
+      },
+      "back": {
+        "name": "Kirua",
+        "type": "Combattant",
+        "cost": 0,
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/C006E.png?raw=true",
+        "isHorizontal": false,
+        "force": 6,
+        "compositionEvolution": [],
+        "estEvolue": true,
+        "effet": "Evolution : Kirua gagne +1 Force pour chaque marqueur \"Charge\". Puis jouez immédiatement une carte \"Godspeed\" depuis votre main ou votre deck sans payer son coût."
+      }
+    },
+    "name": "Kirua",
+    "type": "Combattant",
+    "cost": 0,
+    "affinite": "Transformation",
+    "appartenance": "Hunter"
+  },
   "A001": {
     "id": "A001",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "fleche de givre",
-        "type": "Action",
-        "cost": 1,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A001.png?raw=true",
-        "isHorizontal": false,
-        "force": 1,
-        "counter": 1,
-        "lettre": "B",
-        "effet": "Le combattant ciblé adverse perd 2 Force jusqu'à la fin du combat."
-      }
-    },
-    "name": "fleche de givre",
-    "type": "Action",
-    "cost": 1,
-    "affinite": "Glace",
-    "appartenance": "FairyTail"
-  },
-  "A002": {
-    "id": "A002",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "cryogenisation",
-        "type": "Action",
-        "cost": 3,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A002.png?raw=true",
-        "isHorizontal": false,
-        "force": 2,
-        "counter": 1,
-        "lettre": "S",
-        "effet": "Regardez la main de l'adversaire. Choisissez-en une carte et mettez-la face cachée dans votre zone de jeu."
-      }
-    },
-    "name": "cryogenisation",
-    "type": "Action",
-    "cost": 3,
-    "affinite": "Glace",
-    "appartenance": "FairyTail"
-  },
-  "A003": {
-    "id": "A003",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "hibernation",
-        "type": "Action",
-        "cost": 2,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A003.png?raw=true",
-        "isHorizontal": false,
-        "force": 1,
-        "counter": 1,
-        "lettre": "A",
-        "effet": "Choisissez une carte face cachée adverse. Elle ne peut pas être retournée jusqu'à la fin de la prochaine manche."
-      }
-    },
-    "name": "hibernation",
-    "type": "Action",
-    "cost": 2,
-    "affinite": "Glace",
-    "appartenance": "FairyTail"
-  },
-  "A004": {
-    "id": "A004",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Vague de chaleur",
-        "type": "Action",
-        "cost": 1,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A004.png?raw=true",
-        "isHorizontal": false,
-        "force": 1,
-        "counter": 1,
-        "lettre": "B",
-        "effet": "Jusqu'à la fin du combat, votre combattant gagne +2 Force pour chaque carte que vous défaussez pour son Counter."
-      }
-    },
-    "name": "Vague de chaleur",
-    "type": "Action",
-    "cost": 1,
-    "affinite": "Feu",
-    "appartenance": "FairyTail"
-  },
-  "A005": {
-    "id": "A005",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Furreur du dragon de feu",
-        "type": "Action",
-        "cost": 3,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A005.png?raw=true",
-        "isHorizontal": false,
-        "force": 2,
-        "counter": 1,
-        "lettre": "S",
-        "effet": "Doublez la Force de base de vos Action Feu jusqu'à la fin du combat."
-      }
-    },
-    "name": "Furreur du dragon de feu",
-    "type": "Action",
-    "cost": 3,
-    "affinite": "Feu",
-    "appartenance": "FairyTail"
-  },
-  "A006": {
-    "id": "A006",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Brasier devorant",
-        "type": "Action",
-        "cost": 2,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A006.png?raw=true",
-        "isHorizontal": false,
-        "force": 1,
-        "counter": 1,
-        "lettre": "A",
-        "effet": "Défaussez les 2 cartes du dessus du deck de l'adversaire. Pour chaque carte avec une affinité différente défaussée de cette manière, votre combattant gagne +2 Force jusqu'à la fin du combat."
-      }
-    },
-    "name": "Brasier devorant",
-    "type": "Action",
-    "cost": 2,
-    "affinite": "Feu",
-    "appartenance": "FairyTail"
-  },
-  "A007": {
-    "id": "A007",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Appel Aquarius",
-        "type": "Action",
-        "cost": 2,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A007.png?raw=true",
-        "isHorizontal": false,
-        "force": 0,
-        "counter": 1,
-        "lettre": "A",
-        "effet": "Invoquez Aquarius"
-      },
-      "back": {
-        "name": "Aquarius",
-        "type": "Invocation",
-        "cost": 0,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/T001.png?raw=true",
-        "isHorizontal": false,
-        "force": 2,
-        "effet": "À l'invocation, renvoyez une carte face cachée adverse dans sa main"
-      }
-    },
-    "name": "Appel Aquarius",
-    "type": "Action",
-    "cost": 2,
-    "affinite": "Constellation",
-    "appartenance": "FairyTail"
-  },
-  "A008": {
-    "id": "A008",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Appel Leo",
-        "type": "Action",
-        "cost": 2,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A008.png?raw=true",
-        "isHorizontal": false,
-        "force": 0,
-        "counter": 1,
-        "lettre": "A",
-        "effet": "Invoquez Leo"
-      },
-      "back": {
-        "name": "Leo",
-        "type": "Invocation",
-        "cost": 0,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/T002.png?raw=true",
-        "isHorizontal": false,
-        "force": 2,
-        "effet": "Sacrifice/KO : Détruisez une carte adverse sur le terrain"
-      }
-    },
-    "name": "Appel Leo",
-    "type": "Action",
-    "cost": 2,
-    "affinite": "Constellation",
-    "appartenance": "FairyTail"
-  },
-  "A009": {
-    "id": "A009",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Appel Taurus",
-        "type": "Action",
-        "cost": 1,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A009.png?raw=true",
-        "isHorizontal": false,
-        "force": 0,
-        "counter": 1,
-        "lettre": "B",
-        "effet": "Invoquez Taurus"
-      },
-      "back": {
-        "name": "Taurus",
-        "type": "Invocation",
-        "cost": 0,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/T003.png?raw=true",
-        "isHorizontal": false,
-        "force": 3,
-        "effet": "Cette carte ne peut pas être détruite par des effets adverse"
-      }
-    },
-    "name": "Appel Taurus",
-    "type": "Action",
-    "cost": 1,
-    "affinite": "Constellation",
-    "appartenance": "FairyTail"
-  },
-  "A010": {
-    "id": "A010",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Appel Cancer",
-        "type": "Action",
-        "cost": 1,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A010.png?raw=true",
-        "isHorizontal": false,
-        "force": 0,
-        "counter": 1,
-        "lettre": "B",
-        "effet": "Invoquez Cancer"
-      },
-      "back": {
-        "name": "Cancer",
-        "type": "Invocation",
-        "cost": 0,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/T004.png?raw=true",
-        "isHorizontal": false,
-        "force": 2,
-        "effet": "À l'invocation, ciblez une carte. Réduisez la valeur de base de la carte ciblé à 0."
-      }
-    },
-    "name": "Appel Cancer",
-    "type": "Action",
-    "cost": 1,
-    "affinite": "Constellation",
-    "appartenance": "FairyTail"
-  },
-  "A011": {
-    "id": "A011",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Appel Sagittarius",
-        "type": "Action",
-        "cost": 2,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A011.png?raw=true",
-        "isHorizontal": false,
-        "force": 0,
-        "counter": 1,
-        "lettre": "A",
-        "effet": "Invoquez Sagittarius"
-      },
-      "back": {
-        "name": "Sagittarius",
-        "type": "Invocation",
-        "cost": 0,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/T005.png?raw=true",
-        "isHorizontal": false,
-        "force": 1,
-        "effet": "À l'invocation, détruisez une carte face cachée adverse."
-      }
-    },
-    "name": "Appel Sagittarius",
-    "type": "Action",
-    "cost": 2,
-    "affinite": "Constellation",
-    "appartenance": "FairyTail"
-  },
-  "A012": {
-    "id": "A012",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Appel Scorpio",
-        "type": "Action",
-        "cost": 2,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A012.png?raw=true",
-        "isHorizontal": false,
-        "force": 0,
-        "counter": 1,
-        "lettre": "A",
-        "effet": "Invoquez Scorpio"
-      },
-      "back": {
-        "name": "Scorpio",
-        "type": "Invocation",
-        "cost": 0,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/T006.png?raw=true",
-        "isHorizontal": false,
-        "force": 1,
-        "effet": "À l'invocation, placez un marqueur \"venin\" sur un combattant adverse. Le marqueur venant donne -X, avec X étant le nombre de carte de la même affinité sur le terrain."
-      }
-    },
-    "name": "Appel Scorpio",
-    "type": "Action",
-    "cost": 2,
-    "affinite": "Constellation",
-    "appartenance": "FairyTail"
-  },
-  "A013": {
-    "id": "A013",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Appel Capricorn",
-        "type": "Action",
-        "cost": 1,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A013.png?raw=true",
-        "isHorizontal": false,
-        "force": 0,
-        "counter": 1,
-        "lettre": "B",
-        "effet": "Invoquez Capricorn"
-      },
-      "back": {
-        "name": "Capricorn",
-        "type": "Invocation",
-        "cost": 0,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/T007.png?raw=true",
-        "isHorizontal": false,
-        "force": 1,
-        "effet": "Effet permanent : lorsque vous invoquer un esprit, piochez 1 puis défaussez 1."
-      }
-    },
-    "name": "Appel Capricorn",
-    "type": "Action",
-    "cost": 1,
-    "affinite": "Constellation",
-    "appartenance": "FairyTail"
-  },
-  "A014": {
-    "id": "A014",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Appel Horlogium",
-        "type": "Action",
-        "cost": 1,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A014.png?raw=true",
-        "isHorizontal": false,
-        "force": 0,
-        "counter": 1,
-        "lettre": "B",
-        "effet": "Invoquez Horlogium"
-      },
-      "back": {
-        "name": "Horlogium",
-        "type": "Invocation",
-        "cost": 0,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/T008.png?raw=true",
-        "isHorizontal": false,
-        "force": 0,
-        "effet": "Sacrifice : annulez une Action qui cible votre combattant ou vos invocations."
-      }
-    },
-    "name": "Appel Horlogium",
-    "type": "Action",
-    "cost": 1,
-    "affinite": "Constellation",
-    "appartenance": "FairyTail"
-  },
-  "A015": {
-    "id": "A015",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Appel Aries",
-        "type": "Action",
-        "cost": 1,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A015.png?raw=true",
-        "isHorizontal": false,
-        "force": 0,
-        "counter": 1,
-        "lettre": "B",
-        "effet": "Invoquez Aries"
-      },
-      "back": {
-        "name": "Aries",
-        "type": "Invocation",
-        "cost": 0,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/T009.png?raw=true",
-        "isHorizontal": false,
-        "force": 1,
-        "effet": "À l'invocation, ciblez une carte adverse, réduisez de -2 la Force."
-      }
-    },
-    "name": "Appel Aries",
-    "type": "Action",
-    "cost": 1,
-    "affinite": "Constellation",
-    "appartenance": "FairyTail"
-  },
-  "A016": {
-    "id": "A016",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Appel Libra",
-        "type": "Action",
-        "cost": 2,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A016.png?raw=true",
-        "isHorizontal": false,
-        "force": 0,
-        "counter": 1,
-        "lettre": "A",
-        "effet": "Invoquez Libra"
-      },
-      "back": {
-        "name": "Libra",
-        "type": "Invocation",
-        "cost": 0,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/T010.png?raw=true",
-        "isHorizontal": false,
-        "force": 1,
-        "effet": "À l'invocation, choisissez une carte adverse et une carte allié, échangez leurs valeurs de Force de base."
-      }
-    },
-    "name": "Appel Libra",
-    "type": "Action",
-    "cost": 2,
-    "affinite": "Constellation",
-    "appartenance": "FairyTail"
-  },
-  "A017": {
-    "id": "A017",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Appel Pisces",
-        "type": "Action",
-        "cost": 2,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A017.png?raw=true",
-        "isHorizontal": false,
-        "force": 0,
-        "counter": 1,
-        "lettre": "A",
-        "effet": "Invoquez Pisces"
-      },
-      "back": {
-        "name": "Pisces",
-        "type": "Invocation",
-        "cost": 0,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/T011.png?raw=true",
-        "isHorizontal": false,
-        "force": 1,
-        "effet": "Effet permanent : Pisces peut être traité comme deux créatures distinctes pour les effets qui comptent vos invocations"
-      }
-    },
-    "name": "Appel Pisces",
-    "type": "Action",
-    "cost": 2,
-    "affinite": "Constellation",
-    "appartenance": "FairyTail"
-  },
-  "A018": {
-    "id": "A018",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Appel Lyra",
-        "type": "Action",
-        "cost": 2,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A018.png?raw=true",
-        "isHorizontal": false,
-        "force": 0,
-        "counter": 1,
-        "lettre": "A",
-        "effet": "Invoquez Lyra"
-      },
-      "back": {
-        "name": "Lyra",
-        "type": "Invocation",
-        "cost": 0,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/T012.png?raw=true",
-        "isHorizontal": false,
-        "force": 1,
-        "effet": "À l'invocation, regardez la main de votre adversaire, choisissez une carte, elle coute +1 jusqu'à la fin du combat"
-      }
-    },
-    "name": "Appel Lyra",
-    "type": "Action",
-    "cost": 2,
-    "affinite": "Constellation",
-    "appartenance": "FairyTail"
-  },
-  "A019": {
-    "id": "A019",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Appel Virgo",
-        "type": "Action",
-        "cost": 1,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A019.png?raw=true",
-        "isHorizontal": false,
-        "force": 0,
-        "counter": 1,
-        "lettre": "B",
-        "effet": "Invoquez Virgo"
-      },
-      "back": {
-        "name": "Virgo",
-        "type": "Invocation",
-        "cost": 0,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/T013.png?raw=true",
-        "isHorizontal": false,
-        "force": 2,
-        "effet": "À l'invocation, défaussez une carte de votre main, allez chercher une carte d'affinité constellation dans votre deck et ajoutez là à votre main."
-      }
-    },
-    "name": "Appel Virgo",
-    "type": "Action",
-    "cost": 1,
-    "affinite": "Constellation",
-    "appartenance": "FairyTail"
-  },
-  "A020": {
-    "id": "A020",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Appel Celestian Spirit King",
-        "type": "Action",
-        "cost": 3,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A020.png?raw=true",
-        "isHorizontal": false,
-        "force": 0,
-        "counter": 1,
-        "lettre": "S",
-        "effet": "Condition : contrôlez au moins 4 autres esprits. Invoquez Celestian Spirit King"
-      }
-    },
-    "name": "Appel Celestian Spirit King",
-    "type": "Action",
-    "cost": 3,
-    "affinite": "Constellation",
-    "appartenance": "FairyTail"
-  },
-  "A021": {
-    "id": "A021",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Ordre interruption",
-        "type": "Reaction",
-        "cost": 0,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A021.png?raw=true",
-        "isHorizontal": false,
-        "force": 1,
-        "counter": 1,
-        "lettre": "A",
-        "effet": "Jouable lorsque l'adversaire joue une Action. Sacrifiez une créature. Annulez l'effet de cette Action."
-      }
-    },
-    "name": "Ordre interruption",
-    "type": "Reaction",
-    "cost": 0,
-    "affinite": "Constellation",
-    "appartenance": "FairyTail"
-  },
-  "A022": {
-    "id": "A022",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Decharge",
-        "type": "Action",
-        "cost": 1,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A022.png?raw=true",
-        "isHorizontal": false,
-        "force": 1,
-        "counter": 1,
-        "lettre": "S",
-        "effet": "Piochez 1 carte. Vous pouvez immédiatement jouer une carte de plus ce tour."
-      }
-    },
-    "name": "Decharge",
-    "type": "Action",
-    "cost": 1,
-    "affinite": "Foudre",
-    "appartenance": "FairyTail"
-  },
-  "A023": {
-    "id": "A023",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Lightning switch",
-        "type": "Action",
-        "cost": 3,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A023.png?raw=true",
-        "isHorizontal": false,
-        "force": 1,
-        "counter": 1,
-        "lettre": "S",
-        "effet": "Choisissez une carte sur le terrain adverse. Détruisez-la. Son propriétaire peut défausser 1 carte pour la sauver. S'il le fait, cette carte rebondit sur une autre carte adverse et la détruit à la place."
-      }
-    },
-    "name": "Lightning switch",
-    "type": "Action",
-    "cost": 3,
-    "affinite": "Foudre",
-    "appartenance": "FairyTail"
-  },
-  "A024": {
-    "id": "A024",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Chaine Eclairs",
-        "type": "Action",
-        "cost": 1,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A024.png?raw=true",
-        "isHorizontal": false,
-        "force": 1,
-        "counter": 1,
-        "lettre": "A",
-        "effet": "Infligez un malus de -2 Force au combattant adverse. Si vous avez joué 2 cartes Foudre ou plus ce tour, le malus est de -3 Force à la place."
-      }
-    },
-    "name": "Chaine Eclairs",
-    "type": "Action",
-    "cost": 1,
-    "affinite": "Foudre",
-    "appartenance": "FairyTail"
-  },
-  "A025": {
-    "id": "A025",
     "isToken": false,
     "face": {
       "front": {
         "name": "Alignement stellaire",
         "type": "Action",
         "cost": 1,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A025.png?raw=true",
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A001.png?raw=true",
         "isHorizontal": false,
         "force": 1,
-        "counter": 1,
-        "lettre": "A",
-        "effet": "Regardez les 3 cartes du dessus de votre deck. Remettez-les dans l'ordre de votre choix sur le dessus de votre deck. Piochez une carte."
+        "effet": "Apparition : Regardez les 3 cartes du dessus de votre deck, prenez en une. Puis remettez le reste dans l'ordre de votre choix sur le dessus de votre deck."
       }
     },
     "name": "Alignement stellaire",
@@ -1128,20 +217,18 @@
     "affinite": "Etoile",
     "appartenance": "FairyTail"
   },
-  "A026": {
-    "id": "A026",
+  "A002": {
+    "id": "A002",
     "isToken": false,
     "face": {
       "front": {
         "name": "Presage astral",
         "type": "Reaction",
         "cost": 1,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A026.png?raw=true",
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A002.png?raw=true",
         "isHorizontal": false,
         "force": 1,
-        "counter": 1,
-        "lettre": "S",
-        "effet": "Jouable lorsque l'adversaire joue une carte. Nommez un type de carte (Action, Réaction). Révélez la carte du dessus de votre deck. Si elle correspond au type nommé, annulez l'effet de la carte de l'adversaire."
+        "effet": "Apparition : Jouable lorsque l'adversaire joue une carte. Nommez un type de carte (Action, Réaction). Révélez la carte du dessus de votre deck. Si elle correspond au type nommé, annulez l'effet de la carte de l'adversaire."
       }
     },
     "name": "Presage astral",
@@ -1150,108 +237,58 @@
     "affinite": "Etoile",
     "appartenance": "FairyTail"
   },
-  "A027": {
-    "id": "A027",
+  "A003": {
+    "id": "A003",
     "isToken": false,
     "face": {
       "front": {
-        "name": "Super Nova",
+        "name": "Pleiade",
         "type": "Action",
-        "cost": 3,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A027.png?raw=true",
+        "cost": 2,
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A003.png?raw=true",
         "isHorizontal": false,
-        "force": 2,
-        "counter": 1,
-        "lettre": "S",
-        "effet": "Révélez les 2 cartes du dessus de votre deck. Votre combattant gagne +Force égale à la somme des valeurs de Counter des cartes révélées."
+        "force": 1,
+        "effet": "Apparition : Prenez la carte du dessus du deck de votre adversaire, jouer la face caché dans l'une des zone de combat de votre choix. Cette carte ne sera révélé et jouer qu'a l'étape de fin du 3ème temps."
       }
     },
-    "name": "Super Nova",
+    "name": "Pleiade",
+    "type": "Action",
+    "cost": 2,
+    "affinite": "Etoile",
+    "appartenance": "FairyTail"
+  },
+  "A004": {
+    "id": "A004",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Grand Chariot",
+        "type": "Action",
+        "cost": 3,
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A004.png?raw=true",
+        "isHorizontal": false,
+        "force": 2,
+        "effet": "Apparition : Déclarez un cout de 0 à 3. Révéllez la carte du dessus de votre deck. Si cette carte est du même cout que le cout révéllé, jouer la gratuitement dans la zone de combat de votre choix."
+      }
+    },
+    "name": "Grand Chariot",
     "type": "Action",
     "cost": 3,
     "affinite": "Etoile",
     "appartenance": "FairyTail"
   },
-  "A028": {
-    "id": "A028",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Force sanguine",
-        "type": "Action",
-        "cost": 0,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A028.png?raw=true",
-        "isHorizontal": false,
-        "force": 1,
-        "counter": 1,
-        "lettre": "B",
-        "effet": "Coût additionnel: Defaussez 1 carte de votre main. Votre combattant gagne +4 Force jusqu'à la fin du tour."
-      }
-    },
-    "name": "Force sanguine",
-    "type": "Action",
-    "cost": 0,
-    "affinite": "Demon",
-    "appartenance": "FairyTail"
-  },
-  "A029": {
-    "id": "A029",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Corruption",
-        "type": "Reaction",
-        "cost": 2,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A029.png?raw=true",
-        "isHorizontal": false,
-        "force": 1,
-        "counter": 1,
-        "lettre": "S",
-        "effet": "Jouable lorsque l'adversaire joue une carte. Prenez le contrôle de cette carte après sa résolution et placez-la face cachée dans votre zone."
-      }
-    },
-    "name": "Corruption",
-    "type": "Reaction",
-    "cost": 2,
-    "affinite": "Demon",
-    "appartenance": "FairyTail"
-  },
-  "A030": {
-    "id": "A030",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Aura demoniaque",
-        "type": "Action",
-        "cost": 1,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A030.png?raw=true",
-        "isHorizontal": false,
-        "force": 1,
-        "counter": 1,
-        "lettre": "A",
-        "effet": "Effet Permanent : votre combattant gagne +1 Force pour chaque carte que vous avez défaussez ce tour (l'utilisation de counter est compté dans les cartes défaussé)."
-      }
-    },
-    "name": "Aura demoniaque",
-    "type": "Action",
-    "cost": 1,
-    "affinite": "Demon",
-    "appartenance": "FairyTail"
-  },
-  "A031": {
-    "id": "A031",
+  "A005": {
+    "id": "A005",
     "isToken": false,
     "face": {
       "front": {
         "name": "Forge arme",
         "type": "Action",
         "cost": 1,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A031.png?raw=true",
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A005.png?raw=true",
         "isHorizontal": false,
         "force": 0,
-        "counter": 1,
-        "lettre": "B",
-        "effet": "Créer 2 token épée magique"
+        "effet": "Apparition : Créer 2 token épée magique dans cette zone de combat"
       }
     },
     "name": "Forge arme",
@@ -1260,42 +297,18 @@
     "affinite": "Chevalier",
     "appartenance": "FairyTail"
   },
-  "A032": {
-    "id": "A032",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Appel armurerie",
-        "type": "Action",
-        "cost": 1,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A032.png?raw=true",
-        "isHorizontal": false,
-        "force": 0,
-        "counter": 1,
-        "lettre": "B",
-        "effet": "Creer 1 token épée magique. Piochez 1"
-      }
-    },
-    "name": "Appel armurerie",
-    "type": "Action",
-    "cost": 1,
-    "affinite": "Chevalier",
-    "appartenance": "FairyTail"
-  },
-  "A033": {
-    "id": "A033",
+  "A006": {
+    "id": "A006",
     "isToken": false,
     "face": {
       "front": {
         "name": "Arsenal de guilde",
         "type": "Action",
         "cost": 2,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A033.png?raw=true",
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A006.png?raw=true",
         "isHorizontal": false,
         "force": 0,
-        "counter": 1,
-        "lettre": "A",
-        "effet": "Creer 3 token épée magique"
+        "effet": "Apparition : Creer 3 token épée magique dans cette zone de combat"
       }
     },
     "name": "Arsenal de guilde",
@@ -1304,20 +317,18 @@
     "affinite": "Chevalier",
     "appartenance": "FairyTail"
   },
-  "A034": {
-    "id": "A034",
+  "A007": {
+    "id": "A007",
     "isToken": false,
     "face": {
       "front": {
         "name": "Forge supreme",
         "type": "Action",
         "cost": 3,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A034.png?raw=true",
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A007.png?raw=true",
         "isHorizontal": false,
         "force": 0,
-        "counter": 1,
-        "lettre": "S",
-        "effet": "Créer 2 token épée magique. Vous piuvez équiper une armure de votre main sans payer son cout."
+        "effet": "Apparition : Créer 2 token épée magique dans cette zone de combat. Vous pouvez équiper une armure de votre main sans payer son cout au combattant de cette zone de combat."
       }
     },
     "name": "Forge supreme",
@@ -1326,42 +337,38 @@
     "affinite": "Chevalier",
     "appartenance": "FairyTail"
   },
-  "A035": {
-    "id": "A035",
+  "A008": {
+    "id": "A008",
     "isToken": false,
     "face": {
       "front": {
-        "name": "Armure du dieu des destinee",
+        "name": "Armure des septs etoiles",
         "type": "Equipement",
         "cost": 3,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A035.png?raw=true",
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A008.png?raw=true",
         "isHorizontal": false,
         "force": 0,
-        "counter": 1,
-        "lettre": "S",
-        "effet": "Effet Permanent : Erza gagne l'affinité Étoile en plus de l'affinité Chevalier. À l'équipement regardez les X cartes du dessus de votre deck. X étant le nombre d'épée magique en jeu. Jouez une de ces cartes sans payer son cout."
+        "effet": "Permanent : Erza gagne l'affinité Étoile en plus de l'affinité Chevalier. Equipement : regardez les X cartes du dessus de votre deck. X étant le nombre d'épée magique en jeu. Jouez une de ces cartes sans payer son cout dans cette zone de combat."
       }
     },
-    "name": "Armure du dieu des destinee",
+    "name": "Armure des septs etoiles",
     "type": "Equipement",
     "cost": 3,
     "affinite": "Chevalier",
     "appartenance": "FairyTail"
   },
-  "A036": {
-    "id": "A036",
+  "A009": {
+    "id": "A009",
     "isToken": false,
     "face": {
       "front": {
         "name": "Armure imperatrice de Feu",
         "type": "Equipement",
         "cost": 2,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A036.png?raw=true",
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A009.png?raw=true",
         "isHorizontal": false,
         "force": 0,
-        "counter": 1,
-        "lettre": "A",
-        "effet": "Effet Permanent : Erza gagne l'affinité Feu en plus de l'affinité Chevalier. À l'équipement défaussez jusqu'à X cartes de votre main. X étant le nombre d'épée magique en jeu. Erza gagne +2 pour chaque carte défaussez de cette façon."
+        "effet": "Permanent : Erza gagne l'affinité Feu en plus de l'affinité Chevalier. Equipement : défaussez jusqu'à X cartes de votre main. X étant le nombre d'épée magique en jeu. Erza gagne +2 pour chaque carte défaussez de cette façon."
       }
     },
     "name": "Armure imperatrice de Feu",
@@ -1370,20 +377,18 @@
     "affinite": "Chevalier",
     "appartenance": "FairyTail"
   },
-  "A037": {
-    "id": "A037",
+  "A010": {
+    "id": "A010",
     "isToken": false,
     "face": {
       "front": {
         "name": "Armure de la roue celeste",
         "type": "Equipement",
         "cost": 2,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A037.png?raw=true",
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A010.png?raw=true",
         "isHorizontal": false,
         "force": 0,
-        "counter": 1,
-        "lettre": "A",
-        "effet": "À l'équipement, erza cible X carte, X étant le nombre d'épée magique en jeu. Donnez -1 à chaque cartes ciblé."
+        "effet": "Equipement : ciblez X carte, X étant le nombre d'épée magique en jeu. Donnez -1 à chaque cartes ciblé."
       }
     },
     "name": "Armure de la roue celeste",
@@ -1392,834 +397,38 @@
     "affinite": "Chevalier",
     "appartenance": "FairyTail"
   },
-  "A038": {
-    "id": "A038",
+  "A011": {
+    "id": "A011",
     "isToken": false,
     "face": {
       "front": {
-        "name": "Armure du purgatoire",
-        "type": "Equipement",
-        "cost": 3,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A038.png?raw=true",
-        "isHorizontal": false,
-        "force": 0,
-        "counter": 1,
-        "lettre": "S",
-        "effet": "Effet Permanent : Erza gagne l'affinité Demon en plus de l'affinité Chevalier. À l'équipement donnez +X à erza. X étant le nombre d'épée magique en jeu (ne peut pas exceder le nombre de carte dans la défausse)."
-      }
-    },
-    "name": "Armure du purgatoire",
-    "type": "Equipement",
-    "cost": 3,
-    "affinite": "Chevalier",
-    "appartenance": "FairyTail"
-  },
-  "A039": {
-    "id": "A039",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Armure reine de la foudre",
+        "name": "Armure d'eeilen",
         "type": "Equipement",
         "cost": 2,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A039.png?raw=true",
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A011.png?raw=true",
         "isHorizontal": false,
         "force": 0,
-        "counter": 1,
-        "lettre": "A",
-        "effet": "Effet Permanent : Erza gagne l'affinité Foudre en plus de l'affinité Chevalier. Votre prochain sort Foudre coute -X . X étant le nombre d'épée magique en jeu."
+        "effet": "Permanent : Erza gagne l'affinité Enchantement en plus de l'affinité Chevalier. Activation : Reaction : défausser cette armure depuis votre zone de combat; ciblez une carte Enchantement de votre cimetiere, exilez là, puis activez l'effet de la carte exilée."
       }
     },
-    "name": "Armure reine de la foudre",
+    "name": "Armure d'eeilen",
     "type": "Equipement",
     "cost": 2,
     "affinite": "Chevalier",
     "appartenance": "FairyTail"
   },
-  "A040": {
-    "id": "A040",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Armure robe de yuen",
-        "type": "Equipement",
-        "cost": 1,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A040.png?raw=true",
-        "isHorizontal": false,
-        "force": 0,
-        "counter": 1,
-        "lettre": "B",
-        "effet": "À l'équipement, erza cible X carte, X étant le nombre d'épée magique en jeu.Le cartes ciblés ne peuvent pas être activé ce combat"
-      }
-    },
-    "name": "Armure robe de yuen",
-    "type": "Equipement",
-    "cost": 1,
-    "affinite": "Chevalier",
-    "appartenance": "FairyTail"
-  },
-  "A041": {
-    "id": "A041",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Armure aux ailes scarabee",
-        "type": "Equipement",
-        "cost": 1,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A041.png?raw=true",
-        "isHorizontal": false,
-        "force": 0,
-        "counter": 1,
-        "lettre": "S",
-        "effet": "Effet Permanent : Erza ne peut pas être ciblée par les effets adverses tant qu'il y a une épée magique en jeu"
-      }
-    },
-    "name": "Armure aux ailes scarabee",
-    "type": "Equipement",
-    "cost": 1,
-    "affinite": "Chevalier",
-    "appartenance": "FairyTail"
-  },
-  "A042": {
-    "id": "A042",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Armure celeste",
-        "type": "Equipement",
-        "cost": 2,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A042.png?raw=true",
-        "isHorizontal": false,
-        "force": 0,
-        "counter": 1,
-        "lettre": "A",
-        "effet": "Effet Permanent : Erza gagne l'affinité Constellation en plus de l'affinité Chevalier. Créer X jeton esprit mineur. X étant le nombre d'épée magique en jeu."
-      }
-    },
-    "name": "Armure celeste",
-    "type": "Equipement",
-    "cost": 2,
-    "affinite": "Chevalier",
-    "appartenance": "FairyTail"
-  },
-  "A043": {
-    "id": "A043",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Interruption",
-        "type": "Reaction",
-        "cost": 1,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A043.png?raw=true",
-        "isHorizontal": false,
-        "force": 1,
-        "counter": 2,
-        "lettre": "A",
-        "effet": "Jouable lorsqu'une carte Action est jouée. Annulez l'effet de cette carte."
-      }
-    },
-    "name": "Interruption",
-    "type": "Reaction",
-    "cost": 1,
-    "affinite": "Neutre",
-    "appartenance": "FairyTail"
-  },
-  "A044": {
-    "id": "A044",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Meditation",
-        "type": "Action",
-        "cost": 0,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A044.png?raw=true",
-        "isHorizontal": false,
-        "force": 1,
-        "counter": 2,
-        "lettre": "A",
-        "effet": "Piochez 1 carte."
-      }
-    },
-    "name": "Meditation",
-    "type": "Action",
-    "cost": 0,
-    "affinite": "Neutre",
-    "appartenance": "FairyTail"
-  },
-  "A045": {
-    "id": "A045",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Transfert magique",
-        "type": "Action",
-        "cost": 1,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A045.png?raw=true",
-        "isHorizontal": false,
-        "force": 1,
-        "counter": 2,
-        "lettre": "B",
-        "effet": "Défaussez une carte de votre main. Si vous le faites, cherchez une carte de la même affinité que votre combattant dans votre deck, révélez-la et ajoutez-la à votre main."
-      }
-    },
-    "name": "Transfert magique",
-    "type": "Action",
-    "cost": 1,
-    "affinite": "Neutre",
-    "appartenance": "FairyTail"
-  },
-  "A046": {
-    "id": "A046",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Chaine de jugement",
-        "type": "Action",
-        "cost": 3,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A046.png?raw=true",
-        "isHorizontal": false,
-        "force": 1,
-        "counter": 1,
-        "lettre": "特",
-        "effet": "Placez un marqueur \"Jugement\" sur le combattant adverse. Tant que le marqueur est en jeu : si ce combattant évolue, sa Force de base devient 0 jusqu'à la fin du combat."
-      }
-    },
-    "name": "Chaine de jugement",
-    "type": "Action",
-    "cost": 3,
-    "affinite": "Specialiste",
-    "appartenance": "Hunter"
-  },
-  "A047": {
-    "id": "A047",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Serment sur le coeur",
-        "type": "Reaction",
-        "cost": 1,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A047.png?raw=true",
-        "isHorizontal": false,
-        "force": 1,
-        "counter": 1,
-        "lettre": "変",
-        "effet": "Choisissez une carte sur le terrain adverse. Placez un marqueur \"Serment\" dessus."
-      }
-    },
-    "name": "Serment sur le coeur",
-    "type": "Reaction",
-    "cost": 1,
-    "affinite": "Specialiste",
-    "appartenance": "Hunter"
-  },
-  "A048": {
-    "id": "A048",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Chaine de contrainte",
-        "type": "Action",
-        "cost": 1,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A048.png?raw=true",
-        "isHorizontal": false,
-        "force": 1,
-        "counter": 1,
-        "lettre": "特",
-        "effet": "La prochaine carte de l'adversaire coute +1"
-      }
-    },
-    "name": "Chaine de contrainte",
-    "type": "Action",
-    "cost": 1,
-    "affinite": "Specialiste",
-    "appartenance": "Hunter"
-  },
-  "A049": {
-    "id": "A049",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Soins",
-        "type": "Action",
-        "cost": 1,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A049.png?raw=true",
-        "isHorizontal": false,
-        "force": 0,
-        "counter": 1,
-        "lettre": "強",
-        "effet": "Ciblez 1 cartes, enlevez lui tout les marqueurs negatif"
-      }
-    },
-    "name": "Soins",
-    "type": "Action",
-    "cost": 1,
-    "affinite": "Specialiste",
-    "appartenance": "Hunter"
-  },
-  "A050": {
-    "id": "A050",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Canne à pêche",
-        "type": "Action",
-        "cost": 1,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A050.png?raw=true",
-        "isHorizontal": false,
-        "force": 1,
-        "counter": 1,
-        "lettre": "強",
-        "effet": "Choisissez un bonus de Force sur une carte sort. Transférez ce bonus à votre combattant."
-      }
-    },
-    "name": "Canne à pêche",
-    "type": "Action",
-    "cost": 1,
-    "affinite": "Renforcement",
-    "appartenance": "Hunter"
-  },
-  "A051": {
-    "id": "A051",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Rock,Paper,Scissor",
-        "type": "Action",
-        "cost": 1,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A051.png?raw=true",
-        "isHorizontal": false,
-        "force": 1,
-        "counter": 1,
-        "lettre": "強,変,特",
-        "effet": "Choisissez un effet : -Pierre : La prochaine carte Renforcement que vous jouez ce combat gagne +2 Force. -Feuille : La prochaine carte Transformation que vous jouez ce combat ne coûte pas de surcoût d'affinité et infligez -2 Force au combattant adverse. -Ciseaux : La prochaine carte Spécialiste que vous jouez ce combat ne coûte pas de surcoût d'affinité et elle retirez un boost de Force d'une carte ciblé adverse."
-      }
-    },
-    "name": "Rock,Paper,Scissor",
-    "type": "Action",
-    "cost": 1,
-    "affinite": "Renforcement",
-    "appartenance": "Hunter"
-  },
-  "A052": {
-    "id": "A052",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Rock",
-        "type": "Action",
-        "cost": 3,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A052.png?raw=true",
-        "isHorizontal": false,
-        "force": 2,
-        "counter": 1,
-        "lettre": "強",
-        "effet": "Gon gagne +3 Force jusqu'à la fin du combat. Si Jajanken a été joué avant ce Rock ce combat : Gon gagne +5 Force à la place."
-      }
-    },
-    "name": "Rock",
-    "type": "Action",
-    "cost": 3,
-    "affinite": "Renforcement",
-    "appartenance": "Hunter"
-  },
-  "A053": {
-    "id": "A053",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Griffe",
-        "type": "Action",
-        "cost": 1,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A053.png?raw=true",
-        "isHorizontal": false,
-        "force": 1,
-        "counter": 1,
-        "lettre": "変",
-        "effet": "Placez un jeton \"Griffe\" sur le combattant adverse."
-      }
-    },
-    "name": "Griffe",
-    "type": "Action",
-    "cost": 1,
-    "affinite": "Transformation",
-    "appartenance": "Hunter"
-  },
-  "A054": {
-    "id": "A054",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Charge",
-        "type": "Action",
-        "cost": 1,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A054.png?raw=true",
-        "isHorizontal": false,
-        "force": 1,
-        "counter": 1,
-        "lettre": "変",
-        "effet": "Placez 2 marqueurs \"Charge\" sur Killua. Piochez 1 carte."
-      }
-    },
-    "name": "Charge",
-    "type": "Action",
-    "cost": 1,
-    "affinite": "Transformation",
-    "appartenance": "Hunter"
-  },
-  "A055": {
-    "id": "A055",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Godspeed",
-        "type": "Reaction",
-        "cost": 3,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A055.png?raw=true",
-        "isHorizontal": false,
-        "force": 2,
-        "counter": 1,
-        "lettre": "変",
-        "effet": "Votre combattant gagne +X. X étant le nombre de marqueurs \"Charge\" sur lui. Si cette carte est joué en réaction à une carte adversaire, vous pouvez défaussez une carte, si vous le faite, annulez l'activation."
-      }
-    },
-    "name": "Godspeed",
-    "type": "Reaction",
-    "cost": 3,
-    "affinite": "Transformation",
-    "appartenance": "Hunter"
-  },
-  "A056": {
-    "id": "A056",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Corde à saute",
-        "type": "Action",
-        "cost": 0,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A056.png?raw=true",
-        "isHorizontal": false,
-        "force": 1,
-        "counter": 1,
-        "lettre": "強",
-        "effet": "Retirez 1 marqueur \"Charge\" de Killua. Piochez 1 carte."
-      }
-    },
-    "name": "Corde à saute",
-    "type": "Action",
-    "cost": 0,
-    "affinite": "Transformation",
-    "appartenance": "Hunter"
-  },
-  "A057": {
-    "id": "A057",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "License Hunter",
-        "type": "Action",
-        "cost": 1,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A057.png?raw=true",
-        "isHorizontal": false,
-        "force": 0,
-        "counter": 2,
-        "lettre": "強",
-        "effet": "Piochez 1 cartes. Si vous contrôlez un combattant Hunter, piochez 2 cartes à la place."
-      }
-    },
-    "name": "License Hunter",
-    "type": "Action",
-    "cost": 1,
-    "affinite": "Neutre",
-    "appartenance": "Hunter"
-  },
-  "A058": {
-    "id": "A058",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Face contre inconnue",
-        "type": "Action",
-        "cost": 2,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A058.png?raw=true",
-        "isHorizontal": false,
-        "force": 1,
-        "counter": 2,
-        "lettre": "変",
-        "effet": "Si votre combattant a moins de Force que le combattant adverse, votre combattant gagne +4 Force jusqu'à la fin du combat."
-      }
-    },
-    "name": "Face contre inconnue",
-    "type": "Action",
-    "cost": 2,
-    "affinite": "Neutre",
-    "appartenance": "Hunter"
-  },
-  "A059": {
-    "id": "A059",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Apres la bataille",
-        "type": "Reaction",
-        "cost": 0,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A059.png?raw=true",
-        "isHorizontal": false,
-        "force": 0,
-        "counter": 2,
-        "lettre": "特",
-        "effet": "Si vous perdez ce combat, votre prochain combattant gagne +3 Force et piochez 1 carte au début du prochain combat."
-      }
-    },
-    "name": "Apres la bataille",
-    "type": "Reaction",
-    "cost": 0,
-    "affinite": "Neutre",
-    "appartenance": "Hunter"
-  },
-  "A060": {
-    "id": "A060",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Echo de foudre",
-        "type": "Action",
-        "cost": 2,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A060.png?raw=true",
-        "isHorizontal": false,
-        "force": 1,
-        "counter": 1,
-        "lettre": "S",
-        "effet": "Copiez l'effet de la dernière carte Foudre que vous avez jouée ce tour, sans payer son coût."
-      }
-    },
-    "name": "Echo de foudre",
-    "type": "Action",
-    "cost": 2,
-    "affinite": "Foudre",
-    "appartenance": "FairyTail"
-  },
-  "A061": {
-    "id": "A061",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Verre thé oolong",
-        "type": "Action",
-        "cost": 1,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A061.png?raw=true",
-        "isHorizontal": false,
-        "force": 1,
-        "counter": 1,
-        "lettre": "F",
-        "effet": "Créer un token 'Drunk' si vous n'en avez pas déjà. Mettez 1 marqueur sur token 'Drunk'."
-      }
-    },
-    "name": "Verre thé oolong",
-    "type": "Action",
-    "cost": 1,
-    "affinite": "Fete",
-    "appartenance": "GrandBlue"
-  },
-  "A062": {
-    "id": "A062",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Verre spiritus",
-        "type": "Action",
-        "cost": 2,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A062.png?raw=true",
-        "isHorizontal": false,
-        "force": 1,
-        "counter": 1,
-        "lettre": "F",
-        "effet": "Créer un token 'Drunk' si vous n'en avez pas déjà.  Mettez 2 marqueur sur token 'Drunk'."
-      }
-    },
-    "name": "Verre spiritus",
-    "type": "Action",
-    "cost": 2,
-    "affinite": "Fete",
-    "appartenance": "GrandBlue"
-  },
-  "A063": {
-    "id": "A063",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Lendemain de soirée",
-        "type": "Action",
-        "cost": 1,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A063.png?raw=true",
-        "isHorizontal": false,
-        "force": 1,
-        "counter": 1,
-        "lettre": "F",
-        "effet": "Ciblez un joueur. Si à la fin du combat ce joueur possède 4 marqueurs \"Alcool\" ou plus : au début de la prochaine manche, il mélange sa main et ses cartes face cachée, pioche le même nombre, et pour chaque carte face cachée renvoyée, met une carte du dessus de son deck dans sa zone face cachée."
-      }
-    },
-    "name": "Lendemain de soirée",
-    "type": "Action",
-    "cost": 1,
-    "affinite": "Fete",
-    "appartenance": "GrandBlue"
-  },
-  "A064": {
-    "id": "A064",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Tournée génrale",
-        "type": "Action",
-        "cost": 2,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A064.png?raw=true",
-        "isHorizontal": false,
-        "force": 1,
-        "counter": 1,
-        "lettre": "F",
-        "effet": "Créer un token 'Drunk' si vous n'en avez pas déjà. Votre adversaire fait de même. Mettez 1 marqueur \"Alcool\" sur tous les tokens \"Drunk\" en jeu."
-      }
-    },
-    "name": "Tournée génrale",
-    "type": "Action",
-    "cost": 2,
-    "affinite": "Fete",
-    "appartenance": "GrandBlue"
-  },
-  "A065": {
-    "id": "A065",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Charme",
-        "type": "Reaction",
-        "cost": 1,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A065.png?raw=true",
-        "isHorizontal": false,
-        "force": 2,
-        "counter": 1,
-        "lettre": "M",
-        "effet": "Jouable lorsqu'une carte Action est jouée. Si votre adversaire à un token 'Drunk' avec 2 marqueurs dessus, annulez l'effet de la carte joué."
-      }
-    },
-    "name": "Charme",
-    "type": "Reaction",
-    "cost": 1,
-    "affinite": "Manipulation",
-    "appartenance": "GrandBlue"
-  },
-  "A066": {
-    "id": "A066",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Requete non refusable",
-        "type": "Action",
-        "cost": 2,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A066.png?raw=true",
-        "isHorizontal": false,
-        "force": 1,
-        "counter": 1,
-        "lettre": "M",
-        "effet": "Si votre adversaire à un token 'Drunk' avec 4 marqueurs dessus. Regardez la main de l'adversaire. Choisissez 1 carte. Il la mélange dans son deck."
-      }
-    },
-    "name": "Requete non refusable",
-    "type": "Action",
-    "cost": 2,
-    "affinite": "Manipulation",
-    "appartenance": "GrandBlue"
-  },
-  "A067": {
-    "id": "A067",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Emprise Alcoolique",
-        "type": "Action",
-        "cost": 3,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A067.png?raw=true",
-        "isHorizontal": false,
-        "force": 1,
-        "counter": 1,
-        "lettre": "M",
-        "effet": "Si l'adversaire a un token \"Drunk\", votre combattant gagne +2 Force pour chaque marqueur \"Alcool\" sur ce token (max +6)."
-      }
-    },
-    "name": "Emprise Alcoolique",
-    "type": "Action",
-    "cost": 3,
-    "affinite": "Manipulation",
-    "appartenance": "GrandBlue"
-  },
-  "A068": {
-    "id": "A068",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Materiel de plonge",
-        "type": "Action",
-        "cost": 1,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A068.png?raw=true",
-        "isHorizontal": false,
-        "force": 0,
-        "counter": 1,
-        "lettre": "P",
-        "effet": "Cherchez une carte Plongeur dans votre deck, révélez-la et ajoutez-la à votre main."
-      }
-    },
-    "name": "Materiel de plonge",
-    "type": "Action",
-    "cost": 1,
-    "affinite": "Plonge",
-    "appartenance": "GrandBlue"
-  },
-  "A069": {
-    "id": "A069",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Sortie plongé",
-        "type": "Action",
-        "cost": 1,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A069.png?raw=true",
-        "isHorizontal": false,
-        "force": 0,
-        "counter": 1,
-        "lettre": "P",
-        "effet": "Mettez la carte du dessus de votre deck dans votre zone face caché"
-      }
-    },
-    "name": "Sortie plongé",
-    "type": "Action",
-    "cost": 1,
-    "affinite": "Plonge",
-    "appartenance": "GrandBlue"
-  },
-  "A070": {
-    "id": "A070",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Préparation à la plongé",
-        "type": "Action",
-        "cost": 1,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A070.png?raw=true",
-        "isHorizontal": false,
-        "force": 0,
-        "counter": 1,
-        "lettre": "P",
-        "effet": "Mettez 1 carte de votre main dans votre zone face cachée. Piochez 1 carte."
-      }
-    },
-    "name": "Préparation à la plongé",
-    "type": "Action",
-    "cost": 1,
-    "affinite": "Plonge",
-    "appartenance": "GrandBlue"
-  },
-  "A071": {
-    "id": "A071",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Plongée Profonde",
-        "type": "Action",
-        "cost": 1,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A071.png?raw=true",
-        "isHorizontal": false,
-        "force": 0,
-        "counter": 1,
-        "lettre": "P",
-        "effet": "Activez une carte face cachée de votre zone sans payer son coût."
-      }
-    },
-    "name": "Plongée Profonde",
-    "type": "Action",
-    "cost": 1,
-    "affinite": "Plonge",
-    "appartenance": "GrandBlue"
-  },
-  "A072": {
-    "id": "A072",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Passion plongé",
-        "type": "Action",
-        "cost": 3,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A072.png?raw=true",
-        "isHorizontal": false,
-        "force": 1,
-        "counter": 1,
-        "lettre": "P",
-        "effet": "Votre combattant gagne +1 Force pour chaque compteur 'Dive' possédez"
-      }
-    },
-    "name": "Passion plongé",
-    "type": "Action",
-    "cost": 3,
-    "affinite": "Plonge",
-    "appartenance": "GrandBlue"
-  },
-  "A073": {
-    "id": "A073",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "License de plongé",
-        "type": "Action",
-        "cost": 1,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A073.png?raw=true",
-        "isHorizontal": false,
-        "force": 0,
-        "counter": 2,
-        "lettre": "F",
-        "effet": "Piochez 1 carte. Si vous n'avez aucun jeton \"Alcool\" sur votre terrain, piochez 2 cartes à la place."
-      }
-    },
-    "name": "License de plongé",
-    "type": "Action",
-    "cost": 1,
-    "affinite": "Neutre",
-    "appartenance": "GrandBlue"
-  },
-  "A074": {
-    "id": "A074",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Echange de bon procédé",
-        "type": "Action",
-        "cost": 2,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A074.png?raw=true",
-        "isHorizontal": false,
-        "force": 1,
-        "counter": 2,
-        "lettre": "P",
-        "effet": "Retirez 1 marqueur sur un token 'Drunk'. Si vous le faites, créer un token 'Dive' si vous n'en avez pas déjà. Mettez 1 marqueur sur token 'Dive'."
-      }
-    },
-    "name": "Echange de bon procédé",
-    "type": "Action",
-    "cost": 2,
-    "affinite": "Neutre",
-    "appartenance": "GrandBlue"
-  },
-  "A075": {
-    "id": "A075",
+  "A012": {
+    "id": "A012",
     "isToken": false,
     "face": {
       "front": {
         "name": "Concept Enchantment",
         "type": "Action",
         "cost": 2,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A075.png?raw=true",
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A012.png?raw=true",
         "isHorizontal": false,
-        "force": 1,
-        "counter": 1,
-        "lettre": "A",
-        "effet": "Choisissez une colonne. Échangez les effets de texte des deux cartes visible dans la colonne choisi. Les effets échangés s'appliquent désormais sur la nouvelle carte."
+        "force": 2,
+        "effet": "Apparition : Choisissez une de votre carte dans une zone de combat. Votre adversaire choisis ensuite une de ses cartes dans la même zone de combat. Échangez les deux cartes choisi."
       }
     },
     "name": "Concept Enchantment",
@@ -2228,20 +437,18 @@
     "affinite": "Enchantement",
     "appartenance": "FairyTail"
   },
-  "A076": {
-    "id": "A076",
+  "A013": {
+    "id": "A013",
     "isToken": false,
     "face": {
       "front": {
         "name": "Wound Enchantment",
         "type": "Action",
         "cost": 1,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A076.png?raw=true",
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A013.png?raw=true",
         "isHorizontal": false,
         "force": 1,
-        "counter": 1,
-        "lettre": "B",
-        "effet": "Choisissez une colonne. Échangez tous les bonus et malus de Force qui leur sont appliqués aux deux cartes visibles de la colonne choisi."
+        "effet": "Apparition : Choisissez une de vos carte et une carte adversaire dans la même zone de combat. Échangez tous les bonus et malus de Force appliqués aux deux cartes choisie."
       }
     },
     "name": "Wound Enchantment",
@@ -2250,42 +457,38 @@
     "affinite": "Enchantement",
     "appartenance": "FairyTail"
   },
-  "A077": {
-    "id": "A077",
+  "A014": {
+    "id": "A014",
     "isToken": false,
     "face": {
       "front": {
         "name": "Universe One",
-        "type": "Action",
+        "type": "Reaction",
         "cost": 4,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A077.png?raw=true",
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A014.png?raw=true",
         "isHorizontal": false,
-        "force": 2,
-        "counter": 2,
-        "lettre": "S",
-        "effet": "Effet majeur : Réorganisez toutes les cartes de la zone de jeu principale (les 3 mini-zones de chaque joueur) comme vous le souhaitez. Vous pouvez déplacer chaque carte vers n'importe quelle mini-zone de votre choix (la vôtre ou celle de l'adversaire)."
+        "force": 4,
+        "effet": "Apparition : Choisessez droite ou gauche. Déplacez toutes les cartes adverses de zone de combat en zone de combat dans la direction choisis (La zone de combat à l'extrimité est déplacer vers l'autre extrémité)"
       }
     },
     "name": "Universe One",
-    "type": "Action",
+    "type": "Reaction",
     "cost": 4,
     "affinite": "Enchantement",
     "appartenance": "FairyTail"
   },
-  "A078": {
-    "id": "A078",
+  "A015": {
+    "id": "A015",
     "isToken": false,
     "face": {
       "front": {
         "name": "Personality Enchantment",
         "type": "Reaction",
         "cost": 0,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A078.png?raw=true",
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A015.png?raw=true",
         "isHorizontal": false,
         "force": 1,
-        "counter": 1,
-        "lettre": "B",
-        "effet": "Jouable lorsqu'une carte adverse cible une de vos cartes. Choisissez un carte d'une autre colonne, transferer la cible à la carte choisi."
+        "effet": "Apparition : Jouable lorsqu'une carte adverse cible une de vos cartes. Choisissez un carte dans une autre zone de combat, transferer la cible à la carte choisi."
       }
     },
     "name": "Personality Enchantment",
@@ -2294,20 +497,18 @@
     "affinite": "Enchantement",
     "appartenance": "FairyTail"
   },
-  "A079": {
-    "id": "A079",
+  "A016": {
+    "id": "A016",
     "isToken": false,
     "face": {
       "front": {
         "name": "Multi-Body Enchantment",
         "type": "Action",
         "cost": 1,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A079.png?raw=true",
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A016.png?raw=true",
         "isHorizontal": false,
         "force": 1,
-        "counter": 1,
-        "lettre": "B",
-        "effet": "Votre prochain sort joué qui affecte une carte visible d'une colone, affectera toutes les cartes de la colone, y compris les cartes non visible"
+        "effet": "Apparition : Choisissez une zone de combat. Le prochain sort joué créer une copie dans la zone de combat choisis (sa force de base devient 0)."
       }
     },
     "name": "Multi-Body Enchantment",
@@ -2316,68 +517,343 @@
     "affinite": "Enchantement",
     "appartenance": "FairyTail"
   },
-  "A080": {
-    "id": "A080",
+  "A017": {
+    "id": "A017",
     "isToken": false,
     "face": {
       "front": {
-        "name": "Deus Zero",
+        "name": "Interruption",
         "type": "Reaction",
         "cost": 1,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A080.png?raw=true",
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A017.png?raw=true",
         "isHorizontal": false,
         "force": 1,
-        "counter": 1,
-        "lettre": "B",
-        "effet": "Ciblez une colone. Les cartes face visible de cette colonne vois leur effet annulé jusqu'à votre prochain sort joué."
+        "effet": "Apparition : Les cartes dans cette zone de combat voit leur effet annulé jusqu'a la fin du temps."
       }
     },
-    "name": "Deus Zero",
+    "name": "Interruption",
     "type": "Reaction",
     "cost": 1,
-    "affinite": "Enchantement",
+    "affinite": "Neutre",
     "appartenance": "FairyTail"
   },
-  "A081": {
-    "id": "A081",
+  "A018": {
+    "id": "A018",
     "isToken": false,
     "face": {
       "front": {
-        "name": "Armure du dragon slayer",
-        "type": "Equipement",
-        "cost": 3,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A081.png?raw=true",
+        "name": "Transfert magique",
+        "type": "Action",
+        "cost": 1,
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A018.png?raw=true",
         "isHorizontal": false,
-        "force": 0,
-        "counter": 1,
-        "lettre": "S",
-        "effet": "Effet Permanent : Erza gagne l'affinité Enchantement en plus de l'affinité Chevalier. Reaction : Effet de sacrifice : Vous pouvez défausser cette armure depuis votre zone de jeu pour copier l'effet d'une carte Enchantement dans votre défausse."
+        "force": 1,
+        "effet": "Apparition : Défaussez une carte de votre main. Si vous le faites, cherchez une carte de la même affinité que le combattant dans cette zone de combat, et ajoutez-la à votre main."
       }
     },
-    "name": "Armure du dragon slayer",
-    "type": "Equipement",
-    "cost": 2,
-    "affinite": "Chevalier",
+    "name": "Transfert magique",
+    "type": "Action",
+    "cost": 1,
+    "affinite": "Neutre",
     "appartenance": "FairyTail"
+  },
+  "A019": {
+    "id": "A019",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Chaine de jugement",
+        "type": "Action",
+        "cost": 3,
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A019.png?raw=true",
+        "isHorizontal": false,
+        "force": 1,
+        "effet": "Apparition : Choisissez une zone de combat. Placez un marqueur \"Jugement\" sur le combattant adverse dans cette zone de combat. Tant que le marqueur est en jeu : si ce combattant évolue, sa Force de base devient 0 jusqu'à la fin du combat."
+      }
+    },
+    "name": "Chaine de jugement",
+    "type": "Action",
+    "cost": 3,
+    "affinite": "Specialiste",
+    "appartenance": "Hunter"
+  },
+  "A020": {
+    "id": "A020",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Serment sur le coeur",
+        "type": "Reaction",
+        "cost": 1,
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A020.png?raw=true",
+        "isHorizontal": false,
+        "force": 1,
+        "effet": "Apparition : Choisissez une carte sur le terrain adverse. Placez un marqueur \"Serment\" dessus (Une carte avec un marqueur serment voit ses effet annulé, son propriétaire peut défaussez deux carte pour défaussez ce marqueur)."
+      }
+    },
+    "name": "Serment sur le coeur",
+    "type": "Reaction",
+    "cost": 1,
+    "affinite": "Specialiste",
+    "appartenance": "Hunter"
+  },
+  "A021": {
+    "id": "A021",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Chaine de contrainte",
+        "type": "Action",
+        "cost": 1,
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A021.png?raw=true",
+        "isHorizontal": false,
+        "force": 1,
+        "effet": "Apparition : Votre adversaire perd 1 d'énergie lors de la prochaine phase."
+      }
+    },
+    "name": "Chaine de contrainte",
+    "type": "Action",
+    "cost": 1,
+    "affinite": "Specialiste",
+    "appartenance": "Hunter"
+  },
+  "A022": {
+    "id": "A022",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Soins",
+        "type": "Action",
+        "cost": 1,
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A022.png?raw=true",
+        "isHorizontal": false,
+        "force": 0,
+        "effet": "Apparition : Ciblez 1 cartes, enlevez lui tout les marqueurs negatif."
+      }
+    },
+    "name": "Soins",
+    "type": "Action",
+    "cost": 1,
+    "affinite": "Specialiste",
+    "appartenance": "Hunter"
+  },
+  "A023": {
+    "id": "A023",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Canne à pêche",
+        "type": "Action",
+        "cost": 1,
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A023.png?raw=true",
+        "isHorizontal": false,
+        "force": 1,
+        "effet": "Apparition : Choisissez une carte dans cette zone de combat, transférez le bonus de la carte choisis à cette carte."
+      }
+    },
+    "name": "Canne à pêche",
+    "type": "Action",
+    "cost": 1,
+    "affinite": "Renforcement",
+    "appartenance": "Hunter"
+  },
+  "A024": {
+    "id": "A024",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Rock,Paper,Scissor",
+        "type": "Action",
+        "cost": 1,
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A024.png?raw=true",
+        "isHorizontal": false,
+        "force": 1,
+        "effet": "Apparition : Choisissez 'pierre', 'feuille', 'ciseau'. Créer un token choisis."
+      }
+    },
+    "name": "Rock,Paper,Scissor",
+    "type": "Action",
+    "cost": 1,
+    "affinite": "Renforcement",
+    "appartenance": "Hunter"
+  },
+  "A025": {
+    "id": "A025",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Rock",
+        "type": "Action",
+        "cost": 3,
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A025.png?raw=true",
+        "isHorizontal": false,
+        "force": 2,
+        "effet": "Apparition : Cette carte gagne +3 Force jusqu'à la fin du combat. Si Jajanken a été joué avant ce Rock ce combat : cette carte gagne +5 Force à la place."
+      }
+    },
+    "name": "Rock",
+    "type": "Action",
+    "cost": 3,
+    "affinite": "Renforcement",
+    "appartenance": "Hunter"
+  },
+  "A026": {
+    "id": "A026",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Griffe",
+        "type": "Action",
+        "cost": 1,
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A026.png?raw=true",
+        "isHorizontal": false,
+        "force": 1,
+        "effet": "Apparition : Placez un token \"Griffe\" sur le combattant adverse."
+      }
+    },
+    "name": "Griffe",
+    "type": "Action",
+    "cost": 1,
+    "affinite": "Transformation",
+    "appartenance": "Hunter"
+  },
+  "A027": {
+    "id": "A027",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Charge",
+        "type": "Action",
+        "cost": 1,
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A027.png?raw=true",
+        "isHorizontal": false,
+        "force": 1,
+        "effet": "Apparition : Placez 2 marqueurs \"Charge\" sur Killua. Piochez 1 carte."
+      }
+    },
+    "name": "Charge",
+    "type": "Action",
+    "cost": 1,
+    "affinite": "Transformation",
+    "appartenance": "Hunter"
+  },
+  "A028": {
+    "id": "A028",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Godspeed",
+        "type": "Reaction",
+        "cost": 3,
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A028.png?raw=true",
+        "isHorizontal": false,
+        "force": 2,
+        "effet": "Apparition : Cette carte gagne +X. X étant le nombre de marqueurs \"Charge\" sur votre combattant. Si cette carte est joué en réaction à une carte adversaire, vous pouvez défaussez une carte, si vous le faite, annulez l'activation. Défaussez tout les marqueurs charge sur votre combattant."
+      }
+    },
+    "name": "Godspeed",
+    "type": "Reaction",
+    "cost": 3,
+    "affinite": "Transformation",
+    "appartenance": "Hunter"
+  },
+  "A029": {
+    "id": "A029",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Corde à saute",
+        "type": "Action",
+        "cost": 0,
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A029.png?raw=true",
+        "isHorizontal": false,
+        "force": 1,
+        "effet": "Apparition : Retirez 1 marqueur \"Charge\" de Killua. Piochez 1 carte."
+      }
+    },
+    "name": "Corde à saute",
+    "type": "Action",
+    "cost": 0,
+    "affinite": "Transformation",
+    "appartenance": "Hunter"
+  },
+  "A030": {
+    "id": "A030",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "License Hunter",
+        "type": "Action",
+        "cost": 1,
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A030.png?raw=true",
+        "isHorizontal": false,
+        "force": 0,
+        "effet": "Apparition : Piochez 1 cartes. Si vous contrôlez un combattant Hunter, piochez 2 cartes à la place."
+      }
+    },
+    "name": "License Hunter",
+    "type": "Action",
+    "cost": 1,
+    "affinite": "Neutre",
+    "appartenance": "Hunter"
+  },
+  "A031": {
+    "id": "A031",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Face contre inconnue",
+        "type": "Action",
+        "cost": 2,
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A031.png?raw=true",
+        "isHorizontal": false,
+        "force": 1,
+        "effet": "Apparition : Si votre combattant a moins de Force que le combattant adverse dans la même zone de combat, cette carte gagne +3 Force jusqu'à la fin du combat."
+      }
+    },
+    "name": "Face contre inconnue",
+    "type": "Action",
+    "cost": 2,
+    "affinite": "Neutre",
+    "appartenance": "Hunter"
+  },
+  "A032": {
+    "id": "A032",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Apres la bataille",
+        "type": "Reaction",
+        "cost": 1,
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A032.png?raw=true",
+        "isHorizontal": false,
+        "force": 1,
+        "effet": "Fin : Si vous perdez dans cette zone de combat, choisissez une autre zone de combat, donnez +3 de force à une carte de cette zone de combat."
+      }
+    },
+    "name": "Apres la bataille",
+    "type": "Reaction",
+    "cost": 1,
+    "affinite": "Neutre",
+    "appartenance": "Hunter"
   },
   "T001": {
     "id": "T001",
     "isToken": true,
     "face": {
       "front": {
-        "name": "Aquarius",
+        "name": "Epee magique",
         "type": "Invocation",
         "cost": 0,
         "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/T001.png?raw=true",
         "isHorizontal": false,
-        "force": 2,
-        "effet": "À l'invocation, renvoyez une carte face cachée adverse dans sa main"
+        "force": 1
       }
     },
-    "name": "Aquarius",
+    "name": "Epee magique",
     "type": "Invocation",
     "cost": 0,
-    "affinite": "Eau",
+    "affinite": "Chevalier",
     "appartenance": "FairyTail"
   },
   "T002": {
@@ -2385,330 +861,10 @@
     "isToken": true,
     "face": {
       "front": {
-        "name": "Leo",
-        "type": "Invocation",
-        "cost": 0,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/T002.png?raw=true",
-        "isHorizontal": false,
-        "force": 2,
-        "effet": "Sacrifice/KO : Détruisez une carte adverse sur le terrain"
-      }
-    },
-    "name": "Leo",
-    "type": "Invocation",
-    "cost": 0,
-    "affinite": "Feu",
-    "appartenance": "FairyTail"
-  },
-  "T003": {
-    "id": "T003",
-    "isToken": true,
-    "face": {
-      "front": {
-        "name": "Taurus",
-        "type": "Invocation",
-        "cost": 0,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/T003.png?raw=true",
-        "isHorizontal": false,
-        "force": 3,
-        "effet": "Cette carte ne peut pas être détruite par des effets adverse"
-      }
-    },
-    "name": "Taurus",
-    "type": "Invocation",
-    "cost": 0,
-    "affinite": "Terre",
-    "appartenance": "FairyTail"
-  },
-  "T004": {
-    "id": "T004",
-    "isToken": true,
-    "face": {
-      "front": {
-        "name": "Cancer",
-        "type": "Invocation",
-        "cost": 0,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/T004.png?raw=true",
-        "isHorizontal": false,
-        "force": 2,
-        "effet": "À l'invocation, ciblez une carte. Réduisez la valeur de base de la carte ciblé à 0."
-      }
-    },
-    "name": "Cancer",
-    "type": "Invocation",
-    "cost": 0,
-    "affinite": "Chevalier",
-    "appartenance": "FairyTail"
-  },
-  "T005": {
-    "id": "T005",
-    "isToken": true,
-    "face": {
-      "front": {
-        "name": "Sagittarius",
-        "type": "Invocation",
-        "cost": 0,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/T005.png?raw=true",
-        "isHorizontal": false,
-        "force": 1,
-        "effet": "À l'invocation, détruisez une carte face cachée adverse."
-      }
-    },
-    "name": "Sagittarius",
-    "type": "Invocation",
-    "cost": 0,
-    "affinite": "Chevalier",
-    "appartenance": "FairyTail"
-  },
-  "T006": {
-    "id": "T006",
-    "isToken": true,
-    "face": {
-      "front": {
-        "name": "Scorpio",
-        "type": "Invocation",
-        "cost": 0,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/T006.png?raw=true",
-        "isHorizontal": false,
-        "force": 1,
-        "effet": "À l'invocation, placez un marqueur \"venin\" sur un combattant adverse. Le marqueur venant donne -X, avec X étant le nombre de carte de la même affinité sur le terrain."
-      }
-    },
-    "name": "Scorpio",
-    "type": "Invocation",
-    "cost": 0,
-    "affinite": "Feu",
-    "appartenance": "FairyTail"
-  },
-  "T007": {
-    "id": "T007",
-    "isToken": true,
-    "face": {
-      "front": {
-        "name": "Capricorn",
-        "type": "Invocation",
-        "cost": 0,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/T007.png?raw=true",
-        "isHorizontal": false,
-        "force": 1,
-        "effet": "Effet permanent : lorsque vous invoquer un esprit, piochez 1 puis défaussez 1."
-      }
-    },
-    "name": "Capricorn",
-    "type": "Invocation",
-    "cost": 0,
-    "affinite": "Neutre",
-    "appartenance": "FairyTail"
-  },
-  "T008": {
-    "id": "T008",
-    "isToken": true,
-    "face": {
-      "front": {
-        "name": "Horlogium",
-        "type": "Invocation",
-        "cost": 0,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/T008.png?raw=true",
-        "isHorizontal": false,
-        "force": 0,
-        "effet": "Sacrifice : annulez une Action qui cible votre combattant ou vos invocations."
-      }
-    },
-    "name": "Horlogium",
-    "type": "Invocation",
-    "cost": 0,
-    "affinite": "Neutre",
-    "appartenance": "FairyTail"
-  },
-  "T009": {
-    "id": "T009",
-    "isToken": true,
-    "face": {
-      "front": {
-        "name": "Aries",
-        "type": "Invocation",
-        "cost": 0,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/T009.png?raw=true",
-        "isHorizontal": false,
-        "force": 1,
-        "effet": "À l'invocation, ciblez une carte adverse, réduisez de -2 la Force."
-      }
-    },
-    "name": "Aries",
-    "type": "Invocation",
-    "cost": 0,
-    "affinite": "Neutre",
-    "appartenance": "FairyTail"
-  },
-  "T010": {
-    "id": "T010",
-    "isToken": true,
-    "face": {
-      "front": {
-        "name": "Libra",
-        "type": "Invocation",
-        "cost": 0,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/T010.png?raw=true",
-        "isHorizontal": false,
-        "force": 1,
-        "effet": "À l'invocation, choisissez une carte adverse et une carte allié, échangez leurs valeurs de Force de base."
-      }
-    },
-    "name": "Libra",
-    "type": "Invocation",
-    "cost": 0,
-    "affinite": "Neutre",
-    "appartenance": "FairyTail"
-  },
-  "T011": {
-    "id": "T011",
-    "isToken": true,
-    "face": {
-      "front": {
-        "name": "Pisces",
-        "type": "Invocation",
-        "cost": 0,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/T011.png?raw=true",
-        "isHorizontal": false,
-        "force": 1,
-        "effet": "Effet permanent : Pisces peut être traité comme deux créatures distinctes pour les effets qui comptent vos invocations"
-      }
-    },
-    "name": "Pisces",
-    "type": "Invocation",
-    "cost": 0,
-    "affinite": "Eau",
-    "appartenance": "FairyTail"
-  },
-  "T012": {
-    "id": "T012",
-    "isToken": true,
-    "face": {
-      "front": {
-        "name": "Lyra",
-        "type": "Invocation",
-        "cost": 0,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/T012.png?raw=true",
-        "isHorizontal": false,
-        "force": 1,
-        "effet": "À l'invocation, regardez la main de votre adversaire, choisissez une carte, elle coute +1 jusqu'à la fin du combat"
-      }
-    },
-    "name": "Lyra",
-    "type": "Invocation",
-    "cost": 0,
-    "affinite": "Neutre",
-    "appartenance": "FairyTail"
-  },
-  "T013": {
-    "id": "T013",
-    "isToken": true,
-    "face": {
-      "front": {
-        "name": "Virgo",
-        "type": "Invocation",
-        "cost": 0,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/T013.png?raw=true",
-        "isHorizontal": false,
-        "force": 2,
-        "effet": "À l'invocation, défaussez une carte de votre main, allez chercher une carte d'affinité constellation dans votre deck et ajoutez là à votre main."
-      }
-    },
-    "name": "Virgo",
-    "type": "Invocation",
-    "cost": 0,
-    "affinite": "Neutre",
-    "appartenance": "FairyTail"
-  },
-  "T014": {
-    "id": "T014",
-    "isToken": true,
-    "face": {
-      "front": {
-        "name": "Gemini",
-        "type": "Invocation",
-        "cost": 0,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/T014.png?raw=true",
-        "isHorizontal": false,
-        "force": 0,
-        "effet": "À l'invocation, cibler une carte joué par votre adversaire, la puissance de base de cette carte devient la puissance de base de la carte ciblé"
-      }
-    },
-    "name": "Gemini",
-    "type": "Invocation",
-    "cost": 0,
-    "affinite": "Neutre",
-    "appartenance": "FairyTail"
-  },
-  "T015": {
-    "id": "T015",
-    "isToken": true,
-    "face": {
-      "front": {
-        "name": "Celestian spirit King",
-        "type": "Invocation",
-        "cost": 0,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/T015.png?raw=true",
-        "isHorizontal": false,
-        "force": 5,
-        "effet": "Indestructible. Aucun joueur ne peut activé de carte."
-      }
-    },
-    "name": "Celestian spirit King",
-    "type": "Invocation",
-    "cost": 0,
-    "affinite": "Neutre",
-    "appartenance": "FairyTail"
-  },
-  "T016": {
-    "id": "T016",
-    "isToken": true,
-    "face": {
-      "front": {
-        "name": "Epee celeste",
-        "type": "Invocation",
-        "cost": 0,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/T016.png?raw=true",
-        "isHorizontal": false,
-        "force": 1,
-        "effet": ""
-      }
-    },
-    "name": "Epee celeste",
-    "type": "Invocation",
-    "cost": 0,
-    "affinite": "Chevalier",
-    "appartenance": "FairyTail"
-  },
-  "T017": {
-    "id": "T017",
-    "isToken": true,
-    "face": {
-      "front": {
-        "name": "Esprit mineur",
-        "type": "Invocation",
-        "cost": 0,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/T017.png?raw=true",
-        "isHorizontal": false,
-        "force": 0,
-        "effet": "Activation Unique : Sacrifiez un autre esprit mineur et cette carte, piochez 1"
-      }
-    },
-    "name": "Esprit mineur",
-    "type": "Invocation",
-    "cost": 0,
-    "affinite": "Constellation",
-    "appartenance": "FairyTail"
-  },
-  "T018": {
-    "id": "T018",
-    "isToken": true,
-    "face": {
-      "front": {
         "name": "Griffe",
         "type": "Marqueur",
         "cost": 0,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/T018.png?raw=true",
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/T002.png?raw=true",
         "isHorizontal": false,
         "force": 0,
         "effet": "Effet Permanent : Le combattant avec cette Griffe perd toutes ses affinités. Lorsque ce combattant joue une carte : défaussez ce jeton."
@@ -2720,15 +876,15 @@
     "affinite": "Transformation",
     "appartenance": "Hunter"
   },
-  "T019": {
-    "id": "T019",
+  "T003": {
+    "id": "T003",
     "isToken": true,
     "face": {
       "front": {
         "name": "Serment",
         "type": "Marqueur",
         "cost": 0,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/T019.png?raw=true",
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/T003.png?raw=true",
         "isHorizontal": false,
         "force": 0,
         "effet": "Effet Permanent : Annulez les effets de la cartes attaché, elle ne peut pas être activé. Son propriétaire peut défaussez une carte pour défaussez ce marqueur"
@@ -2740,200 +896,124 @@
     "affinite": "Specialiste",
     "appartenance": "Hunter"
   },
-  "T020": {
-    "id": "T020",
+  "T004": {
+    "id": "T004",
     "isToken": true,
     "face": {
       "front": {
-        "name": "Drunk",
-        "type": "Experience",
+        "name": "Pierre",
+        "type": "Invocation",
         "cost": 0,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/T020.png?raw=true",
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/T004.png?raw=true",
         "isHorizontal": false,
         "force": 0,
-        "effet": "2 marqueurs : Transformez l'affinité de la prochaine carte jouée en une affinité aléatoire.\n4 marqueurs : Vos cartes coûtent 1 de plus à jouer. Vous ne payez pas le surcoût d'affinité.\n6 marqueurs : Lorsque vous jouez une carte, votre adversaire choisit une carte sur votre terrain. Transformez votre carte jouée en la carte ciblée."
+        "effet": "Activation : La prochaine carte Renforcement que vous jouez dans cette zone de combat gagne +2 Force."
       }
     },
-    "name": "Drunk",
-    "type": "Experience",
+    "name": "Pierre",
+    "type": "Invocation",
     "cost": 0,
-    "affinite": "Fete",
-    "appartenance": "GrandBlue"
+    "affinite": "Renforcement",
+    "appartenance": "Hunter"
   },
-  "T021": {
-    "id": "T021",
+  "T005": {
+    "id": "T005",
     "isToken": true,
     "face": {
       "front": {
-        "name": "Matsered drunk",
-        "type": "Experience",
+        "name": "Feuille",
+        "type": "Invocation",
         "cost": 0,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/T021.png?raw=true",
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/T005.png?raw=true",
         "isHorizontal": false,
         "force": 0,
-        "effet": "2 marqueurs : Transformez l'affinité de la prochaine carte jouée en une affinité choisie.\n4 marqueurs : Vous ne payez pas le surcoût d'affinité.\n6 marqueurs : Lorsque vous jouez une carte, choisissez une carte sur votre terrain. Transformez votre carte jouée en la carte ciblée."
+        "effet": "Activation : La prochaine carte Transformation que vous jouez dans cette zone de combat ne coûte pas de surcoût d'affinité puis ciblez une carte sort adverse, il perd -2 Force."
       }
     },
-    "name": "Matsered drunk",
-    "type": "Experience",
+    "name": "Feuille",
+    "type": "Invocation",
     "cost": 0,
-    "affinite": "Fete",
-    "appartenance": "GrandBlue"
+    "affinite": "Transformation",
+    "appartenance": "Hunter"
   },
-  "T022": {
-    "id": "T022",
+  "T006": {
+    "id": "T006",
     "isToken": true,
     "face": {
       "front": {
-        "name": "Plongé",
-        "type": "Experience",
+        "name": "Ciseau",
+        "type": "Invocation",
         "cost": 0,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/T022.png?raw=true",
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/T006.png?raw=true",
         "isHorizontal": false,
         "force": 0,
-        "effet": "Effet Permanent : Pour chaque carte Plongée activée ou carte activée depuis la zone face cachée, augmentez ce token de 1 marqueur. Votre combattant gagne l'affinité Plongée en plus de son affinité de base.\n1 marqueur : Vous pouvez regarder la carte du dessus de votre deck à tout moment.\n3 marqueurs : Votre adversaire ne peut pas cibler vos cartes dans votre zone face cachée.\n5 marqueurs : Votre combattant gagne +X Force, où X est le nombre de marqueurs \"Dive\" sur ce token."
+        "effet": "Activation : La prochaine carte Spécialiste que vous jouez dans cette zone de combat ne coûte pas de surcoût d'affinité, puis ciblez une carte 'sort' adverse, retirez un boost de Force de la carte ciblé."
       }
     },
-    "name": "Plongé",
-    "type": "Experience",
+    "name": "Ciseau",
+    "type": "Invocation",
     "cost": 0,
-    "affinite": "Plonge",
-    "appartenance": "GrandBlue"
+    "affinite": "Specialiste",
+    "appartenance": "Hunter"
   },
-  "S001": {
-    "id": "S001",
+  "R001": {
+    "id": "R001",
     "isToken": false,
     "face": {
       "front": {
-        "name": "Guilde Elementaire",
-        "type": "Stage",
+        "name": "Zone 1",
+        "type": "Zone Territory",
         "cost": 0,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/S001.png?raw=true",
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/R001.png?raw=true",
         "isHorizontal": false,
-        "effet": "Défaussez une carte de votre main. Si vous le faites, cherchez une carte d'une autre affinité dans votre deck, révélez-la et ajoutez-la à votre main. Utilisable une fois par manche."
+        "force": 0,
+        "effet": ""
       }
     },
-    "name": "Guilde Elementaire",
-    "type": "Stage",
-    "cost": 0
+    "name": "Zone 1",
+    "type": "Zone Territory",
+    "cost": 0,
+    "affinite": "",
+    "appartenance": ""
   },
-  "S002": {
-    "id": "S002",
+  "R002": {
+    "id": "R002",
     "isToken": false,
     "face": {
       "front": {
-        "name": "Guilde vision",
-        "type": "Stage",
+        "name": "Zone 2",
+        "type": "Zone Territory",
         "cost": 0,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/S002.png?raw=true",
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/R002.png?raw=true",
         "isHorizontal": false,
-        "effet": "Regardez la main de l'adversaire et choisissez-en une carte. Il la place face cachée dans sa zone de jeu. Utilisable une fois par manche."
+        "force": 0,
+        "effet": ""
       }
     },
-    "name": "Guilde vision",
-    "type": "Stage",
-    "cost": 0
+    "name": "Zone 2",
+    "type": "Zone Territory",
+    "cost": 0,
+    "affinite": "",
+    "appartenance": ""
   },
-  "E001": {
-    "id": "E001",
+  "R003": {
+    "id": "R003",
     "isToken": false,
     "face": {
       "front": {
-        "name": "Énergie",
-        "type": "Énergie",
+        "name": "Zone 3",
+        "type": "Zone Territory",
         "cost": 0,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/E001.png?raw=true",
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/R003.png?raw=true",
         "isHorizontal": false,
-        "effet": "Lorsqu'elle est attachée à votre combattant : +1 Force."
+        "force": 0,
+        "effet": ""
       }
     },
-    "name": "Énergie",
-    "type": "Énergie",
-    "cost": 0
-  },
-  "E002": {
-    "id": "E002",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Énergie",
-        "type": "Énergie",
-        "cost": 0,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/E002.png?raw=true",
-        "isHorizontal": false,
-        "effet": "Lorsqu'elle est attachée à votre combattant : +1 Force."
-      }
-    },
-    "name": "Énergie",
-    "type": "Énergie",
-    "cost": 0
-  },
-  "E003": {
-    "id": "E003",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Énergie",
-        "type": "Énergie",
-        "cost": 0,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/E003.png?raw=true",
-        "isHorizontal": false,
-        "effet": "Lorsqu'elle est attachée à votre combattant : +1 Force."
-      }
-    },
-    "name": "Énergie",
-    "type": "Énergie",
-    "cost": 0
-  },
-  "E004": {
-    "id": "E004",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Énergie",
-        "type": "Énergie",
-        "cost": 0,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/E004.png?raw=true",
-        "isHorizontal": false,
-        "effet": "Lorsqu'elle est attachée à votre combattant : +1 Force."
-      }
-    },
-    "name": "Énergie",
-    "type": "Énergie",
-    "cost": 0
-  },
-  "E005": {
-    "id": "E005",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Énergie",
-        "type": "Énergie",
-        "cost": 0,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/E005.png?raw=true",
-        "isHorizontal": false,
-        "effet": "Lorsqu'elle est attachée à votre combattant : +1 Force."
-      }
-    },
-    "name": "Énergie",
-    "type": "Énergie",
-    "cost": 0
-  },
-  "E006": {
-    "id": "E006",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Énergie",
-        "type": "Énergie",
-        "cost": 0,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/E006.png?raw=true",
-        "isHorizontal": false,
-        "effet": "Lorsqu'elle est attachée à votre combattant : +1 Force."
-      }
-    },
-    "name": "Énergie",
-    "type": "Énergie",
-    "cost": 0
+    "name": "Zone 3",
+    "type": "Zone Territory",
+    "cost": 0,
+    "affinite": "",
+    "appartenance": ""
   }
 }
