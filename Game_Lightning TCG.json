@@ -83,7 +83,7 @@
       ],
       "sections": {
         "customSections": [
-          "ZoneTerritory",
+          "Zone Territory",
           "CarteJoue1",
           "CarteJoue2",
           "CarteJoue3",
@@ -100,7 +100,7 @@
               "direction": "row",
               "content": [
                 {
-                  "section": "ZoneTerritory",
+                  "section": "Zone Territory",
                   "style": {
                     "flex": "1"
                   }
@@ -207,7 +207,7 @@
             "height": "MEDIUM",
             "alignment": "NONE"
           },
-          "ZoneTerritory": {
+          "Zone Territory": {
             "isHidden": "opponent-only",
             "height": "MEDIUM",
             "alignment": "CENTER"
