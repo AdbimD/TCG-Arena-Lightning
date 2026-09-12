@@ -15,7 +15,7 @@
         "gameplay": "Standard",
         "customCategories": [
           "Combattant",
-          "Zone Territory"
+          "ZoneTerritory"
         ],
         "deckRuleset": "Limited"
       }
@@ -34,7 +34,7 @@
             "max": 3
           },
           {
-            "category": "Zone Territory",
+            "category": "ZoneTerritory",
             "min": 3,
             "max": 3,
             "maxPerCard": 1
@@ -83,7 +83,7 @@
       ],
       "sections": {
         "customSections": [
-          "Zone Territory",
+          "ZoneTerritory",
           "CarteJoue1",
           "CarteJoue2",
           "CarteJoue3",
@@ -100,7 +100,7 @@
               "direction": "row",
               "content": [
                 {
-                  "section": "Zone Territory",
+                  "section": "ZoneTerritory",
                   "style": {
                     "flex": "1"
                   }
@@ -174,7 +174,7 @@
         },
         "categoriesAlreadyOnBoard": [
           "Combattant",
-          "Zone Territory"
+          "ZoneTerritory"
         ],
         "sectionsDict": {
           "Hand": {
@@ -207,7 +207,7 @@
             "height": "MEDIUM",
             "alignment": "NONE"
           },
-          "Zone Territory": {
+          "ZoneTerritory": {
             "isHidden": "opponent-only",
             "height": "MEDIUM",
             "alignment": "CENTER"

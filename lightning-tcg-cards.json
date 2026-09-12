@@ -962,7 +962,7 @@
     "face": {
       "front": {
         "name": "Zone 1",
-        "type": "Zone Territory",
+        "type": "ZoneTerritory",
         "cost": 0,
         "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/R001.png?raw=true",
         "isHorizontal": false,
@@ -971,7 +971,7 @@
       }
     },
     "name": "Zone 1",
-    "type": "Zone Territory",
+    "type": "ZoneTerritory",
     "cost": 0,
     "affinite": "",
     "appartenance": ""
@@ -982,7 +982,7 @@
     "face": {
       "front": {
         "name": "Zone 2",
-        "type": "Zone Territory",
+        "type": "ZoneTerritory",
         "cost": 0,
         "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/R002.png?raw=true",
         "isHorizontal": false,
@@ -991,7 +991,7 @@
       }
     },
     "name": "Zone 2",
-    "type": "Zone Territory",
+    "type": "ZoneTerritory",
     "cost": 0,
     "affinite": "",
     "appartenance": ""
@@ -1002,7 +1002,7 @@
     "face": {
       "front": {
         "name": "Zone 3",
-        "type": "Zone Territory",
+        "type": "ZoneTerritory",
         "cost": 0,
         "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/R003.png?raw=true",
         "isHorizontal": false,
@@ -1011,7 +1011,7 @@
       }
     },
     "name": "Zone 3",
-    "type": "Zone Territory",
+    "type": "ZoneTerritory",
     "cost": 0,
     "affinite": "",
     "appartenance": ""
