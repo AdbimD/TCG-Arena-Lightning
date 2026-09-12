@@ -14,7 +14,8 @@
         "title": "Standard format",
         "gameplay": "Standard",
         "customCategories": [
-          "Combattant"
+          "Combattant",
+          "Zone Territory"
         ],
         "deckRuleset": "Limited"
       }
@@ -22,8 +23,8 @@
     "deckRulesets": {
       "Limited": {
         "general": {
-          "min": 38,
-          "max": 38,
+          "min": 41,
+          "max": 41,
           "maxPerCard": 3
         },
         "categories": [
@@ -31,6 +32,12 @@
             "category": "Combattant",
             "min": 3,
             "max": 3
+          },
+          {
+            "category": "Zone Territory",
+            "min": 3,
+            "max": 3,
+            "maxPerCard": 1
           }
         ]
       }
@@ -76,7 +83,7 @@
       ],
       "sections": {
         "customSections": [
-          "Token",
+          "ZoneTerritory",
           "CarteJoue1",
           "CarteJoue2",
           "CarteJoue3",
@@ -93,7 +100,7 @@
               "direction": "row",
               "content": [
                 {
-                  "section": "Token",
+                  "section": "ZoneTerritory",
                   "style": {
                     "flex": "1"
                   }
@@ -199,7 +206,7 @@
             "height": "MEDIUM",
             "alignment": "NONE"
           },
-          "Token": {
+          "ZoneTerritory": {
             "isHidden": "opponent-only",
             "height": "MEDIUM",
             "alignment": "CENTER"
@@ -241,17 +248,11 @@
           }
         },
         "autoPlayFromHand": {
-          "Invocation": "Token",
-          "Experience": "Token",
-          "Marqueur": "Token",
-          "Comobattant": "Comobattant"
+          "Combattant": "Combattant"
         },
         "autoPlayFromStack": {
           "Action": "CarteJoue1",
-          "Reaction": "CarteJoue1",
-          "Invocation": "Token",
-          "Experience": "Token",
-          "Marqueur": "Token"
+          "Reaction": "CarteJoue1"
         }
       }
     }
