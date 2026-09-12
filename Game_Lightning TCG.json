@@ -173,7 +173,8 @@
           ]
         },
         "categoriesAlreadyOnBoard": [
-          "Combattant"
+          "Combattant",
+          "Zone Territory"
         ],
         "sectionsDict": {
           "Hand": {
