@@ -88,34 +88,20 @@
           "Combattant"
         ],
         "layout": {
-          "direction": "column",
+          "direction": "row",
           "isSymmetricalForOpponents": true,
           "content": [
             {
-              "direction": "row",
-              "content": [
-                {
-                  "section": "CarteJoue1",
-                  "style": {
-                    "flex": "1"
-                  }
-                },
-                {
-                  "section": "CarteJoue2",
-                  "style": {
-                    "flex": "1"
-                  }
-                },
-                {
-                  "section": "CarteJoue3",
-                  "style": {
-                    "flex": "1"
-                  }
-                }
-              ]
+              "section": "Combattant",
+              "style": {
+                "flex": "1"
+              }
             },
             {
-              "direction": "row",
+              "direction": "column",
+              "style": {
+                "flex": "1"
+              },
               "content": [
                 {
                   "section": "CombattantZone1",
@@ -138,10 +124,25 @@
               ]
             },
             {
-              "direction": "row",
+              "direction": "column",
+              "style": {
+                "flex": "2"
+              },
               "content": [
                 {
-                  "section": "Combattant",
+                  "section": "CarteJoue1",
+                  "style": {
+                    "flex": "1"
+                  }
+                },
+                {
+                  "section": "CarteJoue2",
+                  "style": {
+                    "flex": "1"
+                  }
+                },
+                {
+                  "section": "CarteJoue3",
                   "style": {
                     "flex": "1"
                   }
