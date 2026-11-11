@@ -3,10 +3,7 @@
   "deckBuilding": {
     "mainFilters": [
       "Combattant",
-      "Énergie",
-      "Stage",
       "Action",
-      "Reaction",
       "affinite"
     ],
     "formats": [
@@ -14,8 +11,7 @@
         "title": "Standard format",
         "gameplay": "Standard",
         "customCategories": [
-          "Combattant",
-          "ZoneTerritory"
+          "Combattant"
         ],
         "deckRuleset": "Limited"
       }
@@ -23,18 +19,13 @@
     "deckRulesets": {
       "Limited": {
         "general": {
-          "min": 26,
-          "max": 26,
+          "min": 23,
+          "max": 23,
           "maxPerCard": 2
         },
         "categories": [
           {
             "category": "Combattant",
-            "min": 3,
-            "max": 3
-          },
-          {
-            "category": "ZoneTerritory",
             "min": 3,
             "max": 3,
             "maxPerCard": 1
@@ -46,7 +37,7 @@
   "gameplay": {
     "Standard": {
       "mulligan": {
-        "startingHandSize": 7,
+        "startingHandSize": 6,
         "mulliganCount": {
           "max": 1
         },
@@ -58,12 +49,12 @@
           ],
           "selectionRange": {
             "min": 0,
-            "max": 7
+            "max": 6
           }
         }
       },
       "newTurn": {
-        "drawOnStart": false,
+        "drawOnStart": true,
         "sharedTurn": true
       },
       "draggableTokens": [
@@ -79,18 +70,22 @@
           "name": "Temps",
           "startingValue": 1,
           "shared": true
+        },
+        {
+          "id": "KO",
+          "name": "Mages KO",
+          "startingValue": 0
         }
       ],
       "sections": {
         "customSections": [
-          "ZoneTerritory",
           "CarteJoue1",
           "CarteJoue2",
           "CarteJoue3",
-          "Combattant",
           "CombattantZone1",
           "CombattantZone2",
-          "CombattantZone3"
+          "CombattantZone3",
+          "Combattant"
         ],
         "layout": {
           "direction": "column",
@@ -100,36 +95,45 @@
               "direction": "row",
               "content": [
                 {
-                  "section": "ZoneTerritory",
+                  "section": "CarteJoue1",
                   "style": {
                     "flex": "1"
                   }
                 },
                 {
-                  "direction": "row",
+                  "section": "CarteJoue2",
                   "style": {
-                    "flex": "3"
-                  },
-                  "content": [
-                    {
-                      "section": "CarteJoue1",
-                      "style": {
-                        "flex": "1"
-                      }
-                    },
-                    {
-                      "section": "CarteJoue2",
-                      "style": {
-                        "flex": "1"
-                      }
-                    },
-                    {
-                      "section": "CarteJoue3",
-                      "style": {
-                        "flex": "1"
-                      }
-                    }
-                  ]
+                    "flex": "1"
+                  }
+                },
+                {
+                  "section": "CarteJoue3",
+                  "style": {
+                    "flex": "1"
+                  }
+                }
+              ]
+            },
+            {
+              "direction": "row",
+              "content": [
+                {
+                  "section": "CombattantZone1",
+                  "style": {
+                    "flex": "1"
+                  }
+                },
+                {
+                  "section": "CombattantZone2",
+                  "style": {
+                    "flex": "1"
+                  }
+                },
+                {
+                  "section": "CombattantZone3",
+                  "style": {
+                    "flex": "1"
+                  }
                 }
               ]
             },
@@ -141,40 +145,13 @@
                   "style": {
                     "flex": "1"
                   }
-                },
-                {
-                  "direction": "row",
-                  "style": {
-                    "flex": "3"
-                  },
-                  "content": [
-                    {
-                      "section": "CombattantZone1",
-                      "style": {
-                        "flex": "1"
-                      }
-                    },
-                    {
-                      "section": "CombattantZone2",
-                      "style": {
-                        "flex": "1"
-                      }
-                    },
-                    {
-                      "section": "CombattantZone3",
-                      "style": {
-                        "flex": "1"
-                      }
-                    }
-                  ]
                 }
               ]
             }
           ]
         },
         "categoriesAlreadyOnBoard": [
-          "Combattant",
-          "ZoneTerritory"
+          "Combattant"
         ],
         "sectionsDict": {
           "Hand": {
@@ -207,28 +184,23 @@
             "height": "MEDIUM",
             "alignment": "NONE"
           },
-          "ZoneTerritory": {
-            "isHidden": "opponent-only",
-            "height": "MEDIUM",
-            "alignment": "CENTER"
-          },
           "Combattant": {
-            "isHidden": "opponent-only",
+            "isHidden": "no",
             "height": "MEDIUM",
             "alignment": "CENTER"
           },
           "CombattantZone1": {
-            "isHidden": "opponent-only",
+            "isHidden": "no",
             "height": "MEDIUM",
             "alignment": "CENTER"
           },
           "CombattantZone2": {
-            "isHidden": "opponent-only",
+            "isHidden": "no",
             "height": "MEDIUM",
             "alignment": "CENTER"
           },
           "CombattantZone3": {
-            "isHidden": "opponent-only",
+            "isHidden": "no",
             "height": "MEDIUM",
             "alignment": "CENTER"
           },
@@ -252,8 +224,7 @@
           "Combattant": "Combattant"
         },
         "autoPlayFromStack": {
-          "Action": "CarteJoue1",
-          "Reaction": "CarteJoue1"
+          "Action": "CarteJoue1"
         }
       }
     }
