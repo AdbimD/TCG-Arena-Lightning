@@ -157,7 +157,7 @@
         "sectionsDict": {
           "Hand": {
             "isHidden": "opponent-only",
-            "height": "MEDIUM",
+            "height": "SMALL",
             "alignment": "CENTER"
           },
           "Deck": {
@@ -187,37 +187,37 @@
           },
           "Combattant": {
             "isHidden": "no",
-            "height": "MEDIUM",
+            "height": "SMALL",
             "alignment": "CENTER"
           },
           "CombattantZone1": {
             "isHidden": "no",
-            "height": "MEDIUM",
+            "height": "SMALL",
             "alignment": "CENTER"
           },
           "CombattantZone2": {
             "isHidden": "no",
-            "height": "MEDIUM",
+            "height": "SMALL",
             "alignment": "CENTER"
           },
           "CombattantZone3": {
             "isHidden": "no",
-            "height": "MEDIUM",
+            "height": "SMALL",
             "alignment": "CENTER"
           },
           "CarteJoue1": {
             "isHidden": "opponent-only",
-            "height": "MEDIUM",
+            "height": "SMALL",
             "alignment": "CENTER"
           },
           "CarteJoue2": {
             "isHidden": "opponent-only",
-            "height": "MEDIUM",
+            "height": "SMALL",
             "alignment": "CENTER"
           },
           "CarteJoue3": {
             "isHidden": "opponent-only",
-            "height": "MEDIUM",
+            "height": "SMALL",
             "alignment": "CENTER"
           }
         },
