@@ -100,23 +100,30 @@
             {
               "direction": "column",
               "style": {
-                "flex": "1"
+                "flex": "2"
               },
               "content": [
                 {
-                  "section": "CombattantZone1",
+                  "direction": "row",
                   "style": {
-                    "flex": "1"
-                  }
+                    "flex": "2"
+                  },
+                  "content": [
+                    {
+                      "section": "CombattantZone1",
+                      "style": {
+                        "flex": "1"
+                      }
+                    },
+                    {
+                      "section": "CarteJoue1",
+                      "style": {
+                        "flex": "1"
+                      }
+                    }
+                  ]
                 },
                 {
-                  "section": "CombattantZone2",
-                  "style": {
-                    "flex": "1"
-                  }
-                },
-                {
-                  "section": "CombattantZone3",
                   "style": {
                     "flex": "1"
                   }
@@ -130,22 +137,67 @@
               },
               "content": [
                 {
-                  "section": "CarteJoue1",
+                  "style": {
+                    "flex": "0.5"
+                  }
+                },
+                {
+                  "direction": "row",
+                  "style": {
+                    "flex": "2"
+                  },
+                  "content": [
+                    {
+                      "section": "CombattantZone2",
+                      "style": {
+                        "flex": "1"
+                      }
+                    },
+                    {
+                      "section": "CarteJoue2",
+                      "style": {
+                        "flex": "1"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "style": {
+                    "flex": "0.5"
+                  }
+                }
+              ]
+            },
+            {
+              "direction": "column",
+              "style": {
+                "flex": "2"
+              },
+              "content": [
+                {
                   "style": {
                     "flex": "1"
                   }
                 },
                 {
-                  "section": "CarteJoue2",
+                  "direction": "row",
                   "style": {
-                    "flex": "1"
-                  }
-                },
-                {
-                  "section": "CarteJoue3",
-                  "style": {
-                    "flex": "1"
-                  }
+                    "flex": "2"
+                  },
+                  "content": [
+                    {
+                      "section": "CombattantZone3",
+                      "style": {
+                        "flex": "1"
+                      }
+                    },
+                    {
+                      "section": "CarteJoue3",
+                      "style": {
+                        "flex": "1"
+                      }
+                    }
+                  ]
                 }
               ]
             }
@@ -157,7 +209,7 @@
         "sectionsDict": {
           "Hand": {
             "isHidden": "opponent-only",
-            "height": "SMALL",
+            "height": "MEDIUM",
             "alignment": "CENTER"
           },
           "Deck": {
@@ -187,37 +239,37 @@
           },
           "Combattant": {
             "isHidden": "no",
-            "height": "SMALL",
+            "height": "MEDIUM",
             "alignment": "CENTER"
           },
           "CombattantZone1": {
             "isHidden": "no",
-            "height": "SMALL",
+            "height": "MEDIUM",
             "alignment": "CENTER"
           },
           "CombattantZone2": {
             "isHidden": "no",
-            "height": "SMALL",
+            "height": "MEDIUM",
             "alignment": "CENTER"
           },
           "CombattantZone3": {
             "isHidden": "no",
-            "height": "SMALL",
+            "height": "MEDIUM",
             "alignment": "CENTER"
           },
           "CarteJoue1": {
             "isHidden": "opponent-only",
-            "height": "SMALL",
+            "height": "MEDIUM",
             "alignment": "CENTER"
           },
           "CarteJoue2": {
             "isHidden": "opponent-only",
-            "height": "SMALL",
+            "height": "MEDIUM",
             "alignment": "CENTER"
           },
           "CarteJoue3": {
             "isHidden": "opponent-only",
-            "height": "SMALL",
+            "height": "MEDIUM",
             "alignment": "CENTER"
           }
         },
