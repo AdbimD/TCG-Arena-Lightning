@@ -1,621 +1,321 @@
 {
-  "C001": {
-    "id": "C001",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Erza",
-        "type": "Combattant",
-        "cost": 0,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/C001.png?raw=true",
-        "isHorizontal": false,
-        "force": 1,
-        "pv": 10,
-        "range": 1,
-        "effet": "Effet permanent : Erza gagne une ATT égal à son nombre de marqueur 'épée magique'."
+  "name": "Lightning TCG",
+  "deckBuilding": {
+    "mainFilters": [
+      "Combattant",
+      "Action",
+      "affinite"
+    ],
+    "formats": [
+      {
+        "title": "Standard format",
+        "gameplay": "Standard",
+        "customCategories": [
+          "Combattant",
+          "ZoneTerritory"
+        ],
+        "deckRuleset": "Limited"
       }
-    },
-    "name": "Erza",
-    "type": "Combattant",
-    "cost": 0,
-    "affinite": "Chevalier",
-    "appartenance": "FairyTail",
-    "pv": 10,
-    "range": 1
+    ],
+    "deckRulesets": {
+      "Limited": {
+        "general": {
+          "min": 26,
+          "max": 26,
+          "maxPerCard": 2
+        },
+        "categories": [
+          {
+            "category": "Combattant",
+            "min": 3,
+            "max": 3,
+            "maxPerCard": 1
+          },
+          {
+            "category": "ZoneTerritory",
+            "min": 3,
+            "max": 3,
+            "maxPerCard": 1
+          }
+        ]
+      }
+    }
   },
-  "C002": {
-    "id": "C002",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Mistgun",
-        "type": "Combattant",
-        "cost": 0,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/C002.png?raw=true",
-        "isHorizontal": false,
-        "force": 5,
-        "pv": 10,
-        "range": 1,
-        "effet": "Fin de tour : Si Mistgun est actif, vous pouvez regarder la carte du dessus de votre deck, et la mettre au dessus ou en dessous."
+  "gameplay": {
+    "Standard": {
+      "mulligan": {
+        "startingHandSize": 6,
+        "mulliganCount": {
+          "max": 1
+        },
+        "mulliganCycle": {
+          "steps": [
+            "toBottom",
+            "shuffle",
+            "draw"
+          ],
+          "selectionRange": {
+            "min": 0,
+            "max": 6
+          }
+        }
+      },
+      "newTurn": {
+        "drawOnStart": true,
+        "sharedTurn": true
+      },
+      "draggableTokens": [
+        {
+          "id": "Griffe",
+          "name": "Griffe",
+          "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/T018.png?raw=true"
+        }
+      ],
+      "countersStartingValues": [
+        {
+          "id": "Temps",
+          "name": "Temps",
+          "startingValue": 1,
+          "shared": true
+        },
+        {
+          "id": "KO",
+          "name": "Mages KO",
+          "startingValue": 0
+        }
+      ],
+      "sections": {
+        "customSections": [
+          "ZoneTerritory",
+          "CarteJoue1",
+          "CarteJoue2",
+          "CarteJoue3",
+          "CombattantZone1",
+          "CombattantZone2",
+          "CombattantZone3",
+          "Combattant"
+        ],
+        "layout": {
+          "direction": "column",
+          "isSymmetricalForOpponents": true,
+          "content": [
+            {
+              "direction": "row",
+              "content": [
+                {
+                  "section": "ZoneTerritory",
+                  "style": {
+                    "flex": "1"
+                  }
+                },
+                {
+                  "direction": "column",
+                  "style": {
+                    "flex": "2"
+                  },
+                  "content": [
+                    {
+                      "direction": "row",
+                      "style": {
+                        "flex": "2"
+                      },
+                      "content": [
+                        {
+                          "section": "CombattantZone1",
+                          "style": {
+                            "flex": "1"
+                          }
+                        },
+                        {
+                          "section": "CarteJoue1",
+                          "style": {
+                            "flex": "1"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "style": {
+                        "flex": "1"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "direction": "column",
+                  "style": {
+                    "flex": "2"
+                  },
+                  "content": [
+                    {
+                      "style": {
+                        "flex": "0.5"
+                      }
+                    },
+                    {
+                      "direction": "row",
+                      "style": {
+                        "flex": "2"
+                      },
+                      "content": [
+                        {
+                          "section": "CombattantZone2",
+                          "style": {
+                            "flex": "1"
+                          }
+                        },
+                        {
+                          "section": "CarteJoue2",
+                          "style": {
+                            "flex": "1"
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "style": {
+                        "flex": "0.5"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "direction": "column",
+                  "style": {
+                    "flex": "2"
+                  },
+                  "content": [
+                    {
+                      "style": {
+                        "flex": "1"
+                      }
+                    },
+                    {
+                      "direction": "row",
+                      "style": {
+                        "flex": "2"
+                      },
+                      "content": [
+                        {
+                          "section": "CombattantZone3",
+                          "style": {
+                            "flex": "1"
+                          }
+                        },
+                        {
+                          "section": "CarteJoue3",
+                          "style": {
+                            "flex": "1"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "direction": "row",
+              "content": [
+                {
+                  "section": "Combattant",
+                  "style": {
+                    "flex": "1"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "categoriesAlreadyOnBoard": [
+          "Combattant",
+          "ZoneTerritory"
+        ],
+        "sectionsDict": {
+          "Hand": {
+            "isHidden": "opponent-only",
+            "height": "MEDIUM",
+            "alignment": "CENTER"
+          },
+          "Deck": {
+            "isHidden": "yes",
+            "height": "MEDIUM",
+            "alignment": "NONE"
+          },
+          "Discard": {
+            "isHidden": "no",
+            "height": "MEDIUM",
+            "alignment": "NONE"
+          },
+          "Stack": {
+            "isHidden": "no",
+            "height": "HUGE",
+            "alignment": "NONE"
+          },
+          "Exile": {
+            "isHidden": "yes",
+            "height": "MEDIUM",
+            "alignment": "NONE"
+          },
+          "ExileHidden": {
+            "isHidden": "yes",
+            "height": "MEDIUM",
+            "alignment": "NONE"
+          },
+          "Combattant": {
+            "isHidden": "no",
+            "height": "MEDIUM",
+            "alignment": "CENTER"
+          },
+          "CombattantZone1": {
+            "isHidden": "no",
+            "height": "MEDIUM",
+            "alignment": "CENTER"
+          },
+          "CombattantZone2": {
+            "isHidden": "no",
+            "height": "MEDIUM",
+            "alignment": "CENTER"
+          },
+          "CombattantZone3": {
+            "isHidden": "no",
+            "height": "MEDIUM",
+            "alignment": "CENTER"
+          },
+          "CarteJoue1": {
+            "isHidden": "opponent-only",
+            "height": "MEDIUM",
+            "alignment": "CENTER"
+          },
+          "CarteJoue2": {
+            "isHidden": "opponent-only",
+            "height": "MEDIUM",
+            "alignment": "CENTER"
+          },
+          "CarteJoue3": {
+            "isHidden": "opponent-only",
+            "height": "MEDIUM",
+            "alignment": "CENTER"
+          },
+          "ZoneTerritory": {
+            "isHidden": "opponent-only",
+            "height": "MEDIUM",
+            "alignment": "CENTER"
+          }
+        },
+        "autoPlayFromHand": {
+          "Combattant": "Combattant"
+        },
+        "autoPlayFromStack": {
+          "Action": "CarteJoue1"
+        }
       }
-    },
-    "name": "Mistgun",
-    "type": "Combattant",
-    "cost": 0,
-    "affinite": "Etoile",
-    "appartenance": "FairyTail",
-    "pv": 10,
-    "range": 1
+    }
   },
-  "C003": {
-    "id": "C003",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Eeilen",
-        "type": "Combattant",
-        "cost": 0,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/C003.png?raw=true",
-        "isHorizontal": false,
-        "force": 5,
-        "pv": 10,
-        "range": 2,
-        "effet": "Fin de tour : Si Eeilen est actif, choisissez : \n- Mettre un marqueur +1ATT sur l'un de vos combattant.\n-retirez un maruqueur dégats sur l'un de vos combattant."
-      }
-    },
-    "name": "Eeilen",
-    "type": "Combattant",
-    "cost": 0,
-    "affinite": "Enchantement ",
-    "appartenance": "FairyTail",
-    "pv": 10,
-    "range": 2
+  "cards": {
+    "dataUrl": "https://raw.githubusercontent.com/AdbimD/TCG-Arena-Lightning/refs/heads/main/lightning-tcg-cards.json",
+    "cardBack": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Backgroung%20V2.png?raw=true"
   },
-  "A001": {
-    "id": "A001",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Forge arme",
-        "type": "Action",
-        "soustype": "Action",
-        "cost": 0,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A001.png?raw=true",
-        "isHorizontal": false,
-        "range": null,
-        "effet": "Apparition : Ajoutez 2 marqueurs épée magique à votre combattant. Attaquez ."
-      }
-    },
-    "name": "Forge arme",
-    "type": "Action",
-    "soustype": "Action",
-    "cost": 0,
-    "affinite": "Chevalier",
-    "appartenance": "FairyTail",
-    "range": null
-  },
-  "A002": {
-    "id": "A002",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Arsenal de guilde",
-        "type": "Action",
-        "soustype": "Action",
-        "cost": 0,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A002.png?raw=true",
-        "isHorizontal": false,
-        "range": null,
-        "effet": "Apparition : Ajoutez 3 marqueurs épée magique à votre combattant. Attaquez ."
-      }
-    },
-    "name": "Arsenal de guilde",
-    "type": "Action",
-    "soustype": "Action",
-    "cost": 0,
-    "affinite": "Chevalier",
-    "appartenance": "FairyTail",
-    "range": null
-  },
-  "A003": {
-    "id": "A003",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Forge supreme",
-        "type": "Action",
-        "soustype": "Action",
-        "cost": 0,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A003.png?raw=true",
-        "isHorizontal": false,
-        "range": null,
-        "effet": "Apparition : Ajoutez 2 marqueurs épée magique à votre combattant. Jouez une carte 'Armure' de votre main (elle se résout dans la même chaine de résolution). Attaquez ."
-      }
-    },
-    "name": "Forge supreme",
-    "type": "Action",
-    "soustype": "Action",
-    "cost": 0,
-    "affinite": "Chevalier",
-    "appartenance": "FairyTail",
-    "range": null
-  },
-  "A004": {
-    "id": "A004",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Armure des septs etoiles",
-        "type": "Action",
-        "soustype": "Equipement",
-        "cost": 0,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A004.png?raw=true",
-        "isHorizontal": false,
-        "range": null,
-        "effet": "Equipement : Regardez les X cartes du dessus de votre deck. X étant le nombre de marqueurs épée magique sur votre combattant. Mettez-en une dans votre cimetière et activer son effet. \nEffet permanent : Votre combattant à 1 range."
-      }
-    },
-    "name": "Armure des septs etoiles",
-    "type": "Action",
-    "soustype": "Equipement",
-    "cost": 0,
-    "affinite": "Chevalier",
-    "appartenance": "FairyTail",
-    "range": null
-  },
-  "A005": {
-    "id": "A005",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Armure imperatrice de Feu",
-        "type": "Action",
-        "soustype": "Equipement",
-        "cost": 0,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A005.png?raw=true",
-        "isHorizontal": false,
-        "range": null,
-        "effet": "Equipement : défaussez jusqu'à X cartes de votre main. X étant le nombre de marqueur épée magique sur votre combattant. Erza gagne +2ATT pour chaque carte défaussé de cette façon. \nEffet permanent : Votre combattant à 2 range."
-      }
-    },
-    "name": "Armure imperatrice de Feu",
-    "type": "Action",
-    "soustype": "Equipement",
-    "cost": 0,
-    "affinite": "Chevalier",
-    "appartenance": "FairyTail",
-    "range": null
-  },
-  "A006": {
-    "id": "A006",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Armure de la roue celeste",
-        "type": "Action",
-        "soustype": "Equipement",
-        "cost": 0,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A006.png?raw=true",
-        "isHorizontal": false,
-        "range": null,
-        "effet": "Equipement : Infligez X dégats au combattant actif adverse et la moitier de X (arrondis au supérieur) aux combattant inactif adverse, X étant le nombre de marqueur épée magique sur votre combattant. \nEffet permanent : Votre combattant à 2 range."
-      }
-    },
-    "name": "Armure de la roue celeste",
-    "type": "Action",
-    "soustype": "Equipement",
-    "cost": 0,
-    "affinite": "Chevalier",
-    "appartenance": "FairyTail",
-    "range": null
-  },
-  "A007": {
-    "id": "A007",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Armure eeilen",
-        "type": "Action",
-        "soustype": "Equipement",
-        "cost": 0,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A007.png?raw=true",
-        "isHorizontal": false,
-        "range": null,
-        "effet": "Réaction : défausser cette armure depuis votre zone de combat puis ciblez une carte 'Enchantement' dans votre zone de combat, envoyez là au cimetière, puis activez l'effet de la carte. \nEffet permanent : Votre combattant à 3 range."
-      }
-    },
-    "name": "Armure eeilen",
-    "type": "Action",
-    "soustype": "Equipement",
-    "cost": 0,
-    "affinite": "Chevalier",
-    "appartenance": "FairyTail",
-    "range": null
-  },
-  "A008": {
-    "id": "A008",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Alignement stellaire",
-        "type": "Action",
-        "soustype": "Action",
-        "cost": 0,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A008.png?raw=true",
-        "isHorizontal": false,
-        "range": 1,
-        "effet": "Apparition : Attaquez . Si vous avez une carte 'Etoile' dans une autre zone, Attaquez . Si vous avez une carte 'Etoile' dans chaque zone, Attaquez ."
-      }
-    },
-    "name": "Alignement stellaire",
-    "type": "Action",
-    "soustype": "Action",
-    "cost": 0,
-    "affinite": "Etoile",
-    "appartenance": "FairyTail",
-    "range": 1
-  },
-  "A009": {
-    "id": "A009",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Presage astral",
-        "type": "Action",
-        "soustype": "Réaction",
-        "cost": 0,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A009.png?raw=true",
-        "isHorizontal": false,
-        "range": 3,
-        "effet": "Apparition : Mettez un marqueur 'Présage' sur une zone adverse. Une zone avec un marqueur 'présage' à : Si vous jouez une carte dans cette zone, faites les dégats à votre combattant au lieu du combattant adverse, puis défaussez le marqueur 'Présage'."
-      }
-    },
-    "name": "Presage astral",
-    "type": "Action",
-    "soustype": "Réaction",
-    "cost": 0,
-    "affinite": "Etoile",
-    "appartenance": "FairyTail",
-    "range": 3
-  },
-  "A010": {
-    "id": "A010",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Pleiade",
-        "type": "Action",
-        "soustype": "Action",
-        "cost": 0,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A010.png?raw=true",
-        "isHorizontal": false,
-        "range": 2,
-        "effet": "Apparition : Attaquez . Prenez la carte du dessus du deck de votre adversaire, jouez la dans l'une des zone de combat de votre choix (Vous ne changez pas de combattant si elle a une autre affinité)."
-      }
-    },
-    "name": "Pleiade",
-    "type": "Action",
-    "soustype": "Action",
-    "cost": 0,
-    "affinite": "Etoile",
-    "appartenance": "FairyTail",
-    "range": 2
-  },
-  "A011": {
-    "id": "A011",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Grand Chariot",
-        "type": "Action",
-        "soustype": "Action",
-        "cost": 0,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A011.png?raw=true",
-        "isHorizontal": false,
-        "range": 2,
-        "effet": "Apparition : Attaquez . Déclarez un nombre de 1 à 3. Révéllez la carte du dessus de votre deck. Si cette carte à une attaque égal au nombre révéllé, jouer la gratuitement dans la zone de combat de votre choix (Vous ne changez pas de combattant si elle a une autre affinité)."
-      }
-    },
-    "name": "Grand Chariot",
-    "type": "Action",
-    "soustype": "Action",
-    "cost": 0,
-    "affinite": "Etoile",
-    "appartenance": "FairyTail",
-    "range": 2
-  },
-  "A012": {
-    "id": "A012",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Concept Enchantment",
-        "type": "Action",
-        "soustype": "Action",
-        "cost": 0,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A012.png?raw=true",
-        "isHorizontal": false,
-        "range": null,
-        "effet": "Apparition : Votre combattant actif gagne +1 ATT. Attaquez ."
-      }
-    },
-    "name": "Concept Enchantment",
-    "type": "Action",
-    "soustype": "Action",
-    "cost": 0,
-    "affinite": "Enchantement ",
-    "appartenance": "FairyTail",
-    "range": null
-  },
-  "A013": {
-    "id": "A013",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Wound Enchantment",
-        "type": "Action",
-        "soustype": "Action",
-        "cost": 0,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A013.png?raw=true",
-        "isHorizontal": false,
-        "range": null,
-        "effet": "Apparition : Votre combattant et le combattant adverse inverse leur marqueur dégats."
-      }
-    },
-    "name": "Wound Enchantment",
-    "type": "Action",
-    "soustype": "Action",
-    "cost": 0,
-    "affinite": "Enchantement ",
-    "appartenance": "FairyTail",
-    "range": null
-  },
-  "A014": {
-    "id": "A014",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Universe One",
-        "type": "Action",
-        "soustype": "Réaction",
-        "cost": 0,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A014.png?raw=true",
-        "isHorizontal": false,
-        "range": null,
-        "effet": "Apparition : Changez la position du combattant actif adverse ansi que sa dernière carte révélé, faite de même pour votre combattant, puis Attaquez . L'utilisation de cette carte ne fait pas changer votre combattant."
-      }
-    },
-    "name": "Universe One",
-    "type": "Action",
-    "soustype": "Réaction",
-    "cost": 0,
-    "affinite": "Enchantement ",
-    "appartenance": "FairyTail",
-    "range": null
-  },
-  "A015": {
-    "id": "A015",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Personality Enchantment",
-        "type": "Action",
-        "soustype": "Réaction",
-        "cost": 0,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A015.png?raw=true",
-        "isHorizontal": false,
-        "range": null,
-        "effet": "Apparition : Echangez le combattant adverse actif avec l'un de ses combattant (il garde la même position), puis échanger votre combattant actif avec l'un de vos combattant inactif (il garde la même position). Attaquez ."
-      }
-    },
-    "name": "Personality Enchantment",
-    "type": "Action",
-    "soustype": "Réaction",
-    "cost": 0,
-    "affinite": "Enchantement ",
-    "appartenance": "FairyTail",
-    "range": null
-  },
-  "A016": {
-    "id": "A016",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Multi-Body Enchantment",
-        "type": "Action",
-        "soustype": "Action",
-        "cost": 0,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A016.png?raw=true",
-        "isHorizontal": false,
-        "range": null,
-        "effet": "Apparition : Choisissez une zone. Le prochain sort joué créer une copie dans la zone de combat choisis."
-      }
-    },
-    "name": "Multi-Body Enchantment",
-    "type": "Action",
-    "soustype": "Action",
-    "cost": 0,
-    "affinite": "Enchantement ",
-    "appartenance": "FairyTail",
-    "range": null
-  },
-  "T001": {
-    "id": "T001",
-    "isToken": true,
-    "face": {
-      "front": {
-        "name": "Epee magique",
-        "type": "Invocation",
-        "cost": 0,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/T001.png?raw=true",
-        "isHorizontal": false,
-        "force": 1
-      }
-    },
-    "name": "Epee magique",
-    "type": "Invocation",
-    "cost": 0,
-    "affinite": "Chevalier",
-    "appartenance": "FairyTail"
-  },
-  "T002": {
-    "id": "T002",
-    "isToken": true,
-    "face": {
-      "front": {
-        "name": "Griffe",
-        "type": "Marqueur",
-        "cost": 0,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/T002.png?raw=true",
-        "isHorizontal": false,
-        "force": 0,
-        "effet": "Effet Permanent : Le combattant avec cette Griffe perd toutes ses affinités. Lorsque ce combattant joue une carte : défaussez ce jeton."
-      }
-    },
-    "name": "Griffe",
-    "type": "Marqueur",
-    "cost": 0,
-    "affinite": "Transformation",
-    "appartenance": "Hunter"
-  },
-  "T003": {
-    "id": "T003",
-    "isToken": true,
-    "face": {
-      "front": {
-        "name": "Serment",
-        "type": "Marqueur",
-        "cost": 0,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/T003.png?raw=true",
-        "isHorizontal": false,
-        "force": 0,
-        "effet": "Effet Permanent : Annulez les effets de la cartes attaché, elle ne peut pas être activé. Son propriétaire peut défaussez une carte pour défaussez ce marqueur"
-      }
-    },
-    "name": "Serment",
-    "type": "Marqueur",
-    "cost": 0,
-    "affinite": "Specialiste",
-    "appartenance": "Hunter"
-  },
-  "T004": {
-    "id": "T004",
-    "isToken": true,
-    "face": {
-      "front": {
-        "name": "Pierre",
-        "type": "Invocation",
-        "cost": 0,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/T004.png?raw=true",
-        "isHorizontal": false,
-        "force": 0,
-        "effet": "Activation : La prochaine carte Renforcement que vous jouez dans cette zone de combat gagne +2 Force."
-      }
-    },
-    "name": "Pierre",
-    "type": "Invocation",
-    "cost": 0,
-    "affinite": "Renforcement",
-    "appartenance": "Hunter"
-  },
-  "T005": {
-    "id": "T005",
-    "isToken": true,
-    "face": {
-      "front": {
-        "name": "Feuille",
-        "type": "Invocation",
-        "cost": 0,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/T005.png?raw=true",
-        "isHorizontal": false,
-        "force": 0,
-        "effet": "Activation : La prochaine carte Transformation que vous jouez dans cette zone de combat ne coûte pas de surcoût d'affinité puis ciblez une carte sort adverse, il perd -2 Force."
-      }
-    },
-    "name": "Feuille",
-    "type": "Invocation",
-    "cost": 0,
-    "affinite": "Transformation",
-    "appartenance": "Hunter"
-  },
-  "T006": {
-    "id": "T006",
-    "isToken": true,
-    "face": {
-      "front": {
-        "name": "Ciseau",
-        "type": "Invocation",
-        "cost": 0,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/T006.png?raw=true",
-        "isHorizontal": false,
-        "force": 0,
-        "effet": "Activation : La prochaine carte Spécialiste que vous jouez dans cette zone de combat ne coûte pas de surcoût d'affinité, puis ciblez une carte 'sort' adverse, retirez un boost de Force de la carte ciblé."
-      }
-    },
-    "name": "Ciseau",
-    "type": "Invocation",
-    "cost": 0,
-    "affinite": "Specialiste",
-    "appartenance": "Hunter"
-  },
-  "R001": {
-    "id": "R001",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Zone 1",
-        "type": "ZoneTerritory",
-        "cost": 0,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/R001.png?raw=true",
-        "isHorizontal": false,
-        "force": 0,
-        "effet": ""
-      }
-    },
-    "name": "Zone 1",
-    "type": "ZoneTerritory",
-    "cost": 0,
-    "affinite": "",
-    "appartenance": ""
-  },
-  "R002": {
-    "id": "R002",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Zone 2",
-        "type": "ZoneTerritory",
-        "cost": 0,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/R002.png?raw=true",
-        "isHorizontal": false,
-        "force": 0,
-        "effet": ""
-      }
-    },
-    "name": "Zone 2",
-    "type": "ZoneTerritory",
-    "cost": 0,
-    "affinite": "",
-    "appartenance": ""
-  },
-  "R003": {
-    "id": "R003",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Zone 3",
-        "type": "ZoneTerritory",
-        "cost": 0,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/R003.png?raw=true",
-        "isHorizontal": false,
-        "force": 0,
-        "effet": ""
-      }
-    },
-    "name": "Zone 3",
-    "type": "ZoneTerritory",
-    "cost": 0,
-    "affinite": "",
-    "appartenance": ""
-  }
+  "cardRotation": "45",
+  "defaultRessources.backgrounds": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Backgroung%20V2.png?raw=true"
 }
