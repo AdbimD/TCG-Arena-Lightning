@@ -4,66 +4,48 @@
     "isToken": false,
     "face": {
       "front": {
-        "name": "Mistgun",
+        "name": "Erza",
         "type": "Combattant",
         "cost": 0,
         "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/C001.png?raw=true",
         "isHorizontal": false,
-        "force": 5,
-        "compositionEvolution": 10,
-        "estEvolue": false,
-        "effet": "Pouvoir Unique : Regardez les deux cartes du dessus de votre deck, mettez l'une d'entre elle dans votre main, et l'autre au dessus ou en dessous de votre deck"
-      },
-      "back": {
-        "name": "Mistgun",
-        "type": "Combattant",
-        "cost": 0,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/C001E.png?raw=true",
-        "isHorizontal": false,
-        "force": 6,
-        "compositionEvolution": [],
-        "estEvolue": true,
-        "effet": "Fin : Révélez la carte du dessus de votre deck et jouer la (sans payer son cout)."
-      }
-    },
-    "name": "Mistgun",
-    "type": "Combattant",
-    "cost": 0,
-    "affinite": "Etoile",
-    "appartenance": "FairyTail"
-  },
-  "C002": {
-    "id": "C002",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Erza",
-        "type": "Combattant",
-        "cost": 0,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/C002.png?raw=true",
-        "isHorizontal": false,
-        "force": 5,
-        "compositionEvolution": 10,
-        "estEvolue": false,
-        "effet": "Pouvoir Unique : Piochez 1 carte, puis défaussez 1 carte. Créez un token épée magique"
-      },
-      "back": {
-        "name": "Erza",
-        "type": "Combattant",
-        "cost": 0,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/C002E.png?raw=true",
-        "isHorizontal": false,
-        "force": 6,
-        "compositionEvolution": [],
-        "estEvolue": true,
-        "effet": "Evolution : Cherchez une carte Armure dans votre deck et équipez-la gratuitement. Permanent : Vos armures coûtent 1 de moins à jouer."
+        "force": 1,
+        "pv": 10,
+        "range": 1,
+        "effet": "Effet permanent : Erza gagne une ATT égal à son nombre de marqueur 'épée magique'."
       }
     },
     "name": "Erza",
     "type": "Combattant",
     "cost": 0,
     "affinite": "Chevalier",
-    "appartenance": "FairyTail"
+    "appartenance": "FairyTail",
+    "pv": 10,
+    "range": 1
+  },
+  "C002": {
+    "id": "C002",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Mistgun",
+        "type": "Combattant",
+        "cost": 0,
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/C002.png?raw=true",
+        "isHorizontal": false,
+        "force": 5,
+        "pv": 10,
+        "range": 1,
+        "effet": "Fin de tour : Si Mistgun est actif, vous pouvez regarder la carte du dessus de votre deck, et la mettre au dessus ou en dessous."
+      }
+    },
+    "name": "Mistgun",
+    "type": "Combattant",
+    "cost": 0,
+    "affinite": "Etoile",
+    "appartenance": "FairyTail",
+    "pv": 10,
+    "range": 1
   },
   "C003": {
     "id": "C003",
@@ -76,346 +58,271 @@
         "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/C003.png?raw=true",
         "isHorizontal": false,
         "force": 5,
-        "compositionEvolution": 10,
-        "estEvolue": false,
-        "effet": "Pouvoir Unique : Votre adversaire pose ses cartes dans les zones prévu avant que vous jouiez"
-      },
-      "back": {
-        "name": "Eeilen",
-        "type": "Combattant",
-        "cost": 0,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/C003E.png?raw=true",
-        "isHorizontal": false,
-        "force": 6,
-        "compositionEvolution": [],
-        "estEvolue": true,
-        "effet": "Evolution : Ciblez un carte. La prochaine carte que vous jouer gagne l'effet de la carte ciblé (en plus de son effet initial). Permanent : Vos cartes Enchantement coûtent 1 de moins."
+        "pv": 10,
+        "range": 2,
+        "effet": "Fin de tour : Si Eeilen est actif, choisissez : \n- Mettre un marqueur +1ATT sur l'un de vos combattant.\n-retirez un maruqueur dégats sur l'un de vos combattant."
       }
     },
     "name": "Eeilen",
     "type": "Combattant",
     "cost": 0,
-    "affinite": "Enchantement",
-    "appartenance": "FairyTail"
-  },
-  "C004": {
-    "id": "C004",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Gon",
-        "type": "Combattant",
-        "cost": 0,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/C004.png?raw=true",
-        "isHorizontal": false,
-        "force": 5,
-        "compositionEvolution": 10,
-        "estEvolue": false,
-        "effet": "Pouvoir Unique : Piochez 1 carte, puis défaussez 1 carte. La prochaine carte Renforcement que vous jouez ce tour coûte 1 de moins. Condition d'évolution : Un de vos combattant à moins de force que le combattant adverse dans la même zone de combat."
-      },
-      "back": {
-        "name": "Gon",
-        "type": "Combattant",
-        "cost": 0,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/C004E.png?raw=true",
-        "isHorizontal": false,
-        "force": 6,
-        "compositionEvolution": [],
-        "estEvolue": true,
-        "effet": "Evolution : Gon gagne +4 Force jusqu'à la fin du combat. Permanent : Les effets adverses ne peuvent pas réduire la Force de Gon et de ses cartes dans sa zone de combat."
-      }
-    },
-    "name": "Gon",
-    "type": "Combattant",
-    "cost": 0,
-    "affinite": "Renforcement",
-    "appartenance": "Hunter"
-  },
-  "C005": {
-    "id": "C005",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Kurapika",
-        "type": "Combattant",
-        "cost": 0,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/C005.png?raw=true",
-        "isHorizontal": false,
-        "force": 5,
-        "compositionEvolution": 10,
-        "estEvolue": false,
-        "effet": "Pouvoir Unique : Piochez 1 carte, puis défaussez 1 carte. Ciblez une carte sur le terrain adverse : elle ne sera pas révélé ce temps, et elle perds toutes ses affinités."
-      },
-      "back": {
-        "name": "Kurapika",
-        "type": "Combattant",
-        "cost": 0,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/C005E.png?raw=true",
-        "isHorizontal": false,
-        "force": 6,
-        "compositionEvolution": [],
-        "estEvolue": true,
-        "effet": "Permanent : Kurapika peut jouer des cartes de n'importe quelle affinité sans payer de surcoût. Et les sorts coutent -1 à jouer dans sa zone de combat."
-      }
-    },
-    "name": "Kurapika",
-    "type": "Combattant",
-    "cost": 0,
-    "affinite": "Specialiste",
-    "appartenance": "Hunter"
-  },
-  "C006": {
-    "id": "C006",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Kirua",
-        "type": "Combattant",
-        "cost": 0,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/C006.png?raw=true",
-        "isHorizontal": false,
-        "force": 5,
-        "compositionEvolution": 10,
-        "estEvolue": false,
-        "effet": "Pouvoir Unique : Piochez 1 carte, puis défaussez 1 carte. Placez un marqueur \"Charge\" sur Killua. Permanent : Kirua peut évolué en réaction (Si il le fait en réaction, vous ne pouvez pas évoluer de combattant à l'étape de fin)."
-      },
-      "back": {
-        "name": "Kirua",
-        "type": "Combattant",
-        "cost": 0,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/C006E.png?raw=true",
-        "isHorizontal": false,
-        "force": 6,
-        "compositionEvolution": [],
-        "estEvolue": true,
-        "effet": "Evolution : Kirua gagne +1 Force pour chaque marqueur \"Charge\". Puis jouez immédiatement une carte \"Godspeed\" depuis votre main ou votre deck sans payer son coût."
-      }
-    },
-    "name": "Kirua",
-    "type": "Combattant",
-    "cost": 0,
-    "affinite": "Transformation",
-    "appartenance": "Hunter"
+    "affinite": "Enchantement ",
+    "appartenance": "FairyTail",
+    "pv": 10,
+    "range": 2
   },
   "A001": {
     "id": "A001",
     "isToken": false,
     "face": {
       "front": {
-        "name": "Alignement stellaire",
+        "name": "Forge arme",
         "type": "Action",
-        "cost": 1,
+        "soustype": "Action",
+        "cost": 0,
         "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A001.png?raw=true",
         "isHorizontal": false,
-        "force": 1,
-        "effet": "Apparition : Regardez les 3 cartes du dessus de votre deck, prenez en une. Puis remettez le reste dans l'ordre de votre choix sur le dessus de votre deck."
+        "range": null,
+        "effet": "Apparition : Ajoutez 2 marqueurs épée magique à votre combattant. Attaquez ."
       }
     },
-    "name": "Alignement stellaire",
+    "name": "Forge arme",
     "type": "Action",
-    "cost": 1,
-    "affinite": "Etoile",
-    "appartenance": "FairyTail"
+    "soustype": "Action",
+    "cost": 0,
+    "affinite": "Chevalier",
+    "appartenance": "FairyTail",
+    "range": null
   },
   "A002": {
     "id": "A002",
     "isToken": false,
     "face": {
       "front": {
-        "name": "Presage astral",
-        "type": "Reaction",
-        "cost": 1,
+        "name": "Arsenal de guilde",
+        "type": "Action",
+        "soustype": "Action",
+        "cost": 0,
         "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A002.png?raw=true",
         "isHorizontal": false,
-        "force": 1,
-        "effet": "Apparition : Jouable lorsque l'adversaire joue une carte. Nommez un type de carte (Action, Réaction). Révélez la carte du dessus de votre deck. Si elle correspond au type nommé, annulez l'effet de la carte de l'adversaire."
+        "range": null,
+        "effet": "Apparition : Ajoutez 3 marqueurs épée magique à votre combattant. Attaquez ."
       }
     },
-    "name": "Presage astral",
-    "type": "Reaction",
-    "cost": 1,
-    "affinite": "Etoile",
-    "appartenance": "FairyTail"
+    "name": "Arsenal de guilde",
+    "type": "Action",
+    "soustype": "Action",
+    "cost": 0,
+    "affinite": "Chevalier",
+    "appartenance": "FairyTail",
+    "range": null
   },
   "A003": {
     "id": "A003",
     "isToken": false,
     "face": {
       "front": {
-        "name": "Pleiade",
+        "name": "Forge supreme",
         "type": "Action",
-        "cost": 2,
+        "soustype": "Action",
+        "cost": 0,
         "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A003.png?raw=true",
         "isHorizontal": false,
-        "force": 1,
-        "effet": "Apparition : Prenez la carte du dessus du deck de votre adversaire, jouer la face caché dans l'une des zone de combat de votre choix. Cette carte ne sera révélé et jouer qu'a l'étape de fin du 3ème temps."
+        "range": null,
+        "effet": "Apparition : Ajoutez 2 marqueurs épée magique à votre combattant. Jouez une carte 'Armure' de votre main (elle se résout dans la même chaine de résolution). Attaquez ."
       }
     },
-    "name": "Pleiade",
+    "name": "Forge supreme",
     "type": "Action",
-    "cost": 2,
-    "affinite": "Etoile",
-    "appartenance": "FairyTail"
+    "soustype": "Action",
+    "cost": 0,
+    "affinite": "Chevalier",
+    "appartenance": "FairyTail",
+    "range": null
   },
   "A004": {
     "id": "A004",
     "isToken": false,
     "face": {
       "front": {
-        "name": "Grand Chariot",
+        "name": "Armure des septs etoiles",
         "type": "Action",
-        "cost": 3,
+        "soustype": "Equipement",
+        "cost": 0,
         "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A004.png?raw=true",
         "isHorizontal": false,
-        "force": 2,
-        "effet": "Apparition : Déclarez un cout de 0 à 3. Révéllez la carte du dessus de votre deck. Si cette carte est du même cout que le cout révéllé, jouer la gratuitement dans la zone de combat de votre choix."
+        "range": null,
+        "effet": "Equipement : Regardez les X cartes du dessus de votre deck. X étant le nombre de marqueurs épée magique sur votre combattant. Mettez-en une dans votre cimetière et activer son effet. \nEffet permanent : Votre combattant à 1 range."
       }
     },
-    "name": "Grand Chariot",
+    "name": "Armure des septs etoiles",
     "type": "Action",
-    "cost": 3,
-    "affinite": "Etoile",
-    "appartenance": "FairyTail"
+    "soustype": "Equipement",
+    "cost": 0,
+    "affinite": "Chevalier",
+    "appartenance": "FairyTail",
+    "range": null
   },
   "A005": {
     "id": "A005",
     "isToken": false,
     "face": {
       "front": {
-        "name": "Forge arme",
+        "name": "Armure imperatrice de Feu",
         "type": "Action",
-        "cost": 1,
+        "soustype": "Equipement",
+        "cost": 0,
         "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A005.png?raw=true",
         "isHorizontal": false,
-        "force": 0,
-        "effet": "Apparition : Créer 2 token épée magique dans cette zone de combat"
+        "range": null,
+        "effet": "Equipement : défaussez jusqu'à X cartes de votre main. X étant le nombre de marqueur épée magique sur votre combattant. Erza gagne +2ATT pour chaque carte défaussé de cette façon. \nEffet permanent : Votre combattant à 2 range."
       }
     },
-    "name": "Forge arme",
+    "name": "Armure imperatrice de Feu",
     "type": "Action",
-    "cost": 1,
+    "soustype": "Equipement",
+    "cost": 0,
     "affinite": "Chevalier",
-    "appartenance": "FairyTail"
+    "appartenance": "FairyTail",
+    "range": null
   },
   "A006": {
     "id": "A006",
     "isToken": false,
     "face": {
       "front": {
-        "name": "Arsenal de guilde",
+        "name": "Armure de la roue celeste",
         "type": "Action",
-        "cost": 2,
+        "soustype": "Equipement",
+        "cost": 0,
         "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A006.png?raw=true",
         "isHorizontal": false,
-        "force": 0,
-        "effet": "Apparition : Creer 3 token épée magique dans cette zone de combat"
+        "range": null,
+        "effet": "Equipement : Infligez X dégats au combattant actif adverse et la moitier de X (arrondis au supérieur) aux combattant inactif adverse, X étant le nombre de marqueur épée magique sur votre combattant. \nEffet permanent : Votre combattant à 2 range."
       }
     },
-    "name": "Arsenal de guilde",
+    "name": "Armure de la roue celeste",
     "type": "Action",
-    "cost": 2,
+    "soustype": "Equipement",
+    "cost": 0,
     "affinite": "Chevalier",
-    "appartenance": "FairyTail"
+    "appartenance": "FairyTail",
+    "range": null
   },
   "A007": {
     "id": "A007",
     "isToken": false,
     "face": {
       "front": {
-        "name": "Forge supreme",
+        "name": "Armure eeilen",
         "type": "Action",
-        "cost": 3,
+        "soustype": "Equipement",
+        "cost": 0,
         "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A007.png?raw=true",
         "isHorizontal": false,
-        "force": 0,
-        "effet": "Apparition : Créer 2 token épée magique dans cette zone de combat. Vous pouvez équiper une armure de votre main sans payer son cout au combattant de cette zone de combat."
+        "range": null,
+        "effet": "Réaction : défausser cette armure depuis votre zone de combat puis ciblez une carte 'Enchantement' dans votre zone de combat, envoyez là au cimetière, puis activez l'effet de la carte. \nEffet permanent : Votre combattant à 3 range."
       }
     },
-    "name": "Forge supreme",
+    "name": "Armure eeilen",
     "type": "Action",
-    "cost": 3,
+    "soustype": "Equipement",
+    "cost": 0,
     "affinite": "Chevalier",
-    "appartenance": "FairyTail"
+    "appartenance": "FairyTail",
+    "range": null
   },
   "A008": {
     "id": "A008",
     "isToken": false,
     "face": {
       "front": {
-        "name": "Armure des septs etoiles",
-        "type": "Equipement",
-        "cost": 3,
+        "name": "Alignement stellaire",
+        "type": "Action",
+        "soustype": "Action",
+        "cost": 0,
         "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A008.png?raw=true",
         "isHorizontal": false,
-        "force": 0,
-        "effet": "Permanent : Erza gagne l'affinité Étoile en plus de l'affinité Chevalier. Equipement : regardez les X cartes du dessus de votre deck. X étant le nombre d'épée magique en jeu. Jouez une de ces cartes sans payer son cout dans cette zone de combat."
+        "range": 1,
+        "effet": "Apparition : Attaquez . Si vous avez une carte 'Etoile' dans une autre zone, Attaquez . Si vous avez une carte 'Etoile' dans chaque zone, Attaquez ."
       }
     },
-    "name": "Armure des septs etoiles",
-    "type": "Equipement",
-    "cost": 3,
-    "affinite": "Chevalier",
-    "appartenance": "FairyTail"
+    "name": "Alignement stellaire",
+    "type": "Action",
+    "soustype": "Action",
+    "cost": 0,
+    "affinite": "Etoile",
+    "appartenance": "FairyTail",
+    "range": 1
   },
   "A009": {
     "id": "A009",
     "isToken": false,
     "face": {
       "front": {
-        "name": "Armure imperatrice de Feu",
-        "type": "Equipement",
-        "cost": 2,
+        "name": "Presage astral",
+        "type": "Action",
+        "soustype": "Réaction",
+        "cost": 0,
         "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A009.png?raw=true",
         "isHorizontal": false,
-        "force": 0,
-        "effet": "Permanent : Erza gagne l'affinité Feu en plus de l'affinité Chevalier. Equipement : défaussez jusqu'à X cartes de votre main. X étant le nombre d'épée magique en jeu. Erza gagne +2 pour chaque carte défaussez de cette façon."
+        "range": 3,
+        "effet": "Apparition : Mettez un marqueur 'Présage' sur une zone adverse. Une zone avec un marqueur 'présage' à : Si vous jouez une carte dans cette zone, faites les dégats à votre combattant au lieu du combattant adverse, puis défaussez le marqueur 'Présage'."
       }
     },
-    "name": "Armure imperatrice de Feu",
-    "type": "Equipement",
-    "cost": 2,
-    "affinite": "Chevalier",
-    "appartenance": "FairyTail"
+    "name": "Presage astral",
+    "type": "Action",
+    "soustype": "Réaction",
+    "cost": 0,
+    "affinite": "Etoile",
+    "appartenance": "FairyTail",
+    "range": 3
   },
   "A010": {
     "id": "A010",
     "isToken": false,
     "face": {
       "front": {
-        "name": "Armure de la roue celeste",
-        "type": "Equipement",
-        "cost": 2,
+        "name": "Pleiade",
+        "type": "Action",
+        "soustype": "Action",
+        "cost": 0,
         "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A010.png?raw=true",
         "isHorizontal": false,
-        "force": 0,
-        "effet": "Equipement : ciblez X carte, X étant le nombre d'épée magique en jeu. Donnez -1 à chaque cartes ciblé."
+        "range": 2,
+        "effet": "Apparition : Attaquez . Prenez la carte du dessus du deck de votre adversaire, jouez la dans l'une des zone de combat de votre choix (Vous ne changez pas de combattant si elle a une autre affinité)."
       }
     },
-    "name": "Armure de la roue celeste",
-    "type": "Equipement",
-    "cost": 2,
-    "affinite": "Chevalier",
-    "appartenance": "FairyTail"
+    "name": "Pleiade",
+    "type": "Action",
+    "soustype": "Action",
+    "cost": 0,
+    "affinite": "Etoile",
+    "appartenance": "FairyTail",
+    "range": 2
   },
   "A011": {
     "id": "A011",
     "isToken": false,
     "face": {
       "front": {
-        "name": "Armure d'eeilen",
-        "type": "Equipement",
-        "cost": 2,
+        "name": "Grand Chariot",
+        "type": "Action",
+        "soustype": "Action",
+        "cost": 0,
         "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A011.png?raw=true",
         "isHorizontal": false,
-        "force": 0,
-        "effet": "Permanent : Erza gagne l'affinité Enchantement en plus de l'affinité Chevalier. Activation : Reaction : défausser cette armure depuis votre zone de combat; ciblez une carte Enchantement de votre cimetiere, exilez là, puis activez l'effet de la carte exilée."
+        "range": 2,
+        "effet": "Apparition : Attaquez . Déclarez un nombre de 1 à 3. Révéllez la carte du dessus de votre deck. Si cette carte à une attaque égal au nombre révéllé, jouer la gratuitement dans la zone de combat de votre choix (Vous ne changez pas de combattant si elle a une autre affinité)."
       }
     },
-    "name": "Armure d'eeilen",
-    "type": "Equipement",
-    "cost": 2,
-    "affinite": "Chevalier",
-    "appartenance": "FairyTail"
+    "name": "Grand Chariot",
+    "type": "Action",
+    "soustype": "Action",
+    "cost": 0,
+    "affinite": "Etoile",
+    "appartenance": "FairyTail",
+    "range": 2
   },
   "A012": {
     "id": "A012",
@@ -424,18 +331,21 @@
       "front": {
         "name": "Concept Enchantment",
         "type": "Action",
-        "cost": 2,
+        "soustype": "Action",
+        "cost": 0,
         "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A012.png?raw=true",
         "isHorizontal": false,
-        "force": 2,
-        "effet": "Apparition : Choisissez une de votre carte dans une zone de combat. Votre adversaire choisis ensuite une de ses cartes dans la même zone de combat. Échangez les deux cartes choisi."
+        "range": null,
+        "effet": "Apparition : Votre combattant actif gagne +1 ATT. Attaquez ."
       }
     },
     "name": "Concept Enchantment",
     "type": "Action",
-    "cost": 2,
-    "affinite": "Enchantement",
-    "appartenance": "FairyTail"
+    "soustype": "Action",
+    "cost": 0,
+    "affinite": "Enchantement ",
+    "appartenance": "FairyTail",
+    "range": null
   },
   "A013": {
     "id": "A013",
@@ -444,18 +354,21 @@
       "front": {
         "name": "Wound Enchantment",
         "type": "Action",
-        "cost": 1,
+        "soustype": "Action",
+        "cost": 0,
         "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A013.png?raw=true",
         "isHorizontal": false,
-        "force": 1,
-        "effet": "Apparition : Choisissez une de vos carte et une carte adversaire dans la même zone de combat. Échangez tous les bonus et malus de Force appliqués aux deux cartes choisie."
+        "range": null,
+        "effet": "Apparition : Votre combattant et le combattant adverse inverse leur marqueur dégats."
       }
     },
     "name": "Wound Enchantment",
     "type": "Action",
-    "cost": 1,
-    "affinite": "Enchantement",
-    "appartenance": "FairyTail"
+    "soustype": "Action",
+    "cost": 0,
+    "affinite": "Enchantement ",
+    "appartenance": "FairyTail",
+    "range": null
   },
   "A014": {
     "id": "A014",
@@ -463,19 +376,22 @@
     "face": {
       "front": {
         "name": "Universe One",
-        "type": "Reaction",
-        "cost": 4,
+        "type": "Action",
+        "soustype": "Réaction",
+        "cost": 0,
         "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A014.png?raw=true",
         "isHorizontal": false,
-        "force": 4,
-        "effet": "Apparition : Choisessez droite ou gauche. Déplacez toutes les cartes adverses de zone de combat en zone de combat dans la direction choisis (La zone de combat à l'extrimité est déplacer vers l'autre extrémité)"
+        "range": null,
+        "effet": "Apparition : Changez la position du combattant actif adverse ansi que sa dernière carte révélé, faite de même pour votre combattant, puis Attaquez . L'utilisation de cette carte ne fait pas changer votre combattant."
       }
     },
     "name": "Universe One",
-    "type": "Reaction",
-    "cost": 4,
-    "affinite": "Enchantement",
-    "appartenance": "FairyTail"
+    "type": "Action",
+    "soustype": "Réaction",
+    "cost": 0,
+    "affinite": "Enchantement ",
+    "appartenance": "FairyTail",
+    "range": null
   },
   "A015": {
     "id": "A015",
@@ -483,19 +399,22 @@
     "face": {
       "front": {
         "name": "Personality Enchantment",
-        "type": "Reaction",
+        "type": "Action",
+        "soustype": "Réaction",
         "cost": 0,
         "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A015.png?raw=true",
         "isHorizontal": false,
-        "force": 1,
-        "effet": "Apparition : Jouable lorsqu'une carte adverse cible une de vos cartes. Choisissez un carte dans une autre zone de combat, transferer la cible à la carte choisi."
+        "range": null,
+        "effet": "Apparition : Echangez le combattant adverse actif avec l'un de ses combattant (il garde la même position), puis échanger votre combattant actif avec l'un de vos combattant inactif (il garde la même position). Attaquez ."
       }
     },
     "name": "Personality Enchantment",
-    "type": "Reaction",
+    "type": "Action",
+    "soustype": "Réaction",
     "cost": 0,
-    "affinite": "Enchantement",
-    "appartenance": "FairyTail"
+    "affinite": "Enchantement ",
+    "appartenance": "FairyTail",
+    "range": null
   },
   "A016": {
     "id": "A016",
@@ -504,338 +423,21 @@
       "front": {
         "name": "Multi-Body Enchantment",
         "type": "Action",
-        "cost": 1,
+        "soustype": "Action",
+        "cost": 0,
         "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A016.png?raw=true",
         "isHorizontal": false,
-        "force": 1,
-        "effet": "Apparition : Choisissez une zone de combat. Le prochain sort joué créer une copie dans la zone de combat choisis (sa force de base devient 0)."
+        "range": null,
+        "effet": "Apparition : Choisissez une zone. Le prochain sort joué créer une copie dans la zone de combat choisis."
       }
     },
     "name": "Multi-Body Enchantment",
     "type": "Action",
-    "cost": 1,
-    "affinite": "Enchantement",
-    "appartenance": "FairyTail"
-  },
-  "A017": {
-    "id": "A017",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Interruption",
-        "type": "Reaction",
-        "cost": 1,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A017.png?raw=true",
-        "isHorizontal": false,
-        "force": 1,
-        "effet": "Apparition : Les cartes dans cette zone de combat voit leur effet annulé jusqu'a la fin du temps."
-      }
-    },
-    "name": "Interruption",
-    "type": "Reaction",
-    "cost": 1,
-    "affinite": "Neutre",
-    "appartenance": "FairyTail"
-  },
-  "A018": {
-    "id": "A018",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Transfert magique",
-        "type": "Action",
-        "cost": 1,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A018.png?raw=true",
-        "isHorizontal": false,
-        "force": 1,
-        "effet": "Apparition : Défaussez une carte de votre main. Si vous le faites, cherchez une carte de la même affinité que le combattant dans cette zone de combat, et ajoutez-la à votre main."
-      }
-    },
-    "name": "Transfert magique",
-    "type": "Action",
-    "cost": 1,
-    "affinite": "Neutre",
-    "appartenance": "FairyTail"
-  },
-  "A019": {
-    "id": "A019",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Chaine de jugement",
-        "type": "Action",
-        "cost": 3,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A019.png?raw=true",
-        "isHorizontal": false,
-        "force": 1,
-        "effet": "Apparition : Choisissez une zone de combat. Placez un marqueur \"Jugement\" sur le combattant adverse dans cette zone de combat. Tant que le marqueur est en jeu : si ce combattant évolue, sa Force de base devient 0 jusqu'à la fin du combat."
-      }
-    },
-    "name": "Chaine de jugement",
-    "type": "Action",
-    "cost": 3,
-    "affinite": "Specialiste",
-    "appartenance": "Hunter"
-  },
-  "A020": {
-    "id": "A020",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Serment sur le coeur",
-        "type": "Reaction",
-        "cost": 1,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A020.png?raw=true",
-        "isHorizontal": false,
-        "force": 1,
-        "effet": "Apparition : Choisissez une carte sur le terrain adverse. Placez un marqueur \"Serment\" dessus (Une carte avec un marqueur serment voit ses effet annulé, son propriétaire peut défaussez deux carte pour défaussez ce marqueur)."
-      }
-    },
-    "name": "Serment sur le coeur",
-    "type": "Reaction",
-    "cost": 1,
-    "affinite": "Specialiste",
-    "appartenance": "Hunter"
-  },
-  "A021": {
-    "id": "A021",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Chaine de contrainte",
-        "type": "Action",
-        "cost": 1,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A021.png?raw=true",
-        "isHorizontal": false,
-        "force": 1,
-        "effet": "Apparition : Votre adversaire perd 1 d'énergie lors de la prochaine phase."
-      }
-    },
-    "name": "Chaine de contrainte",
-    "type": "Action",
-    "cost": 1,
-    "affinite": "Specialiste",
-    "appartenance": "Hunter"
-  },
-  "A022": {
-    "id": "A022",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Soins",
-        "type": "Action",
-        "cost": 1,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A022.png?raw=true",
-        "isHorizontal": false,
-        "force": 0,
-        "effet": "Apparition : Ciblez 1 cartes, enlevez lui tout les marqueurs negatif."
-      }
-    },
-    "name": "Soins",
-    "type": "Action",
-    "cost": 1,
-    "affinite": "Specialiste",
-    "appartenance": "Hunter"
-  },
-  "A023": {
-    "id": "A023",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Canne à pêche",
-        "type": "Action",
-        "cost": 1,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A023.png?raw=true",
-        "isHorizontal": false,
-        "force": 1,
-        "effet": "Apparition : Choisissez une carte dans cette zone de combat, transférez le bonus de la carte choisis à cette carte."
-      }
-    },
-    "name": "Canne à pêche",
-    "type": "Action",
-    "cost": 1,
-    "affinite": "Renforcement",
-    "appartenance": "Hunter"
-  },
-  "A024": {
-    "id": "A024",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Rock,Paper,Scissor",
-        "type": "Action",
-        "cost": 1,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A024.png?raw=true",
-        "isHorizontal": false,
-        "force": 1,
-        "effet": "Apparition : Choisissez 'pierre', 'feuille', 'ciseau'. Créer un token choisis."
-      }
-    },
-    "name": "Rock,Paper,Scissor",
-    "type": "Action",
-    "cost": 1,
-    "affinite": "Renforcement",
-    "appartenance": "Hunter"
-  },
-  "A025": {
-    "id": "A025",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Rock",
-        "type": "Action",
-        "cost": 3,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A025.png?raw=true",
-        "isHorizontal": false,
-        "force": 2,
-        "effet": "Apparition : Cette carte gagne +3 Force jusqu'à la fin du combat. Si Jajanken a été joué avant ce Rock ce combat : cette carte gagne +5 Force à la place."
-      }
-    },
-    "name": "Rock",
-    "type": "Action",
-    "cost": 3,
-    "affinite": "Renforcement",
-    "appartenance": "Hunter"
-  },
-  "A026": {
-    "id": "A026",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Griffe",
-        "type": "Action",
-        "cost": 1,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A026.png?raw=true",
-        "isHorizontal": false,
-        "force": 1,
-        "effet": "Apparition : Placez un token \"Griffe\" sur le combattant adverse."
-      }
-    },
-    "name": "Griffe",
-    "type": "Action",
-    "cost": 1,
-    "affinite": "Transformation",
-    "appartenance": "Hunter"
-  },
-  "A027": {
-    "id": "A027",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Charge",
-        "type": "Action",
-        "cost": 1,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A027.png?raw=true",
-        "isHorizontal": false,
-        "force": 1,
-        "effet": "Apparition : Placez 2 marqueurs \"Charge\" sur Killua. Piochez 1 carte."
-      }
-    },
-    "name": "Charge",
-    "type": "Action",
-    "cost": 1,
-    "affinite": "Transformation",
-    "appartenance": "Hunter"
-  },
-  "A028": {
-    "id": "A028",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Godspeed",
-        "type": "Reaction",
-        "cost": 3,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A028.png?raw=true",
-        "isHorizontal": false,
-        "force": 2,
-        "effet": "Apparition : Cette carte gagne +X. X étant le nombre de marqueurs \"Charge\" sur votre combattant. Si cette carte est joué en réaction à une carte adversaire, vous pouvez défaussez une carte, si vous le faite, annulez l'activation. Défaussez tout les marqueurs charge sur votre combattant."
-      }
-    },
-    "name": "Godspeed",
-    "type": "Reaction",
-    "cost": 3,
-    "affinite": "Transformation",
-    "appartenance": "Hunter"
-  },
-  "A029": {
-    "id": "A029",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Corde à saute",
-        "type": "Action",
-        "cost": 0,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A029.png?raw=true",
-        "isHorizontal": false,
-        "force": 1,
-        "effet": "Apparition : Retirez 1 marqueur \"Charge\" de Killua. Piochez 1 carte."
-      }
-    },
-    "name": "Corde à saute",
-    "type": "Action",
+    "soustype": "Action",
     "cost": 0,
-    "affinite": "Transformation",
-    "appartenance": "Hunter"
-  },
-  "A030": {
-    "id": "A030",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "License Hunter",
-        "type": "Action",
-        "cost": 1,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A030.png?raw=true",
-        "isHorizontal": false,
-        "force": 0,
-        "effet": "Apparition : Piochez 1 cartes. Si vous contrôlez un combattant Hunter, piochez 2 cartes à la place."
-      }
-    },
-    "name": "License Hunter",
-    "type": "Action",
-    "cost": 1,
-    "affinite": "Neutre",
-    "appartenance": "Hunter"
-  },
-  "A031": {
-    "id": "A031",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Face contre inconnue",
-        "type": "Action",
-        "cost": 2,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A031.png?raw=true",
-        "isHorizontal": false,
-        "force": 1,
-        "effet": "Apparition : Si votre combattant a moins de Force que le combattant adverse dans la même zone de combat, cette carte gagne +3 Force jusqu'à la fin du combat."
-      }
-    },
-    "name": "Face contre inconnue",
-    "type": "Action",
-    "cost": 2,
-    "affinite": "Neutre",
-    "appartenance": "Hunter"
-  },
-  "A032": {
-    "id": "A032",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Apres la bataille",
-        "type": "Reaction",
-        "cost": 1,
-        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A032.png?raw=true",
-        "isHorizontal": false,
-        "force": 1,
-        "effet": "Fin : Si vous perdez dans cette zone de combat, choisissez une autre zone de combat, donnez +3 de force à une carte de cette zone de combat."
-      }
-    },
-    "name": "Apres la bataille",
-    "type": "Reaction",
-    "cost": 1,
-    "affinite": "Neutre",
-    "appartenance": "Hunter"
+    "affinite": "Enchantement ",
+    "appartenance": "FairyTail",
+    "range": null
   },
   "T001": {
     "id": "T001",
