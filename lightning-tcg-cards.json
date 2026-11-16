@@ -439,6 +439,29 @@
     "appartenance": "FairyTail",
     "range": null
   },
+  "A017": {
+    "id": "A017",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Espoir",
+        "type": "Action",
+        "soustype": "Réaction",
+        "cost": 0,
+        "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A017.png?raw=true",
+        "isHorizontal": false,
+        "range": null,
+        "effet": "Apparition : Prévient les dégâts reçus ce tour ci. Puis échanger votre combattant actif avec l'un de vos combattant inactif (il garde la même position)."
+      }
+    },
+    "name": "Espoir",
+    "type": "Action",
+    "soustype": "Réaction",
+    "cost": 0,
+    "affinite": "Neutre ",
+    "appartenance": "FairyTail",
+    "range": null
+  },
   "T001": {
     "id": "T001",
     "isToken": true,
