@@ -19,8 +19,8 @@
     "deckRulesets": {
       "Limited": {
         "general": {
-          "min": 40,
-          "max": 40,
+          "min": 37,
+          "max": 37,
           "maxPerCard": 2
         },
         "categories": [
