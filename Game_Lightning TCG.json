@@ -245,7 +245,7 @@
             "alignment": "CENTER"
           },
           "Reaction": {
-            "isHidden": "opponent-only",
+            "isHidden": "no",
             "height": "MEDIUM",
             "alignment": "CENTER"
           }
