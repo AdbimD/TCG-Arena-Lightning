@@ -5,7 +5,7 @@
     "face": {
       "front": {
         "name": "Erza",
-        "type": "Fighter",
+        "type": "Combattant",
         "cost": 0,
         "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/C001.png?raw=true",
         "isHorizontal": false,
@@ -16,7 +16,7 @@
       }
     },
     "name": "Erza",
-    "type": "Fighter",
+    "type": "Combattant",
     "cost": 0,
     "affinite": "Knight",
     "appartenance": "FairyTail",
@@ -29,7 +29,7 @@
     "face": {
       "front": {
         "name": "Mistgun",
-        "type": "Fighter",
+        "type": "Combattant",
         "cost": 0,
         "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/C002.png?raw=true",
         "isHorizontal": false,
@@ -40,7 +40,7 @@
       }
     },
     "name": "Mistgun",
-    "type": "Fighter",
+    "type": "Combattant",
     "cost": 0,
     "affinite": "Star",
     "appartenance": "FairyTail",
@@ -53,18 +53,18 @@
     "face": {
       "front": {
         "name": "Eileen",
-        "type": "Fighter",
+        "type": "Combattant",
         "cost": 0,
         "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/C003.png?raw=true",
         "isHorizontal": false,
         "force": 5,
         "pv": 10,
         "range": 2,
-        "effet": "End of turn : If Eeilen is active, choose one :\n- Put a countter +1 ATT on one of your fighter.\n- Remove a damage counter on one of your fighter."
+        "effet": "End of turn : If Eeilen is active, choose one :\n- Put a countter +1 ATT on one of your Combattant.\n- Remove a damage counter on one of your Combattant."
       }
     },
     "name": "Eileen",
-    "type": "Fighter",
+    "type": "Combattant",
     "cost": 0,
     "affinite": "Enchantment",
     "appartenance": "FairyTail",
@@ -77,18 +77,18 @@
     "face": {
       "front": {
         "name": "Gon",
-        "type": "Fighter",
+        "type": "Combattant",
         "cost": 0,
         "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/C004.png?raw=true",
         "isHorizontal": false,
         "force": 3,
         "pv": 10,
         "range": null,
-        "effet": "This fighter cannot get his attack reduce. \nEnd of turn : If Gon is active and have a \"License\" counter on it, it gains 1 ATT ."
+        "effet": "This Combattant cannot get his attack reduce. \nEnd of turn : If Gon is active and have a \"License\" counter on it, it gains 1 ATT ."
       }
     },
     "name": "Gon",
-    "type": "Fighter",
+    "type": "Combattant",
     "cost": 0,
     "affinite": "Enhancement",
     "appartenance": "Hunter",
@@ -101,18 +101,18 @@
     "face": {
       "front": {
         "name": "Kurapika",
-        "type": "Fighter",
+        "type": "Combattant",
         "cost": 0,
         "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/C005.png?raw=true",
         "isHorizontal": false,
         "force": 5,
         "pv": 10,
         "range": null,
-        "effet": "Under the rules of the game, this character is consider as all afinity (you still need 2 differents fighter active). Spell you play on my combat zone deals 1 additional damage. If i have a \"License\" counter on this fighter, deals 3 additional damage instead."
+        "effet": "Under the rules of the game, this character is consider as all afinity (you still need 2 differents Combattant active). Spell you play on my combat zone deals 1 additional damage. If i have a \"License\" counter on this Combattant, deals 3 additional damage instead."
       }
     },
     "name": "Kurapika",
-    "type": "Fighter",
+    "type": "Combattant",
     "cost": 0,
     "affinite": "Specialization",
     "appartenance": "Hunter",
@@ -125,7 +125,7 @@
     "face": {
       "front": {
         "name": "Kirua",
-        "type": "Fighter",
+        "type": "Combattant",
         "cost": 0,
         "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/C006.png?raw=true",
         "isHorizontal": false,
@@ -136,7 +136,7 @@
       }
     },
     "name": "Kirua",
-    "type": "Fighter",
+    "type": "Combattant",
     "cost": 0,
     "affinite": "Transmutation",
     "appartenance": "Hunter",
@@ -155,7 +155,7 @@
         "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A001.png?raw=true",
         "isHorizontal": false,
         "range": null,
-        "effet": "Summon : Add 2 \"Magic sword\" counters to your fighter. Attack ."
+        "effet": "Summon : Add 2 \"Magic sword\" counters to your Combattant. Attack ."
       }
     },
     "name": "Weapon Forge",
@@ -178,7 +178,7 @@
         "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A002.png?raw=true",
         "isHorizontal": false,
         "range": null,
-        "effet": "Summon : Add 3 \"Magic sword\" counters to your fighter."
+        "effet": "Summon : Add 3 \"Magic sword\" counters to your Combattant."
       }
     },
     "name": "Guild Arsenal",
@@ -201,7 +201,7 @@
         "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A003.png?raw=true",
         "isHorizontal": false,
         "range": null,
-        "effet": "Summon : Add 1 \"Magic sword\" counters to your fighter. Draw 1. Play up to one \"Armor\" from your hand (It resolve in the same chain)."
+        "effet": "Summon : Add 1 \"Magic sword\" counters to your Combattant. Draw 1. Play up to one \"Armor\" from your hand (It resolve in the same chain)."
       }
     },
     "name": "Supreme Forge",
@@ -224,7 +224,7 @@
         "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A004.png?raw=true",
         "isHorizontal": false,
         "range": null,
-        "effet": "Equip : Look at the top X cards of your deck. X being the number of \"Magic sword\" counter on your fighter. Put one of them into the graveyard, activate its effect, put the rest at the bottom of your deck."
+        "effet": "Equip : Look at the top X cards of your deck. X being the number of \"Magic sword\" counter on your Combattant. Put one of them into the graveyard, activate its effect, put the rest at the bottom of your deck."
       }
     },
     "name": "Seven-Star Armor",
@@ -247,7 +247,7 @@
         "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A005.png?raw=true",
         "isHorizontal": false,
         "range": null,
-        "effet": "Equip : Discard up to X card. X being the number of \"Magic sword\" counter on your fighter. Erza gain +2ATT for each card discarded this way."
+        "effet": "Equip : Discard up to X card. X being the number of \"Magic sword\" counter on your Combattant. Erza gain +2ATT for each card discarded this way."
       }
     },
     "name": "Fire Empress Armor",
@@ -270,7 +270,7 @@
         "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A006.png?raw=true",
         "isHorizontal": false,
         "range": null,
-        "effet": "Equip : Deal X damage to the facing fighter and deal half of X (rounded up) to the opponent's other active fighter. X being the number of \"Magic sword\" counter on your fighter."
+        "effet": "Equip : Deal X damage to the facing Combattant and deal half of X (rounded up) to the opponent's other active Combattant. X being the number of \"Magic sword\" counter on your Combattant."
       }
     },
     "name": "Celestial Wheel Armor",
@@ -339,7 +339,7 @@
         "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A009.png?raw=true",
         "isHorizontal": false,
         "range": 3,
-        "effet": "Summon : Draw 1 card. Target one opponent fighter, it gets -2 ATT this turn."
+        "effet": "Summon : Draw 1 card. Target one opponent Combattant, it gets -2 ATT this turn."
       }
     },
     "name": "Astral Omen",
@@ -385,7 +385,7 @@
         "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A011.png?raw=true",
         "isHorizontal": false,
         "range": 2,
-        "effet": "Summon : Attack . Chose an affinity. Reveal the top card of your deck. If the revealed card is the same affinity as the one chosen, play it for free to one of your combat zone (your fighter doesn't change if its affinity differs from your current fighter's)."
+        "effet": "Summon : Attack . Chose an affinity. Reveal the top card of your deck. If the revealed card is the same affinity as the one chosen, play it for free to one of your combat zone (your Combattant doesn't change if its affinity differs from your current Combattant's)."
       }
     },
     "name": "Great Chariot",
@@ -408,7 +408,7 @@
         "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A012.png?raw=true",
         "isHorizontal": false,
         "range": null,
-        "effet": "Summon : One of your current fighter gains +1 ATT .  Attack ."
+        "effet": "Summon : One of your current Combattant gains +1 ATT .  Attack ."
       }
     },
     "name": "Concept Enchantment",
@@ -431,7 +431,7 @@
         "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A013.png?raw=true",
         "isHorizontal": false,
         "range": null,
-        "effet": "Summon : Your fighter and the opposing fighter swap their damage counters."
+        "effet": "Summon : Your Combattant and the opposing Combattant swap their damage counters."
       }
     },
     "name": "Wound Enchantment",
@@ -477,7 +477,7 @@
         "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A015.png?raw=true",
         "isHorizontal": false,
         "range": null,
-        "effet": "Summon : Draw 1 card. Target 2 opposing fighters and swap their positions. You can only play this card if you are the second player."
+        "effet": "Summon : Draw 1 card. Target 2 opposing Combattants and swap their positions. You can only play this card if you are the second player."
       }
     },
     "name": "Personality Enchantment",
@@ -523,7 +523,7 @@
         "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A017.png?raw=true",
         "isHorizontal": false,
         "range": null,
-        "effet": "Summon : Draw 1 card. Prevent all damage dealt to the chosen combat zone this turn. Then swap your fighter in that zone with a non-active fighter."
+        "effet": "Summon : Draw 1 card. Prevent all damage dealt to the chosen combat zone this turn. Then swap your Combattant in that zone with a non-active Combattant."
       }
     },
     "name": "Hope",
@@ -546,7 +546,7 @@
         "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A018.png?raw=true",
         "isHorizontal": false,
         "range": null,
-        "effet": "Summon : Until the end of the next turn, the facing fighter cannot use more than 1 card to defense. Attack ."
+        "effet": "Summon : Until the end of the next turn, the facing Combattant cannot use more than 1 card to defense. Attack ."
       }
     },
     "name": "Judgement chain",
@@ -592,7 +592,7 @@
         "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A020.png?raw=true",
         "isHorizontal": false,
         "range": null,
-        "effet": "Summon : The facing fighter cannot be swapped until the end of the next turn. Whenever he is dealt damage, that damage increased by 1."
+        "effet": "Summon : The facing Combattant cannot be swapped until the end of the next turn. Whenever he is dealt damage, that damage increased by 1."
       }
     },
     "name": "Constraint Chain",
@@ -615,7 +615,7 @@
         "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A021.png?raw=true",
         "isHorizontal": false,
         "range": null,
-        "effet": "Summon : Remove up to 4 damage counters on one of your fighters."
+        "effet": "Summon : Remove up to 4 damage counters on one of your Combattants."
       }
     },
     "name": "Heal",
@@ -638,7 +638,7 @@
         "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A022.png?raw=true",
         "isHorizontal": false,
         "range": null,
-        "effet": "Summon : Steal 1 ATT from the facing fighter. Attack ."
+        "effet": "Summon : Steal 1 ATT from the facing Combattant. Attack ."
       }
     },
     "name": "Fishing rod",
@@ -661,7 +661,7 @@
         "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A023.png?raw=true",
         "isHorizontal": false,
         "range": null,
-        "effet": "Summon : Draw 1 card. Play a card from your hand. It gain an effect based on the affinity. If it is an \"Enhancement\" card, your fighter get +1 ATT . If it is a \"Transmutation\" card, the next time you put \"Charge\" counters on your fighter, deal that many damage to facing fighter instead. If it is an \"Specialisation\" card, the facing fighter can not be swaped until the end of the next turn."
+        "effet": "Summon : Draw 1 card. Play a card from your hand. It gain an effect based on the affinity. If it is an \"Enhancement\" card, your Combattant get +1 ATT . If it is a \"Transmutation\" card, the next time you put \"Charge\" counters on your Combattant, deal that many damage to facing Combattant instead. If it is an \"Specialisation\" card, the facing Combattant can not be swaped until the end of the next turn."
       }
     },
     "name": "Jajanken",
@@ -684,7 +684,7 @@
         "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A024.png?raw=true",
         "isHorizontal": false,
         "range": null,
-        "effet": "Summon : Your fighter gains +2 ATT . If this card is played on \"Jajanken\", give +4 ATT instead. Attack ."
+        "effet": "Summon : Your Combattant gains +2 ATT . If this card is played on \"Jajanken\", give +4 ATT instead. Attack ."
       }
     },
     "name": "Rock",
@@ -707,7 +707,7 @@
         "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A025.png?raw=true",
         "isHorizontal": false,
         "range": null,
-        "effet": "Summon : Your fighter become untargetable. The fighter facing you deals damage to your other active fighter. Attack ."
+        "effet": "Summon : Your Combattant become untargetable. The Combattant facing you deals damage to your other active Combattant. Attack ."
       }
     },
     "name": "Zetsu",
@@ -730,7 +730,7 @@
         "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A026.png?raw=true",
         "isHorizontal": false,
         "range": null,
-        "effet": "Summon : Deal 3 damage to the facing fighter, then put 2 \"Charge\" counters on your fighter. If this spell defeats a fighter, put 4 \"Charge\" counter instead."
+        "effet": "Summon : Deal 3 damage to the facing Combattant, then put 2 \"Charge\" counters on your Combattant. If this spell defeats a Combattant, put 4 \"Charge\" counter instead."
       }
     },
     "name": "Claw",
@@ -753,7 +753,7 @@
         "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A027.png?raw=true",
         "isHorizontal": false,
         "range": null,
-        "effet": "Summon : Put 2 \"Charge\" counter on your fighter. Attack ."
+        "effet": "Summon : Put 2 \"Charge\" counter on your Combattant. Attack ."
       }
     },
     "name": "Charge",
@@ -776,7 +776,7 @@
         "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A028.png?raw=true",
         "isHorizontal": false,
         "range": null,
-        "effet": "Summon : Draw 1 card. Deals damage equal to the number of \"Charge\" counter on your fighter to the facing fighter."
+        "effet": "Summon : Draw 1 card. Deals damage equal to the number of \"Charge\" counter on your Combattant to the facing Combattant."
       }
     },
     "name": "Godspeed",
@@ -799,7 +799,7 @@
         "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A029.png?raw=true",
         "isHorizontal": false,
         "range": null,
-        "effet": "Summon : Give all your fighters +1 ATT. \nEnd of turn : If this card is in the combat zone and if your current fighter there is \"Gon\", he gains +1 ATT ."
+        "effet": "Summon : Give all your Combattants +1 ATT. \nEnd of turn : If this card is in the combat zone and if your current Combattant there is \"Gon\", he gains +1 ATT ."
       }
     },
     "name": "Jumping rope",
@@ -822,7 +822,7 @@
         "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A030.png?raw=true",
         "isHorizontal": false,
         "range": null,
-        "effet": "Summon : Draw 1 card. Prevent all damage received this turn on chosen combat zone. Put a \"License\" counter on one of your active fighter."
+        "effet": "Summon : Draw 1 card. Prevent all damage received this turn on chosen combat zone. Put a \"License\" counter on one of your active Combattant."
       }
     },
     "name": "Hunter's license",
@@ -845,7 +845,7 @@
         "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A031.png?raw=true",
         "isHorizontal": false,
         "range": null,
-        "effet": "Summon : Draw 1 card. If the opposing fighter has more ATT than your fighter, your fighter gains twice the difference until the end of the turn."
+        "effet": "Summon : Draw 1 card. If the opposing Combattant has more ATT than your Combattant, your Combattant gains twice the difference until the end of the turn."
       }
     },
     "name": "Facing the Unknown",
@@ -868,7 +868,7 @@
         "image": "https://github.com/AdbimD/TCG-Arena-Lightning/blob/main/Card%20Database/A032.png?raw=true",
         "isHorizontal": false,
         "range": null,
-        "effet": "Summon : Draw 1 card. Give your fighter +1 ATT. If a fighter was defeated last turn, it gains an additional +2 ATT ."
+        "effet": "Summon : Draw 1 card. Give your Combattant +1 ATT. If a Combattant was defeated last turn, it gains an additional +2 ATT ."
       }
     },
     "name": "After the battle",
